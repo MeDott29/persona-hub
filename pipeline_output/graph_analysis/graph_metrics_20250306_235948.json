@@ -1,0 +1,248 @@
+{
+  "num_nodes": 165,
+  "num_edges": 52,
+  "density": 0.003843311160384331,
+  "node_types": {
+    "persona": 100,
+    "concept": 65
+  },
+  "edge_types": {
+    "similarity": 12,
+    "influence": 4,
+    "impact": 2,
+    "analogy": 2,
+    "practice": 1,
+    "category": 1,
+    "theme": 2,
+    "explores": 1,
+    "embodies": 2,
+    "focuses on": 1,
+    "advocates": 1,
+    "application": 3,
+    "potential application": 1,
+    "enhancement": 2,
+    "supplement": 2,
+    "membership": 1,
+    "exemplifies": 1,
+    "emotional connection": 2,
+    "integration": 1,
+    "collaboration": 2,
+    "enabler": 1,
+    "context": 1,
+    "prerequisite": 1,
+    "contributes_to": 1,
+    "dilemma": 1,
+    "central_theme": 1,
+    "dependency": 1,
+    "contrast": 1
+  },
+  "num_components": 114,
+  "largest_component_size": 16,
+  "avg_degree_centrality": 0.003843311160384332,
+  "max_degree_centrality": 0.042682926829268296,
+  "top_nodes_by_centrality": [
+    {
+      "node": "Spoegwolf",
+      "centrality": 0.042682926829268296
+    },
+    {
+      "node": "Robotics",
+      "centrality": 0.024390243902439025
+    },
+    {
+      "node": "persona_16",
+      "centrality": 0.01829268292682927
+    },
+    {
+      "node": "User Experience",
+      "centrality": 0.01829268292682927
+    },
+    {
+      "node": "Die Linke",
+      "centrality": 0.01829268292682927
+    },
+    {
+      "node": "Music Theory",
+      "centrality": 0.01829268292682927
+    },
+    {
+      "node": "Grace Wisnewski",
+      "centrality": 0.01829268292682927
+    },
+    {
+      "node": "Unity in Support",
+      "centrality": 0.01829268292682927
+    },
+    {
+      "node": "persona_24",
+      "centrality": 0.012195121951219513
+    },
+    {
+      "node": "persona_70",
+      "centrality": 0.012195121951219513
+    }
+  ],
+  "avg_betweenness_centrality": 0.00017394882537782435,
+  "max_betweenness_centrality": 0.005184797246745474,
+  "top_bridge_nodes": [
+    {
+      "node": "Spoegwolf",
+      "betweenness": 0.005184797246745474
+    },
+    {
+      "node": "Passion and Perseverance",
+      "betweenness": 0.0041972168187939555
+    },
+    {
+      "node": "Grace Wisnewski",
+      "betweenness": 0.004135493042046985
+    },
+    {
+      "node": "Women's Football",
+      "betweenness": 0.004073769265300015
+    },
+    {
+      "node": "Music Theory",
+      "betweenness": 0.0022220559628909177
+    },
+    {
+      "node": "Unity in Support",
+      "betweenness": 0.0018517133024090978
+    },
+    {
+      "node": "Technology in Education",
+      "betweenness": 0.0013579230884333384
+    },
+    {
+      "node": "Robotics",
+      "betweenness": 0.0012344755349393986
+    },
+    {
+      "node": "Basketball",
+      "betweenness": 0.0007406853209636392
+    },
+    {
+      "node": "AI in Music Composition",
+      "betweenness": 0.0007406853209636392
+    }
+  ],
+  "num_communities": 115,
+  "modularity": 0.8650649781245794,
+  "community_sizes": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 4,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 2,
+    "16": 4,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "21": 1,
+    "22": 1,
+    "23": 1,
+    "24": 1,
+    "25": 1,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 1,
+    "32": 1,
+    "33": 1,
+    "34": 1,
+    "35": 1,
+    "36": 1,
+    "37": 1,
+    "38": 1,
+    "39": 1,
+    "40": 1,
+    "41": 1,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "47": 1,
+    "48": 1,
+    "49": 1,
+    "50": 1,
+    "51": 1,
+    "52": 1,
+    "53": 1,
+    "54": 1,
+    "55": 1,
+    "56": 1,
+    "57": 1,
+    "58": 1,
+    "59": 1,
+    "60": 1,
+    "61": 1,
+    "62": 1,
+    "63": 1,
+    "64": 1,
+    "65": 1,
+    "66": 1,
+    "67": 1,
+    "68": 1,
+    "69": 1,
+    "70": 1,
+    "71": 1,
+    "72": 1,
+    "73": 1,
+    "74": 1,
+    "75": 1,
+    "76": 1,
+    "77": 1,
+    "78": 1,
+    "79": 1,
+    "80": 1,
+    "81": 1,
+    "82": 1,
+    "83": 1,
+    "84": 1,
+    "85": 1,
+    "86": 1,
+    "87": 1,
+    "88": 1,
+    "89": 1,
+    "90": 1,
+    "91": 1,
+    "92": 1,
+    "93": 4,
+    "94": 2,
+    "96": 8,
+    "97": 2,
+    "99": 10,
+    "100": 5,
+    "102": 8,
+    "104": 1,
+    "105": 3,
+    "106": 2,
+    "107": 1,
+    "109": 4,
+    "110": 1,
+    "111": 2,
+    "113": 1,
+    "114": 2,
+    "98": 2,
+    "101": 1,
+    "103": 1,
+    "108": 2,
+    "112": 2,
+    "95": 1
+  }
+}

@@ -14,3 +14,10 @@ Key components:
 """
 
 __version__ = "0.1.0" 
+
+# Expose modules for easier importing
+from . import knowledge_graph
+from . import conversation_generator
+from . import knowledge_extractor
+from . import graph_updater
+from . import pipeline 

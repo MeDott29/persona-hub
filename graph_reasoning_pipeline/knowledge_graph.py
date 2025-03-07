@@ -222,6 +222,37 @@ def analyze_graph(G: nx.Graph) -> Dict[str, Any]:
     
     return metrics
 
+def clean_graph_for_gexf(G):
+    """
+    Clean the graph data to ensure it can be saved in GEXF format.
+    GEXF has specific requirements for attribute values.
+    """
+    G_clean = nx.DiGraph()
+    
+    # Copy nodes with cleaned attributes
+    for node, data in G.nodes(data=True):
+        clean_data = {}
+        for key, value in data.items():
+            # Convert complex data types to strings
+            if isinstance(value, (list, dict, tuple)):
+                clean_data[key] = str(value)
+            else:
+                clean_data[key] = value
+        G_clean.add_node(node, **clean_data)
+    
+    # Copy edges with cleaned attributes
+    for u, v, data in G.edges(data=True):
+        clean_data = {}
+        for key, value in data.items():
+            # Convert complex data types to strings
+            if isinstance(value, (list, dict, tuple)):
+                clean_data[key] = str(value)
+            else:
+                clean_data[key] = value
+        G_clean.add_edge(u, v, **clean_data)
+    
+    return G_clean
+
 def save_graph(G: nx.Graph, file_path: str) -> None:
     """
     Save the graph to a file.
@@ -230,14 +261,14 @@ def save_graph(G: nx.Graph, file_path: str) -> None:
         G: NetworkX graph to save
         file_path: Path to save the graph
     """
-    # Convert node attributes to serializable format
-    for node, attrs in G.nodes(data=True):
-        for key, value in attrs.items():
-            if isinstance(value, (list, dict)):
-                G.nodes[node][key] = json.dumps(value)
+    # Create directory if it doesn't exist
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    
+    # Clean the graph for GEXF format
+    G_clean = clean_graph_for_gexf(G)
     
     # Save the graph
-    nx.write_gexf(G, file_path)
+    nx.write_gexf(G_clean, file_path)
     logger.info(f"Saved graph to {file_path}")
 
 def load_graph(file_path: str) -> nx.Graph:

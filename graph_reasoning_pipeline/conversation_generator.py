@@ -7,6 +7,7 @@ import datetime
 from typing import List, Dict, Any, Tuple, Optional
 import openai
 from tqdm import tqdm
+import dotenv
 
 # Configure logging
 logging.basicConfig(
@@ -14,6 +15,12 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+# Load environment variables from .env file
+dotenv.load_dotenv()
+
+# Set OpenAI API key from environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Constants
 CENTRALITY_THRESHOLD = 0.01

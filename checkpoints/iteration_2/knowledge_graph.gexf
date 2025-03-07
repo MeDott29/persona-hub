@@ -1,0 +1,1919 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-03-06">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="9" title="description" type="string" />
+      <attribute id="10" title="evidence" type="string" />
+      <attribute id="11" title="creation_timestamp" type="string" />
+      <attribute id="12" title="source_conversation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="expertise" type="string" />
+      <attribute id="2" title="skills" type="string" />
+      <attribute id="3" title="domain" type="string" />
+      <attribute id="4" title="original_data" type="string" />
+      <attribute id="5" title="description" type="string" />
+      <attribute id="6" title="creation_timestamp" type="string" />
+      <attribute id="7" title="source_conversation" type="string" />
+      <attribute id="8" title="insights" type="string" />
+    </attributes>
+    <nodes>
+      <node id="persona_0" label="persona_0">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A Political Analyst specialized in El Salvador's political landscape." />
+          <attvalue for="2" value="['political', 'analyst', 'specialized', &quot;salvador's&quot;, 'political', 'landscape.']" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{'persona': &quot;A Political Analyst specialized in El Salvador's political landscape.&quot;, 'id': 'persona_0'}" />
+        </attvalues>
+      </node>
+      <node id="persona_1" label="persona_1">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A legal advisor who understands the legal implications of incomplete or inaccurate project documentation" />
+          <attvalue for="2" value="['advisor', 'understands', 'implications', 'incomplete', 'inaccurate', 'project', 'documentation']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A legal advisor who understands the legal implications of incomplete or inaccurate project documentation', 'id': 'persona_1'}" />
+        </attvalues>
+      </node>
+      <node id="persona_2" label="persona_2">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A maternal health advocate focused on raising awareness about postpartum complications." />
+          <attvalue for="2" value="['maternal', 'health', 'advocate', 'focused', 'raising', 'awareness', 'postpartum', 'complications.']" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{'persona': 'A maternal health advocate focused on raising awareness about postpartum complications.', 'id': 'persona_2'}" />
+        </attvalues>
+      </node>
+      <node id="persona_3" label="persona_3">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A school basketball team captain who believes sports and their funding should be prioritized over student council campaigns" />
+          <attvalue for="2" value="['school', 'basketball', 'captain', 'believes', 'sports', 'funding', 'should', 'prioritized', 'student', 'council', 'campaigns']" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{'persona': 'A school basketball team captain who believes sports and their funding should be prioritized over student council campaigns', 'id': 'persona_3'}" />
+        </attvalues>
+      </node>
+      <node id="persona_4" label="persona_4">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A determined basketball player who aspires to be the star athlete of the school" />
+          <attvalue for="2" value="['determined', 'basketball', 'player', 'aspires', 'athlete', 'school']" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{'persona': 'A determined basketball player who aspires to be the star athlete of the school', 'id': 'persona_4'}" />
+        </attvalues>
+      </node>
+      <node id="persona_5" label="persona_5">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A virtual reality content creator sharing their experiences and creations on a popular online platform" />
+          <attvalue for="2" value="['virtual', 'reality', 'content', 'creator', 'sharing', 'experiences', 'creations', 'popular', 'online', 'platform']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A virtual reality content creator sharing their experiences and creations on a popular online platform', 'id': 'persona_5'}" />
+        </attvalues>
+      </node>
+      <node id="persona_6" label="persona_6">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An engineer with a shared sense of humor, who has known the comedian since grade school" />
+          <attvalue for="2" value="['engineer', 'shared', 'humor,', 'comedian', 'school']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'An engineer with a shared sense of humor, who has known the comedian since grade school', 'id': 'persona_6'}" />
+        </attvalues>
+      </node>
+      <node id="persona_7" label="persona_7">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an IT project manager who adopted extreme programming (XP) methodologies on his own team." />
+          <attvalue for="2" value="['project', 'manager', 'adopted', 'extreme', 'programming', 'methodologies']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'an IT project manager who adopted extreme programming (XP) methodologies on his own team.', 'id': 'persona_7'}" />
+        </attvalues>
+      </node>
+      <node id="persona_8" label="persona_8">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a newly hired general counsel at TurpCo Industries" />
+          <attvalue for="2" value="['general', 'counsel', 'turpco', 'industries']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a newly hired general counsel at TurpCo Industries', 'id': 'persona_8'}" />
+        </attvalues>
+      </node>
+      <node id="persona_9" label="persona_9">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A divorced father of three seeking legal representation for child custody matters" />
+          <attvalue for="2" value="['divorced', 'father', 'seeking', 'representation', 'custody', 'matters']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A divorced father of three seeking legal representation for child custody matters', 'id': 'persona_9'}" />
+        </attvalues>
+      </node>
+      <node id="persona_10" label="persona_10">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a geography teacher who was born and raised in Antigua and Barbuda" />
+          <attvalue for="2" value="['geography', 'teacher', 'raised', 'antigua', 'barbuda']" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{'persona': 'a geography teacher who was born and raised in Antigua and Barbuda', 'id': 'persona_10'}" />
+        </attvalues>
+      </node>
+      <node id="persona_11" label="persona_11">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A talented athlete looking to improve their skills and gain exposure in international competitions" />
+          <attvalue for="2" value="['talented', 'athlete', 'looking', 'improve', 'skills', 'exposure', 'international', 'competitions']" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{'persona': 'A talented athlete looking to improve their skills and gain exposure in international competitions', 'id': 'persona_11'}" />
+        </attvalues>
+      </node>
+      <node id="persona_12" label="persona_12">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A partner at the law firm, recognized for their extensive knowledge of healthcare laws" />
+          <attvalue for="2" value="['partner', 'recognized', 'extensive', 'knowledge', 'healthcare']" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{'persona': 'A partner at the law firm, recognized for their extensive knowledge of healthcare laws', 'id': 'persona_12'}" />
+        </attvalues>
+      </node>
+      <node id="persona_13" label="persona_13">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A competitive badminton coach known for their aggressive training methods and emphasis on winning" />
+          <attvalue for="2" value="['competitive', 'badminton', 'aggressive', 'training', 'methods', 'emphasis', 'winning']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A competitive badminton coach known for their aggressive training methods and emphasis on winning', 'id': 'persona_13'}" />
+        </attvalues>
+      </node>
+      <node id="persona_14" label="persona_14">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a young social worker who greatly admires Sadye L. Logan" />
+          <attvalue for="2" value="['social', 'worker', 'greatly', 'admires']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a young social worker who greatly admires Sadye L. Logan', 'id': 'persona_14'}" />
+        </attvalues>
+      </node>
+      <node id="persona_15" label="persona_15">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A software engineer specializing in document management systems, working closely with the graphic designer to implement the designed interfaces" />
+          <attvalue for="2" value="['software', 'engineer', 'specializing', 'document', 'management', 'systems,', 'working', 'closely', 'graphic', 'designer', 'implement', 'designed', 'interfaces']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'A software engineer specializing in document management systems, working closely with the graphic designer to implement the designed interfaces', 'id': 'persona_15'}" />
+        </attvalues>
+      </node>
+      <node id="persona_16" label="persona_16">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a passionate fan of Afrikaans music and die-hard supporter of Spoegwolf" />
+          <attvalue for="2" value="['passionate', 'afrikaans', 'die-hard', 'supporter', 'spoegwolf']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a passionate fan of Afrikaans music and die-hard supporter of Spoegwolf', 'id': 'persona_16'}" />
+        </attvalues>
+      </node>
+      <node id="persona_17" label="persona_17">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a supporter of Die Linke" />
+          <attvalue for="2" value="['supporter']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a supporter of Die Linke', 'id': 'persona_17'}" />
+        </attvalues>
+      </node>
+      <node id="persona_18" label="persona_18">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A producer who values the voice-over artist's ability to bring authenticity to international TV shows" />
+          <attvalue for="2" value="['producer', 'values', 'voice-over', &quot;artist's&quot;, 'ability', 'authenticity', 'international']" />
+          <attvalue for="3" value="arts" />
+          <attvalue for="4" value="{'persona': &quot;A producer who values the voice-over artist's ability to bring authenticity to international TV shows&quot;, 'id': 'persona_18'}" />
+        </attvalues>
+      </node>
+      <node id="persona_19" label="persona_19">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A curious Internet user considering a vacation and concerned about digital privacy rights." />
+          <attvalue for="2" value="['curious', 'internet', 'considering', 'vacation', 'concerned', 'digital', 'privacy', 'rights.']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A curious Internet user considering a vacation and concerned about digital privacy rights.', 'id': 'persona_19'}" />
+        </attvalues>
+      </node>
+      <node id="persona_20" label="persona_20">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an orthopedic surgeon relatively new to AOSSM" />
+          <attvalue for="2" value="['orthopedic', 'surgeon', 'relatively']" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{'persona': 'an orthopedic surgeon relatively new to AOSSM', 'id': 'persona_20'}" />
+        </attvalues>
+      </node>
+      <node id="persona_21" label="persona_21">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A retired theater director acclaimed for their skill in handling complex narratives and multilayered characters" />
+          <attvalue for="2" value="['retired', 'theater', 'director', 'acclaimed', 'handling', 'complex', 'narratives', 'multilayered', 'characters']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A retired theater director acclaimed for their skill in handling complex narratives and multilayered characters', 'id': 'persona_21'}" />
+        </attvalues>
+      </node>
+      <node id="persona_22" label="persona_22">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A peer graduate in political science with a focus on modern judicial impacts" />
+          <attvalue for="2" value="['graduate', 'political', 'science', 'modern', 'judicial', 'impacts']" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{'persona': 'A peer graduate in political science with a focus on modern judicial impacts', 'id': 'persona_22'}" />
+        </attvalues>
+      </node>
+      <node id="persona_23" label="persona_23">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A novelist who seeks the software engineer's input on digital publishing platforms" />
+          <attvalue for="2" value="['novelist', 'software', &quot;engineer's&quot;, 'digital', 'publishing', 'platforms']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': &quot;A novelist who seeks the software engineer's input on digital publishing platforms&quot;, 'id': 'persona_23'}" />
+        </attvalues>
+      </node>
+      <node id="persona_24" label="persona_24">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A robotics professor who oversees the rules and regulations of the competition" />
+          <attvalue for="2" value="['robotics', 'professor', 'oversees', 'regulations', 'competition']" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{'persona': 'A robotics professor who oversees the rules and regulations of the competition', 'id': 'persona_24'}" />
+        </attvalues>
+      </node>
+      <node id="persona_25" label="persona_25">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a Pakistani housewife who is from the Sindh province." />
+          <attvalue for="2" value="['pakistani', 'housewife', 'province.']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a Pakistani housewife who is from the Sindh province.', 'id': 'persona_25'}" />
+        </attvalues>
+      </node>
+      <node id="persona_26" label="persona_26">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A veteran advertising executive who's become a bit cynical about industry awards" />
+          <attvalue for="2" value="['veteran', 'advertising', 'executive', 'become', 'cynical', 'industry', 'awards']" />
+          <attvalue for="3" value="business" />
+          <attvalue for="4" value="{'persona': &quot;A veteran advertising executive who's become a bit cynical about industry awards&quot;, 'id': 'persona_26'}" />
+        </attvalues>
+      </node>
+      <node id="persona_27" label="persona_27">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A local support group organizer who invites the individual as a guest speaker to share their story" />
+          <attvalue for="2" value="['support', 'organizer', 'invites', 'individual', 'speaker']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A local support group organizer who invites the individual as a guest speaker to share their story', 'id': 'persona_27'}" />
+        </attvalues>
+      </node>
+      <node id="persona_28" label="persona_28">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a factory worker who doesn't trust the COVID-19 vaccine" />
+          <attvalue for="2" value="['factory', 'worker', &quot;doesn't&quot;, 'covid-19', 'vaccine']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;a factory worker who doesn't trust the COVID-19 vaccine&quot;, 'id': 'persona_28'}" />
+        </attvalues>
+      </node>
+      <node id="persona_29" label="persona_29">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A striker who admires the player's defensive prowess and values their support on the field" />
+          <attvalue for="2" value="['striker', 'admires', &quot;player's&quot;, 'defensive', 'prowess', 'values', 'support']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A striker who admires the player's defensive prowess and values their support on the field&quot;, 'id': 'persona_29'}" />
+        </attvalues>
+      </node>
+      <node id="persona_30" label="persona_30">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A museum educator who offers wine and art pairing workshops for visitors" />
+          <attvalue for="2" value="['museum', 'educator', 'offers', 'pairing', 'workshops', 'visitors']" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{'persona': 'A museum educator who offers wine and art pairing workshops for visitors', 'id': 'persona_30'}" />
+        </attvalues>
+      </node>
+      <node id="persona_31" label="persona_31">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a film critic who dislikes storylines involving clones in movies" />
+          <attvalue for="2" value="['critic', 'dislikes', 'storylines', 'involving', 'clones', 'movies']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a film critic who dislikes storylines involving clones in movies', 'id': 'persona_31'}" />
+        </attvalues>
+      </node>
+      <node id="persona_32" label="persona_32">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A loyal and resourceful assistant who handles the entrepreneur's day-to-day operations and negotiations" />
+          <attvalue for="2" value="['resourceful', 'assistant', 'handles', &quot;entrepreneur's&quot;, 'day-to-day', 'operations', 'negotiations']" />
+          <attvalue for="3" value="business" />
+          <attvalue for="4" value="{'persona': &quot;A loyal and resourceful assistant who handles the entrepreneur's day-to-day operations and negotiations&quot;, 'id': 'persona_32'}" />
+        </attvalues>
+      </node>
+      <node id="persona_33" label="persona_33">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a Lebanese-American working in the field of higher education" />
+          <attvalue for="2" value="['lebanese-american', 'working', 'higher', 'education']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a Lebanese-American working in the field of higher education', 'id': 'persona_33'}" />
+        </attvalues>
+      </node>
+      <node id="persona_34" label="persona_34">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A cousin who is a priest and helps conduct religious ceremonies at the Mata Vaishno Devi shrine" />
+          <attvalue for="2" value="['cousin', 'priest', 'conduct', 'religious', 'ceremonies', 'vaishno', 'shrine']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A cousin who is a priest and helps conduct religious ceremonies at the Mata Vaishno Devi shrine', 'id': 'persona_34'}" />
+        </attvalues>
+      </node>
+      <node id="persona_35" label="persona_35">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A senior journalist with years of experience in investigative reporting, providing guidance on uncovering the psychiatrist's untold stories" />
+          <attvalue for="2" value="['senior', 'journalist', 'experience', 'investigative', 'reporting,', 'providing', 'guidance', 'uncovering', &quot;psychiatrist's&quot;, 'untold', 'stories']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A senior journalist with years of experience in investigative reporting, providing guidance on uncovering the psychiatrist's untold stories&quot;, 'id': 'persona_35'}" />
+        </attvalues>
+      </node>
+      <node id="persona_36" label="persona_36">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A new media reporter from CNN" />
+          <attvalue for="2" value="['reporter']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A new media reporter from CNN', 'id': 'persona_36'}" />
+        </attvalues>
+      </node>
+      <node id="persona_37" label="persona_37">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A dedicated aid worker who has been stationed in the camp for several years, providing essential services and support" />
+          <attvalue for="2" value="['dedicated', 'worker', 'stationed', 'several', 'years,', 'providing', 'essential', 'services', 'support']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A dedicated aid worker who has been stationed in the camp for several years, providing essential services and support', 'id': 'persona_37'}" />
+        </attvalues>
+      </node>
+      <node id="persona_38" label="persona_38">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A journalist specializing in government affairs, covering a wide range of policy issues" />
+          <attvalue for="2" value="['journalist', 'specializing', 'government', 'affairs,', 'covering', 'policy', 'issues']" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{'persona': 'A journalist specializing in government affairs, covering a wide range of policy issues', 'id': 'persona_38'}" />
+        </attvalues>
+      </node>
+      <node id="persona_39" label="persona_39">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A car salesman in Prince Edward Island who is skeptical about government policies" />
+          <attvalue for="2" value="['salesman', 'prince', 'edward', 'island', 'skeptical', 'government', 'policies']" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{'persona': 'A car salesman in Prince Edward Island who is skeptical about government policies', 'id': 'persona_39'}" />
+        </attvalues>
+      </node>
+      <node id="persona_40" label="persona_40">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A small-town journalist who writes glowing reviews of the actor's performances in the local newspaper" />
+          <attvalue for="2" value="['small-town', 'journalist', 'writes', 'glowing', 'reviews', &quot;actor's&quot;, 'performances', 'newspaper']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A small-town journalist who writes glowing reviews of the actor's performances in the local newspaper&quot;, 'id': 'persona_40'}" />
+        </attvalues>
+      </node>
+      <node id="persona_41" label="persona_41">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an independent innovation consultant with a love for boxing" />
+          <attvalue for="2" value="['independent', 'innovation', 'consultant', 'boxing']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'an independent innovation consultant with a love for boxing', 'id': 'persona_41'}" />
+        </attvalues>
+      </node>
+      <node id="persona_42" label="persona_42">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A bilingual child whose language development is being monitored over time" />
+          <attvalue for="2" value="['bilingual', 'language', 'development', 'monitored']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A bilingual child whose language development is being monitored over time', 'id': 'persona_42'}" />
+        </attvalues>
+      </node>
+      <node id="persona_43" label="persona_43">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A dental assistant who assists during procedures and ensures a smooth workflow in the clinic" />
+          <attvalue for="2" value="['dental', 'assistant', 'assists', 'during', 'procedures', 'ensures', 'smooth', 'workflow', 'clinic']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A dental assistant who assists during procedures and ensures a smooth workflow in the clinic', 'id': 'persona_43'}" />
+        </attvalues>
+      </node>
+      <node id="persona_44" label="persona_44">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A paramedic who is thankful for accurate forecasts that inform their emergency response planning" />
+          <attvalue for="2" value="['paramedic', 'thankful', 'accurate', 'forecasts', 'inform', 'emergency', 'response', 'planning']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A paramedic who is thankful for accurate forecasts that inform their emergency response planning', 'id': 'persona_44'}" />
+        </attvalues>
+      </node>
+      <node id="persona_45" label="persona_45">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A Broadway actress who provides insights on performing under pressure" />
+          <attvalue for="2" value="['broadway', 'actress', 'provides', 'insights', 'performing', 'pressure']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A Broadway actress who provides insights on performing under pressure', 'id': 'persona_45'}" />
+        </attvalues>
+      </node>
+      <node id="persona_46" label="persona_46">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A software engineer specializing in quality assurance, working closely with the geneticist to enhance the software performance" />
+          <attvalue for="2" value="['software', 'engineer', 'specializing', 'quality', 'assurance,', 'working', 'closely', 'geneticist', 'enhance', 'software', 'performance']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'A software engineer specializing in quality assurance, working closely with the geneticist to enhance the software performance', 'id': 'persona_46'}" />
+        </attvalues>
+      </node>
+      <node id="persona_47" label="persona_47">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A science communicator who showcases the illustrator's work on their popular science blog" />
+          <attvalue for="2" value="['science', 'communicator', 'showcases', &quot;illustrator's&quot;, 'popular', 'science']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A science communicator who showcases the illustrator's work on their popular science blog&quot;, 'id': 'persona_47'}" />
+        </attvalues>
+      </node>
+      <node id="persona_48" label="persona_48">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="Fabian from Bowmans, the lawyer who was recommended." />
+          <attvalue for="2" value="['fabian', 'bowmans,', 'lawyer', 'recommended.']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'Fabian from Bowmans, the lawyer who was recommended.', 'id': 'persona_48'}" />
+        </attvalues>
+      </node>
+      <node id="persona_49" label="persona_49">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A young poet who writes about their experiences in Syria and shares their work with the community" />
+          <attvalue for="2" value="['writes', 'experiences', 'shares', 'community']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A young poet who writes about their experiences in Syria and shares their work with the community', 'id': 'persona_49'}" />
+        </attvalues>
+      </node>
+      <node id="persona_50" label="persona_50">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An eco-friendly lifestyle podcaster who features change-makers and promotes sustainable living" />
+          <attvalue for="2" value="['eco-friendly', 'lifestyle', 'podcaster', 'features', 'change-makers', 'promotes', 'sustainable', 'living']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'An eco-friendly lifestyle podcaster who features change-makers and promotes sustainable living', 'id': 'persona_50'}" />
+        </attvalues>
+      </node>
+      <node id="persona_51" label="persona_51">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An atheist, philosophy lecturer who encourages open dialog about faith and belief systems" />
+          <attvalue for="2" value="['atheist,', 'philosophy', 'lecturer', 'encourages', 'dialog', 'belief', 'systems']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'An atheist, philosophy lecturer who encourages open dialog about faith and belief systems', 'id': 'persona_51'}" />
+        </attvalues>
+      </node>
+      <node id="persona_52" label="persona_52">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An owner of a family-owned bakery next door, striving to offer unique and personalized products that the franchise cannot replicate" />
+          <attvalue for="2" value="['family-owned', 'bakery', 'striving', 'unique', 'personalized', 'products', 'franchise', 'cannot', 'replicate']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'An owner of a family-owned bakery next door, striving to offer unique and personalized products that the franchise cannot replicate', 'id': 'persona_52'}" />
+        </attvalues>
+      </node>
+      <node id="persona_53" label="persona_53">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a nostalgic Azerbaijani pop music lover" />
+          <attvalue for="2" value="['nostalgic', 'azerbaijani']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a nostalgic Azerbaijani pop music lover', 'id': 'persona_53'}" />
+        </attvalues>
+      </node>
+      <node id="persona_54" label="persona_54">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A young couple who are adventurous eaters and enjoy exploring new restaurants" />
+          <attvalue for="2" value="['couple', 'adventurous', 'eaters', 'exploring', 'restaurants']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A young couple who are adventurous eaters and enjoy exploring new restaurants', 'id': 'persona_54'}" />
+        </attvalues>
+      </node>
+      <node id="persona_55" label="persona_55">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An aspiring historian who seeks guidance on crafting a compelling book proposal" />
+          <attvalue for="2" value="['aspiring', 'historian', 'guidance', 'crafting', 'compelling', 'proposal']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'An aspiring historian who seeks guidance on crafting a compelling book proposal', 'id': 'persona_55'}" />
+        </attvalues>
+      </node>
+      <node id="persona_56" label="persona_56">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A dog owner who wants the best medical treatment for their furry friend" />
+          <attvalue for="2" value="['medical', 'treatment', 'friend']" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{'persona': 'A dog owner who wants the best medical treatment for their furry friend', 'id': 'persona_56'}" />
+        </attvalues>
+      </node>
+      <node id="persona_57" label="persona_57">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An experienced maritime emergency medicine specialist who guides and advises on the unique challenges of practicing medicine in maritime conditions" />
+          <attvalue for="2" value="['experienced', 'maritime', 'emergency', 'medicine', 'specialist', 'guides', 'advises', 'unique', 'challenges', 'practicing', 'medicine', 'maritime', 'conditions']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'An experienced maritime emergency medicine specialist who guides and advises on the unique challenges of practicing medicine in maritime conditions', 'id': 'persona_57'}" />
+        </attvalues>
+      </node>
+      <node id="persona_58" label="persona_58">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A web developer and true crime buff who connects with them through online forums and chat groups" />
+          <attvalue for="2" value="['developer', 'connects', 'through', 'online', 'forums', 'groups']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'A web developer and true crime buff who connects with them through online forums and chat groups', 'id': 'persona_58'}" />
+        </attvalues>
+      </node>
+      <node id="persona_59" label="persona_59">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an amateur football player who lives in the Northern Territory, Australia." />
+          <attvalue for="2" value="['amateur', 'football', 'player', 'northern', 'territory,', 'australia.']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'an amateur football player who lives in the Northern Territory, Australia.', 'id': 'persona_59'}" />
+        </attvalues>
+      </node>
+      <node id="persona_60" label="persona_60">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a university psychology student who is currently studying creativity and personality." />
+          <attvalue for="2" value="['university', 'psychology', 'student', 'currently', 'studying', 'creativity', 'personality.']" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{'persona': 'a university psychology student who is currently studying creativity and personality.', 'id': 'persona_60'}" />
+        </attvalues>
+      </node>
+      <node id="persona_61" label="persona_61">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A web developer specializing in creating interactive workout platforms and user-friendly interfaces" />
+          <attvalue for="2" value="['developer', 'specializing', 'creating', 'interactive', 'workout', 'platforms', 'user-friendly', 'interfaces']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'A web developer specializing in creating interactive workout platforms and user-friendly interfaces', 'id': 'persona_61'}" />
+        </attvalues>
+      </node>
+      <node id="persona_62" label="persona_62">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a die-hard fan of Li Ronghao who eagerly anticipates every new season of Sing! China" />
+          <attvalue for="2" value="['die-hard', 'ronghao', 'eagerly', 'anticipates', 'season']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a die-hard fan of Li Ronghao who eagerly anticipates every new season of Sing! China', 'id': 'persona_62'}" />
+        </attvalues>
+      </node>
+      <node id="persona_63" label="persona_63">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An ardent fan of women's football and avid supporter of Grace Wisnewski" />
+          <attvalue for="2" value="['ardent', &quot;women's&quot;, 'football', 'supporter', 'wisnewski']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;An ardent fan of women's football and avid supporter of Grace Wisnewski&quot;, 'id': 'persona_63'}" />
+        </attvalues>
+      </node>
+      <node id="persona_64" label="persona_64">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An up-and-coming country singer-songwriter who's also Cassidy-Rae's fan." />
+          <attvalue for="2" value="['up-and-coming', 'country', 'singer-songwriter', &quot;cassidy-rae's&quot;]" />
+          <attvalue for="3" value="arts" />
+          <attvalue for="4" value="{'persona': &quot;An up-and-coming country singer-songwriter who's also Cassidy-Rae's fan.&quot;, 'id': 'persona_64'}" />
+        </attvalues>
+      </node>
+      <node id="persona_65" label="persona_65">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A psychology major who is conducting research on the psychological factors affecting driving behavior" />
+          <attvalue for="2" value="['psychology', 'conducting', 'research', 'psychological', 'factors', 'affecting', 'driving', 'behavior']" />
+          <attvalue for="3" value="science" />
+          <attvalue for="4" value="{'persona': 'A psychology major who is conducting research on the psychological factors affecting driving behavior', 'id': 'persona_65'}" />
+        </attvalues>
+      </node>
+      <node id="persona_66" label="persona_66">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a long-time resident of Wagga Wagga" />
+          <attvalue for="2" value="['long-time', 'resident']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a long-time resident of Wagga Wagga', 'id': 'persona_66'}" />
+        </attvalues>
+      </node>
+      <node id="persona_67" label="persona_67">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a casual classic rock listener and cyclist who is currently recovering from Covid-19." />
+          <attvalue for="2" value="['casual', 'classic', 'listener', 'cyclist', 'currently', 'recovering', 'covid-19.']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a casual classic rock listener and cyclist who is currently recovering from Covid-19.', 'id': 'persona_67'}" />
+        </attvalues>
+      </node>
+      <node id="persona_68" label="persona_68">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A city council member responsible for overseeing the city's regulation of gambling establishments" />
+          <attvalue for="2" value="['council', 'member', 'responsible', 'overseeing', &quot;city's&quot;, 'regulation', 'gambling', 'establishments']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A city council member responsible for overseeing the city's regulation of gambling establishments&quot;, 'id': 'persona_68'}" />
+        </attvalues>
+      </node>
+      <node id="persona_69" label="persona_69">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="Proud mother of Elisabeth Baker, who is supportive and overly-excited." />
+          <attvalue for="2" value="['mother', 'elisabeth', 'baker,', 'supportive', 'overly-excited.']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'Proud mother of Elisabeth Baker, who is supportive and overly-excited.', 'id': 'persona_69'}" />
+        </attvalues>
+      </node>
+      <node id="persona_70" label="persona_70">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A music theory professor who emphasizes the importance of understanding the technical aspects of playing the piano" />
+          <attvalue for="2" value="['theory', 'professor', 'emphasizes', 'importance', 'understanding', 'technical', 'aspects', 'playing']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'A music theory professor who emphasizes the importance of understanding the technical aspects of playing the piano', 'id': 'persona_70'}" />
+        </attvalues>
+      </node>
+      <node id="persona_71" label="persona_71">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A backup dancer and choreographer who shares the same passion for Nigerian music and dance" />
+          <attvalue for="2" value="['backup', 'dancer', 'choreographer', 'shares', 'passion', 'nigerian']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A backup dancer and choreographer who shares the same passion for Nigerian music and dance', 'id': 'persona_71'}" />
+        </attvalues>
+      </node>
+      <node id="persona_72" label="persona_72">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A stylish sales representative specializing in eco-friendly furniture lines" />
+          <attvalue for="2" value="['stylish', 'representative', 'specializing', 'eco-friendly', 'furniture']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A stylish sales representative specializing in eco-friendly furniture lines', 'id': 'persona_72'}" />
+        </attvalues>
+      </node>
+      <node id="persona_73" label="persona_73">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A nature photographer who wants to showcase their stunning photographs with sustainable and unique frames" />
+          <attvalue for="2" value="['nature', 'photographer', 'showcase', 'stunning', 'photographs', 'sustainable', 'unique', 'frames']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A nature photographer who wants to showcase their stunning photographs with sustainable and unique frames', 'id': 'persona_73'}" />
+        </attvalues>
+      </node>
+      <node id="persona_74" label="persona_74">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a professional cyclist who dislikes cobblestones" />
+          <attvalue for="2" value="['professional', 'cyclist', 'dislikes', 'cobblestones']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a professional cyclist who dislikes cobblestones', 'id': 'persona_74'}" />
+        </attvalues>
+      </node>
+      <node id="persona_75" label="persona_75">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A hardworking construction worker tirelessly petitioning for his sibling's immigration case" />
+          <attvalue for="2" value="['hardworking', 'construction', 'worker', 'tirelessly', 'petitioning', &quot;sibling's&quot;, 'immigration']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A hardworking construction worker tirelessly petitioning for his sibling's immigration case&quot;, 'id': 'persona_75'}" />
+        </attvalues>
+      </node>
+      <node id="persona_76" label="persona_76">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a devout Christian living in Isla Vista who has a deep conviction that everyone, regardless of their sexual orientation, should be treated with love and respect" />
+          <attvalue for="2" value="['devout', 'christian', 'living', 'conviction', 'everyone,', 'regardless', 'sexual', 'orientation,', 'should', 'treated', 'respect']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a devout Christian living in Isla Vista who has a deep conviction that everyone, regardless of their sexual orientation, should be treated with love and respect', 'id': 'persona_76'}" />
+        </attvalues>
+      </node>
+      <node id="persona_77" label="persona_77">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A forum moderator with vast knowledge in kernel architecture and Linux distributions" />
+          <attvalue for="2" value="['moderator', 'knowledge', 'kernel', 'architecture', 'distributions']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A forum moderator with vast knowledge in kernel architecture and Linux distributions', 'id': 'persona_77'}" />
+        </attvalues>
+      </node>
+      <node id="persona_78" label="persona_78">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A graduate student conducting research on emerging powers in international relations" />
+          <attvalue for="2" value="['graduate', 'student', 'conducting', 'research', 'emerging', 'powers', 'international', 'relations']" />
+          <attvalue for="3" value="science" />
+          <attvalue for="4" value="{'persona': 'A graduate student conducting research on emerging powers in international relations', 'id': 'persona_78'}" />
+        </attvalues>
+      </node>
+      <node id="persona_79" label="persona_79">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A clinical psychologist collaborating with the music therapist to provide holistic patient care" />
+          <attvalue for="2" value="['clinical', 'psychologist', 'collaborating', 'therapist', 'provide', 'holistic', 'patient']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A clinical psychologist collaborating with the music therapist to provide holistic patient care', 'id': 'persona_79'}" />
+        </attvalues>
+      </node>
+      <node id="persona_80" label="persona_80">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A social scientist studying the impact of fake news on society and human behavior" />
+          <attvalue for="2" value="['social', 'scientist', 'studying', 'impact', 'society', 'behavior']" />
+          <attvalue for="3" value="science" />
+          <attvalue for="4" value="{'persona': 'A social scientist studying the impact of fake news on society and human behavior', 'id': 'persona_80'}" />
+        </attvalues>
+      </node>
+      <node id="persona_81" label="persona_81">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A multi-generational farmer who can trace their family's roots in the area back several centuries" />
+          <attvalue for="2" value="['multi-generational', 'farmer', &quot;family's&quot;, 'several', 'centuries']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A multi-generational farmer who can trace their family's roots in the area back several centuries&quot;, 'id': 'persona_81'}" />
+        </attvalues>
+      </node>
+      <node id="persona_82" label="persona_82">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a concerned and engaged member of the Erewash community" />
+          <attvalue for="2" value="['concerned', 'engaged', 'member', 'erewash', 'community']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a concerned and engaged member of the Erewash community', 'id': 'persona_82'}" />
+        </attvalues>
+      </node>
+      <node id="persona_83" label="persona_83">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an experienced software developer familiar with exception handling in WPF applications" />
+          <attvalue for="2" value="['experienced', 'software', 'developer', 'familiar', 'exception', 'handling', 'applications']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'an experienced software developer familiar with exception handling in WPF applications', 'id': 'persona_83'}" />
+        </attvalues>
+      </node>
+      <node id="persona_84" label="persona_84">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a big fan of Tim Rice, with admiration and a bit jealousy." />
+          <attvalue for="2" value="['admiration', 'jealousy.']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'a big fan of Tim Rice, with admiration and a bit jealousy.', 'id': 'persona_84'}" />
+        </attvalues>
+      </node>
+      <node id="persona_85" label="persona_85">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A conspiracy theorist who believes the retired CIA agent is withholding classified information" />
+          <attvalue for="2" value="['conspiracy', 'theorist', 'believes', 'retired', 'withholding', 'classified', 'information']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A conspiracy theorist who believes the retired CIA agent is withholding classified information', 'id': 'persona_85'}" />
+        </attvalues>
+      </node>
+      <node id="persona_86" label="persona_86">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A social worker collaborating with the data analyst to identify trends and evaluate program effectiveness" />
+          <attvalue for="2" value="['social', 'worker', 'collaborating', 'analyst', 'identify', 'trends', 'evaluate', 'program', 'effectiveness']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A social worker collaborating with the data analyst to identify trends and evaluate program effectiveness', 'id': 'persona_86'}" />
+        </attvalues>
+      </node>
+      <node id="persona_87" label="persona_87">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A passionate railroad historian with a special interest in steam locomotives" />
+          <attvalue for="2" value="['passionate', 'railroad', 'historian', 'special', 'interest', 'locomotives']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A passionate railroad historian with a special interest in steam locomotives', 'id': 'persona_87'}" />
+        </attvalues>
+      </node>
+      <node id="persona_88" label="persona_88">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A mental health professional who helps the star maintain focus and handle the pressures of her career" />
+          <attvalue for="2" value="['mental', 'health', 'professional', 'maintain', 'handle', 'pressures', 'career']" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{'persona': 'A mental health professional who helps the star maintain focus and handle the pressures of her career', 'id': 'persona_88'}" />
+        </attvalues>
+      </node>
+      <node id="persona_89" label="persona_89">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A music teacher that influenced their love for the performing arts from a young age" />
+          <attvalue for="2" value="['teacher', 'influenced', 'performing']" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{'persona': 'A music teacher that influenced their love for the performing arts from a young age', 'id': 'persona_89'}" />
+        </attvalues>
+      </node>
+      <node id="persona_90" label="persona_90">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A developer from a different IDE community who engages in friendly debates and comparisons between IntelliJ IDEA and their preferred IDE" />
+          <attvalue for="2" value="['developer', 'different', 'community', 'engages', 'friendly', 'debates', 'comparisons', 'between', 'intellij', 'preferred']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'A developer from a different IDE community who engages in friendly debates and comparisons between IntelliJ IDEA and their preferred IDE', 'id': 'persona_90'}" />
+        </attvalues>
+      </node>
+      <node id="persona_91" label="persona_91">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A logistics manager in a major retail company, handling complex supply chain operations" />
+          <attvalue for="2" value="['logistics', 'manager', 'retail', 'company,', 'handling', 'complex', 'supply', 'operations']" />
+          <attvalue for="3" value="business" />
+          <attvalue for="4" value="{'persona': 'A logistics manager in a major retail company, handling complex supply chain operations', 'id': 'persona_91'}" />
+        </attvalues>
+      </node>
+      <node id="persona_92" label="persona_92">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A curious botanist who has just discovered &quot;Scleranthus diander&quot; for the first time." />
+          <attvalue for="2" value="['curious', 'botanist', 'discovered', '&quot;scleranthus', 'diander&quot;']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A curious botanist who has just discovered &quot;Scleranthus diander&quot; for the first time.', 'id': 'persona_92'}" />
+        </attvalues>
+      </node>
+      <node id="persona_93" label="persona_93">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A family man who loves football and plans to attend the Pro Bowl event" />
+          <attvalue for="2" value="['family', 'football', 'attend']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A family man who loves football and plans to attend the Pro Bowl event', 'id': 'persona_93'}" />
+        </attvalues>
+      </node>
+      <node id="persona_94" label="persona_94">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A bumbling and forgetful coworker who unintentionally becomes the comedian's muse" />
+          <attvalue for="2" value="['bumbling', 'forgetful', 'coworker', 'unintentionally', 'becomes', &quot;comedian's&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A bumbling and forgetful coworker who unintentionally becomes the comedian's muse&quot;, 'id': 'persona_94'}" />
+        </attvalues>
+      </node>
+      <node id="persona_95" label="persona_95">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A veteran investment banker providing strategic advice on deal structuring and negotiations" />
+          <attvalue for="2" value="['veteran', 'investment', 'banker', 'providing', 'strategic', 'advice', 'structuring', 'negotiations']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A veteran investment banker providing strategic advice on deal structuring and negotiations', 'id': 'persona_95'}" />
+        </attvalues>
+      </node>
+      <node id="persona_96" label="persona_96">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A travel blogger who provides insider tips on the best destinations for testing wireless technologies in different countries" />
+          <attvalue for="2" value="['travel', 'blogger', 'provides', 'insider', 'destinations', 'testing', 'wireless', 'technologies', 'different', 'countries']" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{'persona': 'A travel blogger who provides insider tips on the best destinations for testing wireless technologies in different countries', 'id': 'persona_96'}" />
+        </attvalues>
+      </node>
+      <node id="persona_97" label="persona_97">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A military history blogger who provides valuable insights and research on the historical accuracy of military model kits" />
+          <attvalue for="2" value="['military', 'history', 'blogger', 'provides', 'valuable', 'insights', 'research', 'historical', 'accuracy', 'military']" />
+          <attvalue for="3" value="science" />
+          <attvalue for="4" value="{'persona': 'A military history blogger who provides valuable insights and research on the historical accuracy of military model kits', 'id': 'persona_97'}" />
+        </attvalues>
+      </node>
+      <node id="persona_98" label="persona_98">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A flamenco guitarist hailing from Spain, who is proud of his country's musical heritage" />
+          <attvalue for="2" value="['flamenco', 'guitarist', 'hailing', 'spain,', &quot;country's&quot;, 'musical', 'heritage']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': &quot;A flamenco guitarist hailing from Spain, who is proud of his country's musical heritage&quot;, 'id': 'persona_98'}" />
+        </attvalues>
+      </node>
+      <node id="persona_99" label="persona_99">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A young and ambitious midfielder seeking advice on improving defensive skills" />
+          <attvalue for="2" value="['ambitious', 'midfielder', 'seeking', 'advice', 'improving', 'defensive', 'skills']" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{'persona': 'A young and ambitious midfielder seeking advice on improving defensive skills', 'id': 'persona_99'}" />
+        </attvalues>
+      </node>
+      <node id="Interface Design" label="Interface Design">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The design of user interfaces for software, focusing on improving user interaction." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573553" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': 'Small design changes, such as text spacing, can significantly improve readability and user experience.', 'evidence': 'Changing the spacing between text lines can improve readability quite significantly.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.573739', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Backend Performance" label="Backend Performance">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The efficiency and speed of the server-side operations of a software application." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573584" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </node>
+      <node id="User Experience" label="User Experience">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The overall experience of a person using a product, especially in terms of how easy or pleasing it is to use." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573596" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': 'Small design changes, such as text spacing, can significantly improve readability and user experience.', 'evidence': 'Changing the spacing between text lines can improve readability quite significantly.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.573752', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Genetic Analysis" label="Genetic Analysis">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The study of DNA sequences to identify patterns and mutations." />
+          <attvalue for="3" value="Genetics" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573605" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': &quot;Geneticists' methodical approach to analyzing DNA sequences can be applied to software testing to predict bugs.&quot;, 'evidence': 'Did you know that geneticists can sometimes predict software bugs based on how they analyze mutations?', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:54:43.573702', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Software Testing" label="Software Testing">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The process of evaluating a software application to ensure it meets the required standards and functions correctly." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573613" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': &quot;Geneticists' methodical approach to analyzing DNA sequences can be applied to software testing to predict bugs.&quot;, 'evidence': 'Did you know that geneticists can sometimes predict software bugs based on how they analyze mutations?', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:54:43.573721', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Spoegwolf" label="Spoegwolf">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="An Afrikaans band known for their poetic lyrics and exploration of themes like identity and belonging." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573769" />
+          <attvalue for="7" value="['persona_16', 'persona_17', 'persona_63']" />
+          <attvalue for="8" value="[{'description': &quot;Spoegwolf's music, while not explicitly political, resonates with themes of belonging and resistance.&quot;, 'evidence': &quot;There's this one Spoegwolf song that talks about this feeling of belonging and resistance, almost like a protest.&quot;, 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:54:43.573914', 'source_conversation': ['persona_16', 'persona_17', 'persona_63']}, {'description': &quot;Spoegwolf is the first Afrikaans band to top the iTunes charts worldwide, breaking barriers similar to the growing recognition of women's football.&quot;, 'evidence': &quot;Spoegwolf Fan: 'Spoegwolf is the first Afrikaans band to ever top the iTunes charts worldwide... much like how women's football is gaining more recognition globally.'&quot;, 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:54:43.574300', 'source_conversation': ['persona_16', 'persona_63']}, {'description': 'Both music and sports offer powerful narratives that resonate with fans, creating a deep connection and sense of community.', 'evidence': &quot;Women's Football Fan: 'Football, too, is full of stories... It's amazing how these narratives can draw you in.'&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.574326', 'source_conversation': ['persona_16', 'persona_63']}, {'description': 'Both music and politics can motivate and inspire people toward change or reflection.', 'evidence': &quot;I suppose there's a similarity in how both music and politics can motivate and inspire people toward change, or at least reflection.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650127', 'source_conversation': ['persona_16', 'persona_17']}, {'description': &quot;Spoegwolf's success as the first Afrikaans group to top the Apple Music charts in South Africa highlights the impact of Afrikaans music.&quot;, 'evidence': 'Spoegwolf is the first Afrikaans group to top the Apple Music charts in South Africa.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650132', 'source_conversation': ['persona_16', 'persona_17']}, {'description': 'Music and politics both aim to connect with people on a deep level, addressing real-life issues and emotions.', 'evidence': &quot;It's kind of like how a good political movement should resonate with people's real lives, you know?&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586044', 'source_conversation': ['persona_16', 'persona_17']}, {'description': 'The concept of home and belonging is a shared theme in both music and politics, influencing how people perceive their place in the world.', 'evidence': &quot;There's this one Spoegwolf song that talks about the idea of home and belonging.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586070', 'source_conversation': ['persona_16', 'persona_17']}]" />
+        </attvalues>
+      </node>
+      <node id="Die Linke" label="Die Linke">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A political party with a passionate base, focused on believing in something bigger." />
+          <attvalue for="3" value="Politics" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573788" />
+          <attvalue for="7" value="['persona_16', 'persona_17', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Both music and politics can motivate and inspire people toward change or reflection.', 'evidence': &quot;I suppose there's a similarity in how both music and politics can motivate and inspire people toward change, or at least reflection.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650130', 'source_conversation': ['persona_16', 'persona_17']}, {'description': 'Music and politics both aim to connect with people on a deep level, addressing real-life issues and emotions.', 'evidence': &quot;It's kind of like how a good political movement should resonate with people's real lives, you know?&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586052', 'source_conversation': ['persona_16', 'persona_17']}, {'description': 'Supporting a cause or a band can create a sense of community and shared purpose.', 'evidence': &quot;There's something magical about supporting a cause or a band that really speaks to you. It's almost like a community, isn't it?&quot;, 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:59:48.586087', 'source_conversation': ['persona_16', 'persona_17']}]" />
+        </attvalues>
+      </node>
+      <node id="Music and Politics" label="Music and Politics">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The idea that music and politics can both generate strong community and passion." />
+          <attvalue for="3" value="Sociocultural" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573804" />
+          <attvalue for="7" value="['persona_16', 'persona_17', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Music can serve as a tool for change and cultural preservation, similar to political movements.', 'evidence': &quot;I read somewhere about music being used in revolutionary movements in history. It's not just entertainment; it's a tool for change.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.573889', 'source_conversation': ['persona_16', 'persona_17', 'persona_63']}, {'description': &quot;Spoegwolf's music, while not explicitly political, resonates with themes of belonging and resistance.&quot;, 'evidence': &quot;There's this one Spoegwolf song that talks about this feeling of belonging and resistance, almost like a protest.&quot;, 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:54:43.573920', 'source_conversation': ['persona_16', 'persona_17', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Live Performances" label="Live Performances">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Events where Spoegwolf performs live, creating a powerful, communal experience." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573812" />
+          <attvalue for="7" value="['persona_16', 'persona_17', 'persona_63']" />
+        </attvalues>
+      </node>
+      <node id="Cultural Preservation" label="Cultural Preservation">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Spoegwolf's use of old Afrikaans folk tunes to keep cultural traditions alive." />
+          <attvalue for="3" value="Culture" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573819" />
+          <attvalue for="7" value="['persona_16', 'persona_17', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Music can serve as a tool for change and cultural preservation, similar to political movements.', 'evidence': &quot;I read somewhere about music being used in revolutionary movements in history. It's not just entertainment; it's a tool for change.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.573906', 'source_conversation': ['persona_16', 'persona_17', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Robotics" label="Robotics">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The field involving the design, construction, operation, and use of robots." />
+          <attvalue for="3" value="Engineering" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573929" />
+          <attvalue for="7" value="['persona_24', 'persona_70', 'persona_4']" />
+          <attvalue for="8" value="[{'description': 'Both robotics and music theory emphasize the importance of mastering rules to enable creative exploration.', 'evidence': &quot;It's about knowing the rules so well that you can bend them without breaking them.&quot;, 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:54:43.574103', 'source_conversation': ['persona_24', 'persona_70', 'persona_4']}, {'description': 'The concept of a robotics orchestra playing jazz highlights the potential for creative collaboration between robotics and music.', 'evidence': &quot;Maybe one day, we'll have a robotics orchestra. Robots playing jazz—now that would be something to see!&quot;, 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:54:43.574128', 'source_conversation': ['persona_24', 'persona_70', 'persona_4']}, {'description': 'Robotics could benefit from incorporating emotional expression similar to music to enhance interaction.', 'evidence': &quot;We've been exploring more fluid and natural movements in our designs. It’s almost like giving them a kind of musicality.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586232', 'source_conversation': ['persona_24', 'persona_70']}, {'description': 'Music and robotics share a mathematical foundation, suggesting a universal language of patterns.', 'evidence': 'Music theory is very much about patterns and structures, similar to coding.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:59:48.586296', 'source_conversation': ['persona_24', 'persona_70']}, {'description': 'A harmonious approach in robotics could lead to innovations that are both functional and aesthetically pleasing.', 'evidence': 'Perhaps a more harmonious approach to robotics could lead to innovations that are both functional and beautiful.', 'novelty_score': 0.75, 'timestamp': '2025-03-06 23:59:48.586314', 'source_conversation': ['persona_24', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Music Theory" label="Music Theory">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The study of the practices and possibilities of music." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573942" />
+          <attvalue for="7" value="['persona_24', 'persona_70', 'persona_4']" />
+          <attvalue for="8" value="[{'description': 'The intersection of technology and music has been present since the 1950s with computerized music.', 'evidence': 'By the way, did you know that some of the earliest computerized music was actually made on mainframes back in the 1950s?', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.574089', 'source_conversation': ['persona_24', 'persona_70', 'persona_4']}, {'description': 'Both robotics and music theory emphasize the importance of mastering rules to enable creative exploration.', 'evidence': &quot;It's about knowing the rules so well that you can bend them without breaking them.&quot;, 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:54:43.574115', 'source_conversation': ['persona_24', 'persona_70', 'persona_4']}, {'description': 'The concept of a robotics orchestra playing jazz highlights the potential for creative collaboration between robotics and music.', 'evidence': &quot;Maybe one day, we'll have a robotics orchestra. Robots playing jazz—now that would be something to see!&quot;, 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:54:43.574140', 'source_conversation': ['persona_24', 'persona_70', 'persona_4']}, {'description': 'Music and sports both benefit from technology, but still rely on human guidance for emotional and expressive elements.', 'evidence': 'Technology can provide tools and resources, but the human element is important for interpreting those tools and offering guidance.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.574515', 'source_conversation': ['persona_4', 'persona_70']}, {'description': 'Learning music might improve athletic performance by enhancing rhythm and timing.', 'evidence': 'Rhythm is a big part of basketball too. You’ve got to have great timing and coordination.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:54:43.574543', 'source_conversation': ['persona_4', 'persona_70']}, {'description': &quot;Both music and sports involve moments of realization where understanding clicks, similar to a 'light bulb moment'.&quot;, 'evidence': &quot;I often tell my students that once they understand the theory, the music will start to make more sense to them in ways they never expected. It's like a light bulb moment for them.&quot;, 'novelty_score': 0.6, 'timestamp': '2025-03-06 23:54:43.574562', 'source_conversation': ['persona_4', 'persona_70']}, {'description': 'Technology is increasingly integrated into both sports and music education, enhancing learning and performance.', 'evidence': &quot;We use video analysis a lot. It helps to see where we can improve, like footwork or positioning. Technology's creeping into everything these days.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586623', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Technology in Music" label="Technology in Music">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The use of technological tools and methods in the creation and performance of music." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573962" />
+          <attvalue for="7" value="['persona_24', 'persona_70', 'persona_4']" />
+          <attvalue for="8" value="[{'description': 'The intersection of technology and music has been present since the 1950s with computerized music.', 'evidence': 'By the way, did you know that some of the earliest computerized music was actually made on mainframes back in the 1950s?', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.574076', 'source_conversation': ['persona_24', 'persona_70', 'persona_4']}, {'description': 'Technology serves as a bridge between different fields, offering new ways to learn and grow.', 'evidence': 'There’s something beautiful about the way our fields overlap through technology. It’s like this bridge that lets us learn and grow in unexpected ways.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650258', 'source_conversation': ['persona_4', 'persona_70']}, {'description': 'Rhythm is a shared foundational element in both basketball and music, highlighting a commonality between the two fields.', 'evidence': 'I think it’s all about finding the rhythm, whether it’s on the court or at the piano.', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:57:23.650271', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Just Intonation" label="Just Intonation">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A tuning system based on pure intervals derived from the harmonic series." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:54:43.573981" />
+          <attvalue for="7" value="['persona_24', 'persona_70', 'persona_4']" />
+        </attvalues>
+      </node>
+      <node id="Innovation within Constraints" label="Innovation within Constraints">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The process of finding creative solutions within established rules or guidelines." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574001" />
+          <attvalue for="7" value="['persona_24', 'persona_70', 'persona_4']" />
+        </attvalues>
+      </node>
+      <node id="Grace Wisnewski" label="Grace Wisnewski">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A football player known for her ability to read the game and create mesmerizing plays." />
+          <attvalue for="3" value="Sports" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574169" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Both music and sports provide unexpected moments that can define experiences and careers.', 'evidence': 'It’s like taking a risk to make a big impact. I guess music and sports both thrive on those unexpected moments that catch everyone off guard.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650207', 'source_conversation': ['persona_16', 'persona_63']}, {'description': 'Music and sports both create narratives that engage and unify audiences.', 'evidence': 'Both have highs and lows, moments of tension, and a narrative that keeps you engaged.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586476', 'source_conversation': ['persona_16', 'persona_63']}, {'description': 'Creative hobbies like photography can influence and enhance performance in other fields.', 'evidence': 'She says it helps her see the world differently and capture moments that might otherwise slip by unnoticed.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586485', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Afrikaans Music" label="Afrikaans Music">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A genre of music that includes bands like Spoegwolf, known for its emotional depth and storytelling." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574184" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </node>
+      <node id="Women's Football" label="Women's Football">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A sport gaining recognition globally, with narratives of underdog victories and perseverance." />
+          <attvalue for="3" value="Sports" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574198" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': &quot;Spoegwolf is the first Afrikaans band to top the iTunes charts worldwide, breaking barriers similar to the growing recognition of women's football.&quot;, 'evidence': &quot;Spoegwolf Fan: 'Spoegwolf is the first Afrikaans band to ever top the iTunes charts worldwide... much like how women's football is gaining more recognition globally.'&quot;, 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:54:43.574314', 'source_conversation': ['persona_16', 'persona_63']}, {'description': 'Both music and sports offer powerful narratives that resonate with fans, creating a deep connection and sense of community.', 'evidence': &quot;Women's Football Fan: 'Football, too, is full of stories... It's amazing how these narratives can draw you in.'&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.574359', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Passion and Perseverance" label="Passion and Perseverance">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A shared theme in both music and sports, driving individuals to achieve greatness." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574212" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </node>
+      <node id="Basketball" label="Basketball">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A sport played by two teams of five players on a rectangular court." />
+          <attvalue for="3" value="Sports" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574395" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Music and sports both benefit from technology, but still rely on human guidance for emotional and expressive elements.', 'evidence': 'Technology can provide tools and resources, but the human element is important for interpreting those tools and offering guidance.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.574529', 'source_conversation': ['persona_4', 'persona_70']}, {'description': 'Learning music might improve athletic performance by enhancing rhythm and timing.', 'evidence': 'Rhythm is a big part of basketball too. You’ve got to have great timing and coordination.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:54:43.574549', 'source_conversation': ['persona_4', 'persona_70']}, {'description': &quot;Both music and sports involve moments of realization where understanding clicks, similar to a 'light bulb moment'.&quot;, 'evidence': &quot;I often tell my students that once they understand the theory, the music will start to make more sense to them in ways they never expected. It's like a light bulb moment for them.&quot;, 'novelty_score': 0.6, 'timestamp': '2025-03-06 23:54:43.574567', 'source_conversation': ['persona_4', 'persona_70']}, {'description': 'Technology is increasingly integrated into both sports and music education, enhancing learning and performance.', 'evidence': &quot;We use video analysis a lot. It helps to see where we can improve, like footwork or positioning. Technology's creeping into everything these days.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586614', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Technology in Education" label="Technology in Education">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The use of digital tools and resources to enhance learning and teaching." />
+          <attvalue for="3" value="Education" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574433" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Music and sports both benefit from technology, but still rely on human guidance for emotional and expressive elements.', 'evidence': 'Technology can provide tools and resources, but the human element is important for interpreting those tools and offering guidance.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:54:43.574536', 'source_conversation': ['persona_4', 'persona_70']}, {'description': 'Technology is increasingly integrated into both sports and music education, enhancing learning and performance.', 'evidence': &quot;We use video analysis a lot. It helps to see where we can improve, like footwork or positioning. Technology's creeping into everything these days.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586606', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Practice and Dedication" label="Practice and Dedication">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The consistent effort and commitment required to master a skill." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574465" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </node>
+      <node id="Rhythm and Timing" label="Rhythm and Timing">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The ability to maintain a consistent tempo and coordinate actions effectively." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:54:43.574476" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Learning music might improve athletic performance by enhancing rhythm and timing.', 'evidence': 'Rhythm is a big part of basketball too. You’ve got to have great timing and coordination.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:54:43.574555', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="User Interface Design" label="User Interface Design">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Designing intuitive interfaces for end-users in document management." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650017" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': 'The presentation of data, including font choice, can significantly impact user perception and clarity.', 'evidence': 'Certain fonts can make information feel more credible or easier to digest.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650087', 'source_conversation': ['persona_15', 'persona_46']}, {'description': 'Despite different focuses, software engineering fields share common challenges and opportunities for learning from each other.', 'evidence': &quot;Even though we're in different areas, there's so much overlap and potential for collaboration.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650097', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Quality Assurance" label="Quality Assurance">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Ensuring software runs smoothly and efficiently, often involving back-end processes." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650045" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': 'Interdisciplinary collaboration, such as between software engineers and geneticists, can lead to performance optimizations in complex simulations.', 'evidence': &quot;We're trying to streamline the code to handle large datasets more effectively without compromising speed.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650093', 'source_conversation': ['persona_15', 'persona_46']}, {'description': 'Despite different focuses, software engineering fields share common challenges and opportunities for learning from each other.', 'evidence': &quot;Even though we're in different areas, there's so much overlap and potential for collaboration.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650099', 'source_conversation': ['persona_15', 'persona_46']}, {'description': &quot;Nature's evolutionary processes as a form of quality assurance, offering insights for software development.&quot;, 'evidence': 'I suppose nature has its own form of quality assurance. It’s like the ultimate debug process, evolving to find solutions over millions of years.', 'novelty_score': 0.85, 'timestamp': '2025-03-06 23:59:48.585936', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Genetic Algorithms" label="Genetic Algorithms">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Optimizing algorithms for performance in genetic simulations and data models." />
+          <attvalue for="3" value="Genetics and Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650049" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': 'Interdisciplinary collaboration, such as between software engineers and geneticists, can lead to performance optimizations in complex simulations.', 'evidence': &quot;We're trying to streamline the code to handle large datasets more effectively without compromising speed.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650095', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Legacy Systems" label="Legacy Systems">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Dealing with older software systems and understanding past design decisions." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650052" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </node>
+      <node id="Font Perception" label="Font Perception">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The impact of font choice on the perception and credibility of information." />
+          <attvalue for="3" value="Design" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650068" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': 'The presentation of data, including font choice, can significantly impact user perception and clarity.', 'evidence': 'Certain fonts can make information feel more credible or easier to digest.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650090', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Identity and Belonging" label="Identity and Belonging">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Themes explored in both Spoegwolf's music and Die Linke's political agenda." />
+          <attvalue for="3" value="Social" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650107" />
+          <attvalue for="7" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </node>
+      <node id="Emotional Connection" label="Emotional Connection">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The engagement and resonance people feel with music or political movements." />
+          <attvalue for="3" value="Psychology" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650110" />
+          <attvalue for="7" value="['persona_16', 'persona_17']" />
+          <attvalue for="8" value="[{'description': 'Authenticity in both music and politics can lead to success by connecting with people on a deeper level.', 'evidence': &quot;True, and it's encouraging to see that authenticity can still lead to success in today's world. Whether it's a band or a political movement, it's all about connecting with people on a deeper level.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650139', 'source_conversation': ['persona_16', 'persona_17']}]" />
+        </attvalues>
+      </node>
+      <node id="Authenticity" label="Authenticity">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Staying true to one's values and storytelling, leading to success." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650113" />
+          <attvalue for="7" value="['persona_16', 'persona_17']" />
+          <attvalue for="8" value="[{'description': &quot;Spoegwolf's success as the first Afrikaans group to top the Apple Music charts in South Africa highlights the impact of Afrikaans music.&quot;, 'evidence': 'Spoegwolf is the first Afrikaans group to top the Apple Music charts in South Africa.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650134', 'source_conversation': ['persona_16', 'persona_17']}, {'description': 'Authenticity in both music and politics can lead to success by connecting with people on a deeper level.', 'evidence': &quot;True, and it's encouraging to see that authenticity can still lead to success in today's world. Whether it's a band or a political movement, it's all about connecting with people on a deeper level.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650137', 'source_conversation': ['persona_16', 'persona_17']}]" />
+        </attvalues>
+      </node>
+      <node id="Rule-breaking" label="Rule-breaking">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The act of bending or breaking established rules to innovate or create new solutions." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650142" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Understanding and mastering the rules in any field is crucial for creative rule-breaking and innovation.', 'evidence': 'Understanding the rules is the first step to breaking them creatively.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650167', 'source_conversation': ['persona_24', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Technical Foundation" label="Technical Foundation">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The essential knowledge and skills required to understand and innovate within a field." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650145" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Understanding and mastering the rules in any field is crucial for creative rule-breaking and innovation.', 'evidence': 'Understanding the rules is the first step to breaking them creatively.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650169', 'source_conversation': ['persona_24', 'persona_70']}, {'description': 'Subtle, often overlooked elements can lead to significant breakthroughs in both music and robotics.', 'evidence': 'It’s those subtle, often overlooked elements that can lead to breakthroughs.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:57:23.650173', 'source_conversation': ['persona_24', 'persona_70']}, {'description': 'Encouraging exploration and curiosity is essential in teaching to foster innovation.', 'evidence': 'I try to instill a sense of curiosity and experimentation.', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:57:23.650178', 'source_conversation': ['persona_24', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Robotics Competitions" label="Robotics Competitions">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Events where students apply their knowledge of robotics to solve challenges within a set of rules." />
+          <attvalue for="3" value="Robotics" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650148" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </node>
+      <node id="Music Improvisation" label="Music Improvisation">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The creative process of spontaneously creating music, often by breaking conventional rules." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650150" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </node>
+      <node id="Innovation" label="Innovation">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The process of creating new methods, ideas, or products." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650153" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Subtle, often overlooked elements can lead to significant breakthroughs in both music and robotics.', 'evidence': 'It’s those subtle, often overlooked elements that can lead to breakthroughs.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:57:23.650171', 'source_conversation': ['persona_24', 'persona_70']}, {'description': 'Encouraging exploration and curiosity is essential in teaching to foster innovation.', 'evidence': 'I try to instill a sense of curiosity and experimentation.', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:57:23.650176', 'source_conversation': ['persona_24', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Spoegwolf's Lyrics" label="Spoegwolf's Lyrics">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Lyrics by the Afrikaans band Spoegwolf that resonate with listeners by capturing the essence of life." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650180" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Both music and sports provide unexpected moments that can define experiences and careers.', 'evidence': 'It’s like taking a risk to make a big impact. I guess music and sports both thrive on those unexpected moments that catch everyone off guard.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650204', 'source_conversation': ['persona_16', 'persona_63']}, {'description': 'The unpredictability in both music and sports creates memorable and defining moments.', 'evidence': 'Spoegwolf has this song where they sing about the unpredictability of life. It reminds me how life, like sports, can be exhilarating and unpredictable.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650209', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Emotional Journey in Music" label="Emotional Journey in Music">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The experience of starting in one emotional place and ending in another through a song." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650185" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Experiencing live music and sports events can provide a shared, electrifying atmosphere.', 'evidence': 'The atmosphere is electric, especially when the crowd is really into it. It’s a shared experience like no other.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:57:23.650214', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Emotional Journey in Football" label="Emotional Journey in Football">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The experience of going through various emotions during a football match." />
+          <attvalue for="3" value="Sports" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650187" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Experiencing live music and sports events can provide a shared, electrifying atmosphere.', 'evidence': 'The atmosphere is electric, especially when the crowd is really into it. It’s a shared experience like no other.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:57:23.650217', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Panenka Penalty" label="Panenka Penalty">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A technique in football where a player takes a penalty kick with a soft chip to fool the goalkeeper." />
+          <attvalue for="3" value="Sports" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650190" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'The unpredictability in both music and sports creates memorable and defining moments.', 'evidence': 'Spoegwolf has this song where they sing about the unpredictability of life. It reminds me how life, like sports, can be exhilarating and unpredictable.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650212', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Technology in Basketball" label="Technology in Basketball">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Use of technology such as training videos, apps, and biofeedback tools to enhance basketball skills." />
+          <attvalue for="3" value="Sports" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650219" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Technology serves as a bridge between different fields, offering new ways to learn and grow.', 'evidence': 'There’s something beautiful about the way our fields overlap through technology. It’s like this bridge that lets us learn and grow in unexpected ways.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:57:23.650256', 'source_conversation': ['persona_4', 'persona_70']}, {'description': 'Rhythm is a shared foundational element in both basketball and music, highlighting a commonality between the two fields.', 'evidence': 'I think it’s all about finding the rhythm, whether it’s on the court or at the piano.', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:57:23.650269', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Practice" label="Practice">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The physical act of engaging in an activity to improve skill." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650224" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Understanding personal limits is crucial in both sports and music, and technology can aid in this understanding.', 'evidence': 'But it does help me understand my body better, how to push it without overdoing it.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:57:23.650264', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Biofeedback Tools" label="Biofeedback Tools">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Devices that track physiological data and provide real-time feedback." />
+          <attvalue for="3" value="Technology" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650227" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Understanding personal limits is crucial in both sports and music, and technology can aid in this understanding.', 'evidence': 'But it does help me understand my body better, how to push it without overdoing it.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:57:23.650261', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Rhythm" label="Rhythm">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A fundamental element in both music and sports, related to timing and flow." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:57:23.650229" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Rhythm is a shared foundational element in both basketball and music, highlighting a commonality between the two fields.', 'evidence': 'I think it’s all about finding the rhythm, whether it’s on the court or at the piano.', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:57:23.650267', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="UI Tweaks" label="UI Tweaks">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Small changes made to the user interface to improve user experience." />
+          <attvalue for="3" value="Document Management Systems" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585686" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </node>
+      <node id="Bioinformatics Software Optimization" label="Bioinformatics Software Optimization">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Improving the performance of software used in bioinformatics." />
+          <attvalue for="3" value="Quality Assurance" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585719" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </node>
+      <node id="System Overhaul" label="System Overhaul">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The process of completely redesigning a system." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585732" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </node>
+      <node id="Beetles Digesting Plastic" label="Beetles Digesting Plastic">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Certain beetles have the ability to digest plastic, offering potential for waste management." />
+          <attvalue for="3" value="Biology" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585743" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': 'The potential for beetles that can digest plastic to contribute to waste management solutions.', 'evidence': 'Did you know that certain types of beetles can digest plastic? Imagine the potential for waste management!', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:59:48.585902', 'source_conversation': ['persona_15', 'persona_46']}, {'description': 'The idea of designing software that can evolve with user needs, inspired by natural adaptability.', 'evidence': &quot;It makes me think about how adaptable our systems need to be. Maybe that's the key—designing software that can evolve with user needs.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.585926', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Software Adaptability" label="Software Adaptability">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The ability of software to evolve with user needs." />
+          <attvalue for="3" value="Software Engineering" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585756" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+          <attvalue for="8" value="[{'description': 'The idea of designing software that can evolve with user needs, inspired by natural adaptability.', 'evidence': &quot;It makes me think about how adaptable our systems need to be. Maybe that's the key—designing software that can evolve with user needs.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.585917', 'source_conversation': ['persona_15', 'persona_46']}]" />
+        </attvalues>
+      </node>
+      <node id="Geneticist Perspective" label="Geneticist Perspective">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585827" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </node>
+      <node id="System Stability" label="System Stability">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585870" />
+          <attvalue for="7" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </node>
+      <node id="Connection and Authenticity" label="Connection and Authenticity">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The importance of genuine connection with audiences or supporters." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585961" />
+          <attvalue for="7" value="['persona_16', 'persona_17']" />
+          <attvalue for="8" value="[{'description': 'Supporting a cause or a band can create a sense of community and shared purpose.', 'evidence': &quot;There's something magical about supporting a cause or a band that really speaks to you. It's almost like a community, isn't it?&quot;, 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:59:48.586079', 'source_conversation': ['persona_16', 'persona_17']}]" />
+        </attvalues>
+      </node>
+      <node id="Home and Belonging" label="Home and Belonging">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The concept of feeling at home and belonging, both in music and politics." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585973" />
+          <attvalue for="7" value="['persona_16', 'persona_17']" />
+          <attvalue for="8" value="[{'description': 'The concept of home and belonging is a shared theme in both music and politics, influencing how people perceive their place in the world.', 'evidence': &quot;There's this one Spoegwolf song that talks about the idea of home and belonging.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586062', 'source_conversation': ['persona_16', 'persona_17']}]" />
+        </attvalues>
+      </node>
+      <node id="Social Justice and Equality" label="Social Justice and Equality">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A commitment to addressing issues like wealth inequality and climate change." />
+          <attvalue for="3" value="Politics" />
+          <attvalue for="6" value="2025-03-06 23:59:48.585983" />
+          <attvalue for="7" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </node>
+      <node id="Politics" label="Politics">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586021" />
+          <attvalue for="7" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </node>
+      <node id="Music" label="Music">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The art of arranging sounds in time to produce a composition through the elements of melody, harmony, rhythm, and timbre." />
+          <attvalue for="3" value="Arts" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586103" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Music and robotics share a mathematical foundation, suggesting a universal language of patterns.', 'evidence': 'Music theory is very much about patterns and structures, similar to coding.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:59:48.586277', 'source_conversation': ['persona_24', 'persona_70']}, {'description': 'A harmonious approach in robotics could lead to innovations that are both functional and aesthetically pleasing.', 'evidence': 'Perhaps a more harmonious approach to robotics could lead to innovations that are both functional and beautiful.', 'novelty_score': 0.75, 'timestamp': '2025-03-06 23:59:48.586353', 'source_conversation': ['persona_24', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Precision" label="Precision">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The quality of being exact and accurate, crucial in both robotics and music." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586114" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </node>
+      <node id="Emotion in Performance" label="Emotion in Performance">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The infusion of feeling into a performance, enhancing its impact." />
+          <attvalue for="3" value="Arts" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586123" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Robotics could benefit from incorporating emotional expression similar to music to enhance interaction.', 'evidence': &quot;We've been exploring more fluid and natural movements in our designs. It’s almost like giving them a kind of musicality.&quot;, 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586251', 'source_conversation': ['persona_24', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Synchronization" label="Synchronization">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The coordination of events to operate a system in unison." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586133" />
+          <attvalue for="7" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </node>
+      <node id="Live Spoegwolf Show" label="Live Spoegwolf Show">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="A live performance by the band Spoegwolf, known for their energetic connection with the audience." />
+          <attvalue for="3" value="Music" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586376" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Music and sports both create narratives that engage and unify audiences.', 'evidence': 'Both have highs and lows, moments of tension, and a narrative that keeps you engaged.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586467', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Unity in Support" label="Unity in Support">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The feeling of belonging and being part of a larger community when supporting a band or sports team." />
+          <attvalue for="3" value="Social" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586396" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </node>
+      <node id="Travel Experience" label="Travel Experience">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The experience and adventure of traveling to see a favorite band or sports team." />
+          <attvalue for="3" value="Travel" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586406" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Unexpected discoveries during travel can add memorable experiences to the main event.', 'evidence': 'Stopping in this tiny town in the middle of nowhere on the way to a match. They had this little café with the best homemade pie.', 'novelty_score': 0.7, 'timestamp': '2025-03-06 23:59:48.586503', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="Photography" label="Photography">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="Grace Wisnewski's hobby that helps her see the world differently and capture moments." />
+          <attvalue for="3" value="Art" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586416" />
+          <attvalue for="7" value="['persona_16', 'persona_63']" />
+          <attvalue for="8" value="[{'description': 'Creative hobbies like photography can influence and enhance performance in other fields.', 'evidence': 'She says it helps her see the world differently and capture moments that might otherwise slip by unnoticed.', 'novelty_score': 0.8, 'timestamp': '2025-03-06 23:59:48.586493', 'source_conversation': ['persona_16', 'persona_63']}]" />
+        </attvalues>
+      </node>
+      <node id="AI in Music Composition" label="AI in Music Composition">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The use of artificial intelligence to create music compositions." />
+          <attvalue for="3" value="Technology" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586529" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Despite technological advancements, the human element remains crucial in both music and sports.', 'evidence': 'There’s an energy and spontaneity in performance, whether it’s on stage or on the court. It’s something uniquely human.', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:59:48.586643', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+      <node id="Performance" label="Performance">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="5" value="The act of presenting a form of entertainment or sport to an audience." />
+          <attvalue for="3" value="General" />
+          <attvalue for="6" value="2025-03-06 23:59:48.586541" />
+          <attvalue for="7" value="['persona_4', 'persona_70']" />
+          <attvalue for="8" value="[{'description': 'Despite technological advancements, the human element remains crucial in both music and sports.', 'evidence': 'There’s an energy and spontaneity in performance, whether it’s on stage or on the court. It’s something uniquely human.', 'novelty_score': 0.9, 'timestamp': '2025-03-06 23:59:48.586633', 'source_conversation': ['persona_4', 'persona_70']}]" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="persona_4" target="persona_70" id="0" weight="0.3176849816724251" type="similarity" />
+      <edge source="persona_15" target="persona_46" id="1" weight="0.49431541719433836" type="similarity" />
+      <edge source="persona_16" target="persona_17" id="2" weight="0.4027326928782305" type="similarity" />
+      <edge source="persona_16" target="persona_62" id="3" weight="0.31169551191229916" type="similarity" />
+      <edge source="persona_16" target="persona_63" id="4" weight="0.3532666629240934" type="similarity" />
+      <edge source="persona_24" target="persona_70" id="5" weight="0.4022816370226455" type="similarity" />
+      <edge source="persona_24" target="persona_88" id="6" weight="0.30078887295984286" type="similarity" />
+      <edge source="Interface Design" target="User Experience" id="7" type="influence">
+        <attvalues>
+          <attvalue for="9" value="Changes in interface design can significantly impact user experience." />
+          <attvalue for="10" value="[&quot;It's fascinating how a small tweak in design can change how users interact with the entire system.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.573626" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="Backend Performance" target="User Experience" id="8" type="impact">
+        <attvalues>
+          <attvalue for="9" value="Backend performance can affect user experience, such as load times." />
+          <attvalue for="10" value="['A single line of code can sometimes be the difference between a quick load time and a frustrating lag.']" />
+          <attvalue for="11" value="2025-03-06 23:54:43.573672" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="User Experience" target="UI Tweaks" id="9" type="impact">
+        <attvalues>
+          <attvalue for="9" value="Small UI changes can significantly impact user experience." />
+          <attvalue for="10" value="[&quot;It's fascinating how much a small change can impact user experience.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:59:48.585792" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="Genetic Analysis" target="Software Testing" id="10" type="analogy">
+        <attvalues>
+          <attvalue for="9" value="The methodical approach in genetic analysis is similar to identifying software bugs." />
+          <attvalue for="10" value="['They look at systems in such a methodical way, almost like how they analyze sequences in DNA.']" />
+          <attvalue for="11" value="2025-03-06 23:54:43.573651" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="Spoegwolf" target="Die Linke" id="11" type="similarity">
+        <attvalues>
+          <attvalue for="9" value="Both have strong, dedicated communities and inspire passion." />
+          <attvalue for="10" value="['Spoegwolf fans are super dedicated. Their music brings people together, kind of like how a powerful political message does.']" />
+          <attvalue for="11" value="2025-03-06 23:54:43.573829" />
+          <attvalue for="12" value="['persona_16', 'persona_17', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Spoegwolf" target="Cultural Preservation" id="12" type="practice">
+        <attvalues>
+          <attvalue for="9" value="Spoegwolf incorporates old Afrikaans folk tunes in their music." />
+          <attvalue for="10" value="['They do have this song that draws from old Afrikaans folk tunes, kind of keeping the spirit alive.']" />
+          <attvalue for="11" value="2025-03-06 23:54:43.573866" />
+          <attvalue for="12" value="['persona_16', 'persona_17', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Spoegwolf" target="Afrikaans Music" id="13" type="category">
+        <attvalues>
+          <attvalue for="9" value="Spoegwolf is a band that is part of the Afrikaans music genre." />
+          <attvalue for="10" value="[&quot;Spoegwolf Fan: 'Have you ever listened to any Afrikaans music?'&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574229" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Spoegwolf" target="Passion and Perseverance" id="14" type="theme">
+        <attvalues>
+          <attvalue for="9" value="Spoegwolf's music embodies themes of passion and perseverance." />
+          <attvalue for="10" value="[&quot;Spoegwolf Fan: 'It's about passion and perseverance, regardless of the field.'&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574265" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Spoegwolf" target="Identity and Belonging" id="15" type="explores">
+        <attvalues>
+          <attvalue for="9" value="Spoegwolf's songs often tackle themes of identity and belonging." />
+          <attvalue for="10" value="[&quot;Spoegwolf's songs often tackle themes of identity and belonging, and I find that really powerful.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650116" />
+          <attvalue for="12" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </edge>
+      <edge source="Spoegwolf" target="Authenticity" id="16" type="embodies">
+        <attvalues>
+          <attvalue for="9" value="Spoegwolf is known for their authentic storytelling, contributing to their success." />
+          <attvalue for="10" value="[&quot;Spoegwolf has always been about authentic storytelling, and that's why their success feels so well-deserved.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650124" />
+          <attvalue for="12" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </edge>
+      <edge source="Spoegwolf" target="Connection and Authenticity" id="17" type="embodies">
+        <attvalues>
+          <attvalue for="9" value="Spoegwolf's music embodies connection and authenticity through its raw emotion and themes." />
+          <attvalue for="10" value="[&quot;It's a combination of their raw emotion and how they capture the essence of everyday life in their songs.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:59:48.585996" />
+          <attvalue for="12" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </edge>
+      <edge source="Die Linke" target="Identity and Belonging" id="18" type="focuses on">
+        <attvalues>
+          <attvalue for="9" value="Die Linke emphasizes the need for inclusion and identity within society." />
+          <attvalue for="10" value="['Die Linke also talks a lot about identity and the need for inclusion within society.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650120" />
+          <attvalue for="12" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </edge>
+      <edge source="Die Linke" target="Social Justice and Equality" id="19" type="advocates">
+        <attvalues>
+          <attvalue for="9" value="Die Linke advocates for social justice and equality, focusing on issues like wealth inequality and climate change." />
+          <attvalue for="10" value="['They really push for change that benefits everyone, not just the few at the top.']" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586010" />
+          <attvalue for="12" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </edge>
+      <edge source="Music and Politics" target="Live Performances" id="20" type="analogy">
+        <attvalues>
+          <attvalue for="9" value="Live performances of Spoegwolf are compared to political rallies in terms of energy and community." />
+          <attvalue for="10" value="[&quot;Their live shows are an experience. You can feel the energy in the room, everyone singing along. It's like being part of a big, emotional wave. Kind of like a rally, I'd imagine?&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.573847" />
+          <attvalue for="12" value="['persona_16', 'persona_17', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Robotics" target="Music Theory" id="21" type="similarity">
+        <attvalues>
+          <attvalue for="9" value="Both fields involve rules and structures, with room for creativity." />
+          <attvalue for="10" value="[&quot;I guess both of us are in the business of rules and structures, whether it's in competitions or compositions.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574021" />
+          <attvalue for="12" value="['persona_24', 'persona_70', 'persona_4']" />
+        </attvalues>
+      </edge>
+      <edge source="Robotics" target="Innovation within Constraints" id="22" type="application">
+        <attvalues>
+          <attvalue for="9" value="Robotics competitions require innovation within strict guidelines." />
+          <attvalue for="10" value="['Teams need to adhere to strict guidelines, but the real innovation happens when they find creative solutions within those constraints.']" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574057" />
+          <attvalue for="12" value="['persona_24', 'persona_70', 'persona_4']" />
+        </attvalues>
+      </edge>
+      <edge source="Robotics" target="Music" id="23" type="similarity">
+        <attvalues>
+          <attvalue for="9" value="Both fields require precision and synchronization to function effectively." />
+          <attvalue for="10" value="[&quot;It's all about timing and precision. In music, especially with the piano, it's the same.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586160" />
+          <attvalue for="12" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Robotics" target="Emotion in Performance" id="24" type="potential application">
+        <attvalues>
+          <attvalue for="9" value="Exploring emotional expression in robotics could enhance human-robot interaction." />
+          <attvalue for="10" value="['Perhaps robots, like musicians, can connect more deeply with humans through this kind of expression.']" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586189" />
+          <attvalue for="12" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Music Theory" target="Basketball" id="25" type="similarity">
+        <attvalues>
+          <attvalue for="9" value="Both require practice, dedication, and understanding of fundamentals." />
+          <attvalue for="10" value="['Both require practice, dedication, and a deep understanding of the fundamentals.', &quot;It's like... well, I suppose it's a bit like how you can't just dribble a basketball and expect to become a pro. There's technique, strategy, and a lot of practice involved.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574486" />
+          <attvalue for="12" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Music Theory" target="Technology in Education" id="26" type="enhancement">
+        <attvalues>
+          <attvalue for="9" value="Technology provides tools that enhance the teaching and learning of music." />
+          <attvalue for="10" value="['Technology has really transformed the way we teach and learn music.']" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574495" />
+          <attvalue for="12" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Technology in Music" target="Just Intonation" id="27" type="influence">
+        <attvalues>
+          <attvalue for="9" value="Music theory concepts like just intonation influence technological advances in sound systems." />
+          <attvalue for="10" value="[&quot;There's this whole music theory concept called 'just intonation' that even some engineers find intriguing when designing sound systems.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574039" />
+          <attvalue for="12" value="['persona_24', 'persona_70', 'persona_4']" />
+        </attvalues>
+      </edge>
+      <edge source="Technology in Music" target="Practice" id="28" type="supplement">
+        <attvalues>
+          <attvalue for="9" value="Technology aids in learning music theory but cannot replace the tactile experience of playing an instrument." />
+          <attvalue for="10" value="['Technology is a fantastic supplement, but it can’t replace the feel of playing an actual piano.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650240" />
+          <attvalue for="12" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Wisnewski" target="Women's Football" id="29" type="membership">
+        <attvalues>
+          <attvalue for="9" value="Grace Wisnewski is a player in the women's football domain." />
+          <attvalue for="10" value="[&quot;Women's Football Fan: 'For me, it's the thrill of watching Grace Wisnewski on the field.'&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574247" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Wisnewski" target="Emotional Journey in Football" id="30" type="exemplifies">
+        <attvalues>
+          <attvalue for="9" value="Grace Wisnewski's play style contributes to the emotional journey experienced in football." />
+          <attvalue for="10" value="['Watching Grace Wisnewski play is like poetry in motion. She has this incredible way of reading the game.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650197" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Wisnewski" target="Unity in Support" id="31" type="emotional connection">
+        <attvalues>
+          <attvalue for="9" value="Her presence on the field creates a unified atmosphere among fans." />
+          <attvalue for="10" value="['When she’s on the field, the atmosphere is electric.']" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586442" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Women's Football" target="Passion and Perseverance" id="32" type="theme">
+        <attvalues>
+          <attvalue for="9" value="Women's football narratives often involve themes of passion and perseverance." />
+          <attvalue for="10" value="[&quot;Women's Football Fan: 'Football, too, is full of stories. The underdog victories, the perseverance through injuries...'&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574283" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Basketball" target="Rhythm and Timing" id="33" type="application">
+        <attvalues>
+          <attvalue for="9" value="Rhythm and timing are essential for effective gameplay in basketball." />
+          <attvalue for="10" value="['Rhythm is a big part of basketball too. You’ve got to have great timing and coordination.']" />
+          <attvalue for="11" value="2025-03-06 23:54:43.574505" />
+          <attvalue for="12" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Technology in Education" target="AI in Music Composition" id="34" type="integration">
+        <attvalues>
+          <attvalue for="9" value="Technology is used in both education and music composition." />
+          <attvalue for="10" value="['There are programs that help students visualize musical scores or even compose digitally. It’s fascinating how tech can enhance learning.']" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586577" />
+          <attvalue for="12" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="User Interface Design" target="Font Perception" id="35" type="influence">
+        <attvalues>
+          <attvalue for="9" value="Font choice can affect user perception and the credibility of information in interface design." />
+          <attvalue for="10" value="[&quot;It's not just about looks; certain fonts can make information feel more credible or easier to digest.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650073" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="User Interface Design" target="Legacy Systems" id="36" type="similarity">
+        <attvalues>
+          <attvalue for="9" value="Both involve understanding and improving existing systems, whether it's code or interfaces." />
+          <attvalue for="10" value="['Untangling code—sounds a lot like what I do when dealing with legacy systems.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650081" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="Quality Assurance" target="Genetic Algorithms" id="37" type="collaboration">
+        <attvalues>
+          <attvalue for="9" value="Collaboration to optimize performance of genetic simulations and data models." />
+          <attvalue for="10" value="[&quot;I've been collaborating with a geneticist to optimize some algorithms for performance.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650078" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="Rule-breaking" target="Innovation" id="38" type="enabler">
+        <attvalues>
+          <attvalue for="9" value="Breaking rules can lead to innovative solutions and creative breakthroughs." />
+          <attvalue for="10" value="['I often tell my students that understanding the rules is the first step to breaking them creatively.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650156" />
+          <attvalue for="12" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Rule-breaking" target="Robotics Competitions" id="39" type="context">
+        <attvalues>
+          <attvalue for="9" value="Robotics competitions provide a context where students can creatively break rules within a framework." />
+          <attvalue for="10" value="['In robotics competitions, students often come up with the most ingenious solutions when they know the regulations inside out.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650163" />
+          <attvalue for="12" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Technical Foundation" target="Innovation" id="40" type="prerequisite">
+        <attvalues>
+          <attvalue for="9" value="A strong technical foundation is necessary to explore and innovate effectively." />
+          <attvalue for="10" value="[&quot;They need that technical foundation, whether it's in music theory or programming, to really explore and innovate.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650160" />
+          <attvalue for="12" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Spoegwolf's Lyrics" target="Emotional Journey in Music" id="41" type="influence">
+        <attvalues>
+          <attvalue for="9" value="Spoegwolf's lyrics take listeners on an emotional journey." />
+          <attvalue for="10" value="[&quot;It's like how a song can take you on a journey, right? You start in one place emotionally and end somewhere completely different.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650193" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Emotional Journey in Football" target="Panenka Penalty" id="42" type="contributes_to">
+        <attvalues>
+          <attvalue for="9" value="The unpredictability of a Panenka penalty adds to the emotional journey in football." />
+          <attvalue for="10" value="['It’s a cheeky way to take a penalty kick, and it’s all about fooling the goalkeeper with a soft chip.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650201" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Technology in Basketball" target="Practice" id="43" type="supplement">
+        <attvalues>
+          <attvalue for="9" value="Technology supplements practice but cannot replace the physical experience." />
+          <attvalue for="10" value="['I think technology is a fantastic supplement, but it can’t replace the feel of playing an actual piano, just like it can’t replace the feel of the ball in your hands.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650233" />
+          <attvalue for="12" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Technology in Basketball" target="Biofeedback Tools" id="44" type="application">
+        <attvalues>
+          <attvalue for="9" value="Biofeedback tools are used in basketball to track performance and provide feedback." />
+          <attvalue for="10" value="['They can track my heart rate, my movement, and give me real-time feedback. It’s like having a coach on my wrist.']" />
+          <attvalue for="11" value="2025-03-06 23:57:23.650236" />
+          <attvalue for="12" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Bioinformatics Software Optimization" target="Geneticist Perspective" id="45" type="collaboration">
+        <attvalues>
+          <attvalue for="9" value="Working with geneticists provides new perspectives on optimizing bioinformatics software." />
+          <attvalue for="10" value="['They bring this whole new perspective. Like, I had no idea how much data they deal with until I started.']" />
+          <attvalue for="11" value="2025-03-06 23:59:48.585853" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="System Overhaul" target="System Stability" id="46" type="dilemma">
+        <attvalues>
+          <attvalue for="9" value="Deciding between overhauling a system and maintaining stability is a common dilemma." />
+          <attvalue for="10" value="[&quot;It's the classic 'ship of Theseus' problem, isn't it? At what point does a system become something entirely new?&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:59:48.585882" />
+          <attvalue for="12" value="['persona_15', 'persona_46']" />
+        </attvalues>
+      </edge>
+      <edge source="Home and Belonging" target="Politics" id="47" type="central_theme">
+        <attvalues>
+          <attvalue for="9" value="The concept of home and belonging is central to many political discussions." />
+          <attvalue for="10" value="[&quot;It's interesting, too, because the concept of 'home' is so central to many political discussions today.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586031" />
+          <attvalue for="12" value="['persona_16', 'persona_17']" />
+        </attvalues>
+      </edge>
+      <edge source="Precision" target="Synchronization" id="48" type="dependency">
+        <attvalues>
+          <attvalue for="9" value="Synchronization in both robotics and music relies heavily on precision." />
+          <attvalue for="10" value="['Each component must be perfectly in sync with the others. One faulty connection, or a single line of code out of place, and everything goes awry.']" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586218" />
+          <attvalue for="12" value="['persona_24', 'persona_70']" />
+        </attvalues>
+      </edge>
+      <edge source="Live Spoegwolf Show" target="Unity in Support" id="49" type="emotional connection">
+        <attvalues>
+          <attvalue for="9" value="Live shows create a sense of unity among fans." />
+          <attvalue for="10" value="[&quot;The way they connect with the audience, it's like nothing else.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586429" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="Unity in Support" target="Travel Experience" id="50" type="enhancement">
+        <attvalues>
+          <attvalue for="9" value="Traveling to see a band or team enhances the feeling of unity and adventure." />
+          <attvalue for="10" value="[&quot;Just being on the road, with your favorite music or podcasts playing, it's like a mini-adventure in itself.&quot;]" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586454" />
+          <attvalue for="12" value="['persona_16', 'persona_63']" />
+        </attvalues>
+      </edge>
+      <edge source="AI in Music Composition" target="Performance" id="51" type="contrast">
+        <attvalues>
+          <attvalue for="9" value="AI lacks the human touch and spontaneity found in live performances." />
+          <attvalue for="10" value="['AI can mimic styles and create compositions, but can it really capture the human touch?']" />
+          <attvalue for="11" value="2025-03-06 23:59:48.586592" />
+          <attvalue for="12" value="['persona_4', 'persona_70']" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

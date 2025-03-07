@@ -6,16 +6,30 @@ import datetime
 from typing import Dict, Any, Optional
 import time
 
-from knowledge_graph import (
-    load_personas, 
-    initialize_knowledge_graph, 
-    analyze_graph, 
-    save_graph, 
-    load_graph
-)
-from conversation_generator import generate_conversations
-from knowledge_extractor import extract_knowledge
-from graph_updater import update_knowledge_graph, analyze_graph_evolution
+# Try relative imports first (when imported as a module)
+try:
+    from .knowledge_graph import (
+        load_personas, 
+        initialize_knowledge_graph, 
+        analyze_graph, 
+        save_graph, 
+        load_graph
+    )
+    from .conversation_generator import generate_conversations
+    from .knowledge_extractor import extract_knowledge
+    from .graph_updater import update_knowledge_graph, analyze_graph_evolution
+# Fall back to absolute imports (when run directly)
+except ImportError:
+    from knowledge_graph import (
+        load_personas, 
+        initialize_knowledge_graph, 
+        analyze_graph, 
+        save_graph, 
+        load_graph
+    )
+    from conversation_generator import generate_conversations
+    from knowledge_extractor import extract_knowledge
+    from graph_updater import update_knowledge_graph, analyze_graph_evolution
 
 # Configure logging
 logging.basicConfig(

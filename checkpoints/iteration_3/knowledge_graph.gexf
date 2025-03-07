@@ -1,0 +1,926 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-03-06">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="expertise" type="string" />
+      <attribute id="2" title="skills" type="string" />
+      <attribute id="3" title="domain" type="string" />
+      <attribute id="4" title="original_data" type="string" />
+    </attributes>
+    <nodes>
+      <node id="persona_0" label="persona_0">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A Political Analyst specialized in El Salvador's political landscape." />
+          <attvalue for="2" value="[&quot;political&quot;, &quot;analyst&quot;, &quot;specialized&quot;, &quot;salvador's&quot;, &quot;political&quot;, &quot;landscape.&quot;]" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A Political Analyst specialized in El Salvador's political landscape.&quot;, &quot;id&quot;: &quot;persona_0&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_1" label="persona_1">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A legal advisor who understands the legal implications of incomplete or inaccurate project documentation" />
+          <attvalue for="2" value="[&quot;advisor&quot;, &quot;understands&quot;, &quot;implications&quot;, &quot;incomplete&quot;, &quot;inaccurate&quot;, &quot;project&quot;, &quot;documentation&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A legal advisor who understands the legal implications of incomplete or inaccurate project documentation&quot;, &quot;id&quot;: &quot;persona_1&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_2" label="persona_2">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A maternal health advocate focused on raising awareness about postpartum complications." />
+          <attvalue for="2" value="[&quot;maternal&quot;, &quot;health&quot;, &quot;advocate&quot;, &quot;focused&quot;, &quot;raising&quot;, &quot;awareness&quot;, &quot;postpartum&quot;, &quot;complications.&quot;]" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A maternal health advocate focused on raising awareness about postpartum complications.&quot;, &quot;id&quot;: &quot;persona_2&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_3" label="persona_3">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A school basketball team captain who believes sports and their funding should be prioritized over student council campaigns" />
+          <attvalue for="2" value="[&quot;school&quot;, &quot;basketball&quot;, &quot;captain&quot;, &quot;believes&quot;, &quot;sports&quot;, &quot;funding&quot;, &quot;should&quot;, &quot;prioritized&quot;, &quot;student&quot;, &quot;council&quot;, &quot;campaigns&quot;]" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A school basketball team captain who believes sports and their funding should be prioritized over student council campaigns&quot;, &quot;id&quot;: &quot;persona_3&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_4" label="persona_4">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A determined basketball player who aspires to be the star athlete of the school" />
+          <attvalue for="2" value="[&quot;determined&quot;, &quot;basketball&quot;, &quot;player&quot;, &quot;aspires&quot;, &quot;athlete&quot;, &quot;school&quot;]" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A determined basketball player who aspires to be the star athlete of the school&quot;, &quot;id&quot;: &quot;persona_4&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_5" label="persona_5">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A virtual reality content creator sharing their experiences and creations on a popular online platform" />
+          <attvalue for="2" value="[&quot;virtual&quot;, &quot;reality&quot;, &quot;content&quot;, &quot;creator&quot;, &quot;sharing&quot;, &quot;experiences&quot;, &quot;creations&quot;, &quot;popular&quot;, &quot;online&quot;, &quot;platform&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A virtual reality content creator sharing their experiences and creations on a popular online platform&quot;, &quot;id&quot;: &quot;persona_5&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_6" label="persona_6">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An engineer with a shared sense of humor, who has known the comedian since grade school" />
+          <attvalue for="2" value="[&quot;engineer&quot;, &quot;shared&quot;, &quot;humor,&quot;, &quot;comedian&quot;, &quot;school&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;An engineer with a shared sense of humor, who has known the comedian since grade school&quot;, &quot;id&quot;: &quot;persona_6&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_7" label="persona_7">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an IT project manager who adopted extreme programming (XP) methodologies on his own team." />
+          <attvalue for="2" value="[&quot;project&quot;, &quot;manager&quot;, &quot;adopted&quot;, &quot;extreme&quot;, &quot;programming&quot;, &quot;methodologies&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;an IT project manager who adopted extreme programming (XP) methodologies on his own team.&quot;, &quot;id&quot;: &quot;persona_7&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_8" label="persona_8">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a newly hired general counsel at TurpCo Industries" />
+          <attvalue for="2" value="[&quot;general&quot;, &quot;counsel&quot;, &quot;turpco&quot;, &quot;industries&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a newly hired general counsel at TurpCo Industries&quot;, &quot;id&quot;: &quot;persona_8&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_9" label="persona_9">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A divorced father of three seeking legal representation for child custody matters" />
+          <attvalue for="2" value="[&quot;divorced&quot;, &quot;father&quot;, &quot;seeking&quot;, &quot;representation&quot;, &quot;custody&quot;, &quot;matters&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A divorced father of three seeking legal representation for child custody matters&quot;, &quot;id&quot;: &quot;persona_9&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_10" label="persona_10">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a geography teacher who was born and raised in Antigua and Barbuda" />
+          <attvalue for="2" value="[&quot;geography&quot;, &quot;teacher&quot;, &quot;raised&quot;, &quot;antigua&quot;, &quot;barbuda&quot;]" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a geography teacher who was born and raised in Antigua and Barbuda&quot;, &quot;id&quot;: &quot;persona_10&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_11" label="persona_11">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A talented athlete looking to improve their skills and gain exposure in international competitions" />
+          <attvalue for="2" value="[&quot;talented&quot;, &quot;athlete&quot;, &quot;looking&quot;, &quot;improve&quot;, &quot;skills&quot;, &quot;exposure&quot;, &quot;international&quot;, &quot;competitions&quot;]" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A talented athlete looking to improve their skills and gain exposure in international competitions&quot;, &quot;id&quot;: &quot;persona_11&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_12" label="persona_12">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A partner at the law firm, recognized for their extensive knowledge of healthcare laws" />
+          <attvalue for="2" value="[&quot;partner&quot;, &quot;recognized&quot;, &quot;extensive&quot;, &quot;knowledge&quot;, &quot;healthcare&quot;]" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A partner at the law firm, recognized for their extensive knowledge of healthcare laws&quot;, &quot;id&quot;: &quot;persona_12&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_13" label="persona_13">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A competitive badminton coach known for their aggressive training methods and emphasis on winning" />
+          <attvalue for="2" value="[&quot;competitive&quot;, &quot;badminton&quot;, &quot;aggressive&quot;, &quot;training&quot;, &quot;methods&quot;, &quot;emphasis&quot;, &quot;winning&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A competitive badminton coach known for their aggressive training methods and emphasis on winning&quot;, &quot;id&quot;: &quot;persona_13&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_14" label="persona_14">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a young social worker who greatly admires Sadye L. Logan" />
+          <attvalue for="2" value="[&quot;social&quot;, &quot;worker&quot;, &quot;greatly&quot;, &quot;admires&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a young social worker who greatly admires Sadye L. Logan&quot;, &quot;id&quot;: &quot;persona_14&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_15" label="persona_15">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A software engineer specializing in document management systems, working closely with the graphic designer to implement the designed interfaces" />
+          <attvalue for="2" value="[&quot;software&quot;, &quot;engineer&quot;, &quot;specializing&quot;, &quot;document&quot;, &quot;management&quot;, &quot;systems,&quot;, &quot;working&quot;, &quot;closely&quot;, &quot;graphic&quot;, &quot;designer&quot;, &quot;implement&quot;, &quot;designed&quot;, &quot;interfaces&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A software engineer specializing in document management systems, working closely with the graphic designer to implement the designed interfaces&quot;, &quot;id&quot;: &quot;persona_15&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_16" label="persona_16">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a passionate fan of Afrikaans music and die-hard supporter of Spoegwolf" />
+          <attvalue for="2" value="[&quot;passionate&quot;, &quot;afrikaans&quot;, &quot;die-hard&quot;, &quot;supporter&quot;, &quot;spoegwolf&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a passionate fan of Afrikaans music and die-hard supporter of Spoegwolf&quot;, &quot;id&quot;: &quot;persona_16&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_17" label="persona_17">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a supporter of Die Linke" />
+          <attvalue for="2" value="[&quot;supporter&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a supporter of Die Linke&quot;, &quot;id&quot;: &quot;persona_17&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_18" label="persona_18">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A producer who values the voice-over artist's ability to bring authenticity to international TV shows" />
+          <attvalue for="2" value="[&quot;producer&quot;, &quot;values&quot;, &quot;voice-over&quot;, &quot;artist's&quot;, &quot;ability&quot;, &quot;authenticity&quot;, &quot;international&quot;]" />
+          <attvalue for="3" value="arts" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A producer who values the voice-over artist's ability to bring authenticity to international TV shows&quot;, &quot;id&quot;: &quot;persona_18&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_19" label="persona_19">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A curious Internet user considering a vacation and concerned about digital privacy rights." />
+          <attvalue for="2" value="[&quot;curious&quot;, &quot;internet&quot;, &quot;considering&quot;, &quot;vacation&quot;, &quot;concerned&quot;, &quot;digital&quot;, &quot;privacy&quot;, &quot;rights.&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A curious Internet user considering a vacation and concerned about digital privacy rights.&quot;, &quot;id&quot;: &quot;persona_19&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_20" label="persona_20">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an orthopedic surgeon relatively new to AOSSM" />
+          <attvalue for="2" value="[&quot;orthopedic&quot;, &quot;surgeon&quot;, &quot;relatively&quot;]" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;an orthopedic surgeon relatively new to AOSSM&quot;, &quot;id&quot;: &quot;persona_20&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_21" label="persona_21">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A retired theater director acclaimed for their skill in handling complex narratives and multilayered characters" />
+          <attvalue for="2" value="[&quot;retired&quot;, &quot;theater&quot;, &quot;director&quot;, &quot;acclaimed&quot;, &quot;handling&quot;, &quot;complex&quot;, &quot;narratives&quot;, &quot;multilayered&quot;, &quot;characters&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A retired theater director acclaimed for their skill in handling complex narratives and multilayered characters&quot;, &quot;id&quot;: &quot;persona_21&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_22" label="persona_22">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A peer graduate in political science with a focus on modern judicial impacts" />
+          <attvalue for="2" value="[&quot;graduate&quot;, &quot;political&quot;, &quot;science&quot;, &quot;modern&quot;, &quot;judicial&quot;, &quot;impacts&quot;]" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A peer graduate in political science with a focus on modern judicial impacts&quot;, &quot;id&quot;: &quot;persona_22&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_23" label="persona_23">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A novelist who seeks the software engineer's input on digital publishing platforms" />
+          <attvalue for="2" value="[&quot;novelist&quot;, &quot;software&quot;, &quot;engineer's&quot;, &quot;digital&quot;, &quot;publishing&quot;, &quot;platforms&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A novelist who seeks the software engineer's input on digital publishing platforms&quot;, &quot;id&quot;: &quot;persona_23&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_24" label="persona_24">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A robotics professor who oversees the rules and regulations of the competition" />
+          <attvalue for="2" value="[&quot;robotics&quot;, &quot;professor&quot;, &quot;oversees&quot;, &quot;regulations&quot;, &quot;competition&quot;]" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A robotics professor who oversees the rules and regulations of the competition&quot;, &quot;id&quot;: &quot;persona_24&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_25" label="persona_25">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a Pakistani housewife who is from the Sindh province." />
+          <attvalue for="2" value="[&quot;pakistani&quot;, &quot;housewife&quot;, &quot;province.&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a Pakistani housewife who is from the Sindh province.&quot;, &quot;id&quot;: &quot;persona_25&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_26" label="persona_26">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A veteran advertising executive who's become a bit cynical about industry awards" />
+          <attvalue for="2" value="[&quot;veteran&quot;, &quot;advertising&quot;, &quot;executive&quot;, &quot;become&quot;, &quot;cynical&quot;, &quot;industry&quot;, &quot;awards&quot;]" />
+          <attvalue for="3" value="business" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A veteran advertising executive who's become a bit cynical about industry awards&quot;, &quot;id&quot;: &quot;persona_26&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_27" label="persona_27">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A local support group organizer who invites the individual as a guest speaker to share their story" />
+          <attvalue for="2" value="[&quot;support&quot;, &quot;organizer&quot;, &quot;invites&quot;, &quot;individual&quot;, &quot;speaker&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A local support group organizer who invites the individual as a guest speaker to share their story&quot;, &quot;id&quot;: &quot;persona_27&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_28" label="persona_28">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a factory worker who doesn't trust the COVID-19 vaccine" />
+          <attvalue for="2" value="[&quot;factory&quot;, &quot;worker&quot;, &quot;doesn't&quot;, &quot;covid-19&quot;, &quot;vaccine&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a factory worker who doesn't trust the COVID-19 vaccine&quot;, &quot;id&quot;: &quot;persona_28&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_29" label="persona_29">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A striker who admires the player's defensive prowess and values their support on the field" />
+          <attvalue for="2" value="[&quot;striker&quot;, &quot;admires&quot;, &quot;player's&quot;, &quot;defensive&quot;, &quot;prowess&quot;, &quot;values&quot;, &quot;support&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A striker who admires the player's defensive prowess and values their support on the field&quot;, &quot;id&quot;: &quot;persona_29&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_30" label="persona_30">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A museum educator who offers wine and art pairing workshops for visitors" />
+          <attvalue for="2" value="[&quot;museum&quot;, &quot;educator&quot;, &quot;offers&quot;, &quot;pairing&quot;, &quot;workshops&quot;, &quot;visitors&quot;]" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A museum educator who offers wine and art pairing workshops for visitors&quot;, &quot;id&quot;: &quot;persona_30&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_31" label="persona_31">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a film critic who dislikes storylines involving clones in movies" />
+          <attvalue for="2" value="[&quot;critic&quot;, &quot;dislikes&quot;, &quot;storylines&quot;, &quot;involving&quot;, &quot;clones&quot;, &quot;movies&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a film critic who dislikes storylines involving clones in movies&quot;, &quot;id&quot;: &quot;persona_31&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_32" label="persona_32">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A loyal and resourceful assistant who handles the entrepreneur's day-to-day operations and negotiations" />
+          <attvalue for="2" value="[&quot;resourceful&quot;, &quot;assistant&quot;, &quot;handles&quot;, &quot;entrepreneur's&quot;, &quot;day-to-day&quot;, &quot;operations&quot;, &quot;negotiations&quot;]" />
+          <attvalue for="3" value="business" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A loyal and resourceful assistant who handles the entrepreneur's day-to-day operations and negotiations&quot;, &quot;id&quot;: &quot;persona_32&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_33" label="persona_33">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a Lebanese-American working in the field of higher education" />
+          <attvalue for="2" value="[&quot;lebanese-american&quot;, &quot;working&quot;, &quot;higher&quot;, &quot;education&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a Lebanese-American working in the field of higher education&quot;, &quot;id&quot;: &quot;persona_33&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_34" label="persona_34">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A cousin who is a priest and helps conduct religious ceremonies at the Mata Vaishno Devi shrine" />
+          <attvalue for="2" value="[&quot;cousin&quot;, &quot;priest&quot;, &quot;conduct&quot;, &quot;religious&quot;, &quot;ceremonies&quot;, &quot;vaishno&quot;, &quot;shrine&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A cousin who is a priest and helps conduct religious ceremonies at the Mata Vaishno Devi shrine&quot;, &quot;id&quot;: &quot;persona_34&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_35" label="persona_35">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A senior journalist with years of experience in investigative reporting, providing guidance on uncovering the psychiatrist's untold stories" />
+          <attvalue for="2" value="[&quot;senior&quot;, &quot;journalist&quot;, &quot;experience&quot;, &quot;investigative&quot;, &quot;reporting,&quot;, &quot;providing&quot;, &quot;guidance&quot;, &quot;uncovering&quot;, &quot;psychiatrist's&quot;, &quot;untold&quot;, &quot;stories&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A senior journalist with years of experience in investigative reporting, providing guidance on uncovering the psychiatrist's untold stories&quot;, &quot;id&quot;: &quot;persona_35&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_36" label="persona_36">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A new media reporter from CNN" />
+          <attvalue for="2" value="[&quot;reporter&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A new media reporter from CNN&quot;, &quot;id&quot;: &quot;persona_36&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_37" label="persona_37">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A dedicated aid worker who has been stationed in the camp for several years, providing essential services and support" />
+          <attvalue for="2" value="[&quot;dedicated&quot;, &quot;worker&quot;, &quot;stationed&quot;, &quot;several&quot;, &quot;years,&quot;, &quot;providing&quot;, &quot;essential&quot;, &quot;services&quot;, &quot;support&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A dedicated aid worker who has been stationed in the camp for several years, providing essential services and support&quot;, &quot;id&quot;: &quot;persona_37&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_38" label="persona_38">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A journalist specializing in government affairs, covering a wide range of policy issues" />
+          <attvalue for="2" value="[&quot;journalist&quot;, &quot;specializing&quot;, &quot;government&quot;, &quot;affairs,&quot;, &quot;covering&quot;, &quot;policy&quot;, &quot;issues&quot;]" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A journalist specializing in government affairs, covering a wide range of policy issues&quot;, &quot;id&quot;: &quot;persona_38&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_39" label="persona_39">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A car salesman in Prince Edward Island who is skeptical about government policies" />
+          <attvalue for="2" value="[&quot;salesman&quot;, &quot;prince&quot;, &quot;edward&quot;, &quot;island&quot;, &quot;skeptical&quot;, &quot;government&quot;, &quot;policies&quot;]" />
+          <attvalue for="3" value="politics" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A car salesman in Prince Edward Island who is skeptical about government policies&quot;, &quot;id&quot;: &quot;persona_39&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_40" label="persona_40">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A small-town journalist who writes glowing reviews of the actor's performances in the local newspaper" />
+          <attvalue for="2" value="[&quot;small-town&quot;, &quot;journalist&quot;, &quot;writes&quot;, &quot;glowing&quot;, &quot;reviews&quot;, &quot;actor's&quot;, &quot;performances&quot;, &quot;newspaper&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A small-town journalist who writes glowing reviews of the actor's performances in the local newspaper&quot;, &quot;id&quot;: &quot;persona_40&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_41" label="persona_41">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an independent innovation consultant with a love for boxing" />
+          <attvalue for="2" value="[&quot;independent&quot;, &quot;innovation&quot;, &quot;consultant&quot;, &quot;boxing&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;an independent innovation consultant with a love for boxing&quot;, &quot;id&quot;: &quot;persona_41&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_42" label="persona_42">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A bilingual child whose language development is being monitored over time" />
+          <attvalue for="2" value="[&quot;bilingual&quot;, &quot;language&quot;, &quot;development&quot;, &quot;monitored&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A bilingual child whose language development is being monitored over time&quot;, &quot;id&quot;: &quot;persona_42&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_43" label="persona_43">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A dental assistant who assists during procedures and ensures a smooth workflow in the clinic" />
+          <attvalue for="2" value="[&quot;dental&quot;, &quot;assistant&quot;, &quot;assists&quot;, &quot;during&quot;, &quot;procedures&quot;, &quot;ensures&quot;, &quot;smooth&quot;, &quot;workflow&quot;, &quot;clinic&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A dental assistant who assists during procedures and ensures a smooth workflow in the clinic&quot;, &quot;id&quot;: &quot;persona_43&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_44" label="persona_44">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A paramedic who is thankful for accurate forecasts that inform their emergency response planning" />
+          <attvalue for="2" value="[&quot;paramedic&quot;, &quot;thankful&quot;, &quot;accurate&quot;, &quot;forecasts&quot;, &quot;inform&quot;, &quot;emergency&quot;, &quot;response&quot;, &quot;planning&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A paramedic who is thankful for accurate forecasts that inform their emergency response planning&quot;, &quot;id&quot;: &quot;persona_44&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_45" label="persona_45">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A Broadway actress who provides insights on performing under pressure" />
+          <attvalue for="2" value="[&quot;broadway&quot;, &quot;actress&quot;, &quot;provides&quot;, &quot;insights&quot;, &quot;performing&quot;, &quot;pressure&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A Broadway actress who provides insights on performing under pressure&quot;, &quot;id&quot;: &quot;persona_45&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_46" label="persona_46">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A software engineer specializing in quality assurance, working closely with the geneticist to enhance the software performance" />
+          <attvalue for="2" value="[&quot;software&quot;, &quot;engineer&quot;, &quot;specializing&quot;, &quot;quality&quot;, &quot;assurance,&quot;, &quot;working&quot;, &quot;closely&quot;, &quot;geneticist&quot;, &quot;enhance&quot;, &quot;software&quot;, &quot;performance&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A software engineer specializing in quality assurance, working closely with the geneticist to enhance the software performance&quot;, &quot;id&quot;: &quot;persona_46&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_47" label="persona_47">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A science communicator who showcases the illustrator's work on their popular science blog" />
+          <attvalue for="2" value="[&quot;science&quot;, &quot;communicator&quot;, &quot;showcases&quot;, &quot;illustrator's&quot;, &quot;popular&quot;, &quot;science&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A science communicator who showcases the illustrator's work on their popular science blog&quot;, &quot;id&quot;: &quot;persona_47&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_48" label="persona_48">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="Fabian from Bowmans, the lawyer who was recommended." />
+          <attvalue for="2" value="[&quot;fabian&quot;, &quot;bowmans,&quot;, &quot;lawyer&quot;, &quot;recommended.&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;Fabian from Bowmans, the lawyer who was recommended.&quot;, &quot;id&quot;: &quot;persona_48&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_49" label="persona_49">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A young poet who writes about their experiences in Syria and shares their work with the community" />
+          <attvalue for="2" value="[&quot;writes&quot;, &quot;experiences&quot;, &quot;shares&quot;, &quot;community&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A young poet who writes about their experiences in Syria and shares their work with the community&quot;, &quot;id&quot;: &quot;persona_49&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_50" label="persona_50">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An eco-friendly lifestyle podcaster who features change-makers and promotes sustainable living" />
+          <attvalue for="2" value="[&quot;eco-friendly&quot;, &quot;lifestyle&quot;, &quot;podcaster&quot;, &quot;features&quot;, &quot;change-makers&quot;, &quot;promotes&quot;, &quot;sustainable&quot;, &quot;living&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;An eco-friendly lifestyle podcaster who features change-makers and promotes sustainable living&quot;, &quot;id&quot;: &quot;persona_50&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_51" label="persona_51">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An atheist, philosophy lecturer who encourages open dialog about faith and belief systems" />
+          <attvalue for="2" value="[&quot;atheist,&quot;, &quot;philosophy&quot;, &quot;lecturer&quot;, &quot;encourages&quot;, &quot;dialog&quot;, &quot;belief&quot;, &quot;systems&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;An atheist, philosophy lecturer who encourages open dialog about faith and belief systems&quot;, &quot;id&quot;: &quot;persona_51&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_52" label="persona_52">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An owner of a family-owned bakery next door, striving to offer unique and personalized products that the franchise cannot replicate" />
+          <attvalue for="2" value="[&quot;family-owned&quot;, &quot;bakery&quot;, &quot;striving&quot;, &quot;unique&quot;, &quot;personalized&quot;, &quot;products&quot;, &quot;franchise&quot;, &quot;cannot&quot;, &quot;replicate&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;An owner of a family-owned bakery next door, striving to offer unique and personalized products that the franchise cannot replicate&quot;, &quot;id&quot;: &quot;persona_52&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_53" label="persona_53">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a nostalgic Azerbaijani pop music lover" />
+          <attvalue for="2" value="[&quot;nostalgic&quot;, &quot;azerbaijani&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a nostalgic Azerbaijani pop music lover&quot;, &quot;id&quot;: &quot;persona_53&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_54" label="persona_54">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A young couple who are adventurous eaters and enjoy exploring new restaurants" />
+          <attvalue for="2" value="[&quot;couple&quot;, &quot;adventurous&quot;, &quot;eaters&quot;, &quot;exploring&quot;, &quot;restaurants&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A young couple who are adventurous eaters and enjoy exploring new restaurants&quot;, &quot;id&quot;: &quot;persona_54&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_55" label="persona_55">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An aspiring historian who seeks guidance on crafting a compelling book proposal" />
+          <attvalue for="2" value="[&quot;aspiring&quot;, &quot;historian&quot;, &quot;guidance&quot;, &quot;crafting&quot;, &quot;compelling&quot;, &quot;proposal&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;An aspiring historian who seeks guidance on crafting a compelling book proposal&quot;, &quot;id&quot;: &quot;persona_55&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_56" label="persona_56">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A dog owner who wants the best medical treatment for their furry friend" />
+          <attvalue for="2" value="[&quot;medical&quot;, &quot;treatment&quot;, &quot;friend&quot;]" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A dog owner who wants the best medical treatment for their furry friend&quot;, &quot;id&quot;: &quot;persona_56&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_57" label="persona_57">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An experienced maritime emergency medicine specialist who guides and advises on the unique challenges of practicing medicine in maritime conditions" />
+          <attvalue for="2" value="[&quot;experienced&quot;, &quot;maritime&quot;, &quot;emergency&quot;, &quot;medicine&quot;, &quot;specialist&quot;, &quot;guides&quot;, &quot;advises&quot;, &quot;unique&quot;, &quot;challenges&quot;, &quot;practicing&quot;, &quot;medicine&quot;, &quot;maritime&quot;, &quot;conditions&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;An experienced maritime emergency medicine specialist who guides and advises on the unique challenges of practicing medicine in maritime conditions&quot;, &quot;id&quot;: &quot;persona_57&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_58" label="persona_58">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A web developer and true crime buff who connects with them through online forums and chat groups" />
+          <attvalue for="2" value="[&quot;developer&quot;, &quot;connects&quot;, &quot;through&quot;, &quot;online&quot;, &quot;forums&quot;, &quot;groups&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A web developer and true crime buff who connects with them through online forums and chat groups&quot;, &quot;id&quot;: &quot;persona_58&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_59" label="persona_59">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an amateur football player who lives in the Northern Territory, Australia." />
+          <attvalue for="2" value="[&quot;amateur&quot;, &quot;football&quot;, &quot;player&quot;, &quot;northern&quot;, &quot;territory,&quot;, &quot;australia.&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;an amateur football player who lives in the Northern Territory, Australia.&quot;, &quot;id&quot;: &quot;persona_59&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_60" label="persona_60">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a university psychology student who is currently studying creativity and personality." />
+          <attvalue for="2" value="[&quot;university&quot;, &quot;psychology&quot;, &quot;student&quot;, &quot;currently&quot;, &quot;studying&quot;, &quot;creativity&quot;, &quot;personality.&quot;]" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a university psychology student who is currently studying creativity and personality.&quot;, &quot;id&quot;: &quot;persona_60&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_61" label="persona_61">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A web developer specializing in creating interactive workout platforms and user-friendly interfaces" />
+          <attvalue for="2" value="[&quot;developer&quot;, &quot;specializing&quot;, &quot;creating&quot;, &quot;interactive&quot;, &quot;workout&quot;, &quot;platforms&quot;, &quot;user-friendly&quot;, &quot;interfaces&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A web developer specializing in creating interactive workout platforms and user-friendly interfaces&quot;, &quot;id&quot;: &quot;persona_61&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_62" label="persona_62">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a die-hard fan of Li Ronghao who eagerly anticipates every new season of Sing! China" />
+          <attvalue for="2" value="[&quot;die-hard&quot;, &quot;ronghao&quot;, &quot;eagerly&quot;, &quot;anticipates&quot;, &quot;season&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a die-hard fan of Li Ronghao who eagerly anticipates every new season of Sing! China&quot;, &quot;id&quot;: &quot;persona_62&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_63" label="persona_63">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An ardent fan of women's football and avid supporter of Grace Wisnewski" />
+          <attvalue for="2" value="[&quot;ardent&quot;, &quot;women's&quot;, &quot;football&quot;, &quot;supporter&quot;, &quot;wisnewski&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;An ardent fan of women's football and avid supporter of Grace Wisnewski&quot;, &quot;id&quot;: &quot;persona_63&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_64" label="persona_64">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="An up-and-coming country singer-songwriter who's also Cassidy-Rae's fan." />
+          <attvalue for="2" value="[&quot;up-and-coming&quot;, &quot;country&quot;, &quot;singer-songwriter&quot;, &quot;cassidy-rae's&quot;]" />
+          <attvalue for="3" value="arts" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;An up-and-coming country singer-songwriter who's also Cassidy-Rae's fan.&quot;, &quot;id&quot;: &quot;persona_64&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_65" label="persona_65">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A psychology major who is conducting research on the psychological factors affecting driving behavior" />
+          <attvalue for="2" value="[&quot;psychology&quot;, &quot;conducting&quot;, &quot;research&quot;, &quot;psychological&quot;, &quot;factors&quot;, &quot;affecting&quot;, &quot;driving&quot;, &quot;behavior&quot;]" />
+          <attvalue for="3" value="science" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A psychology major who is conducting research on the psychological factors affecting driving behavior&quot;, &quot;id&quot;: &quot;persona_65&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_66" label="persona_66">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a long-time resident of Wagga Wagga" />
+          <attvalue for="2" value="[&quot;long-time&quot;, &quot;resident&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a long-time resident of Wagga Wagga&quot;, &quot;id&quot;: &quot;persona_66&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_67" label="persona_67">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a casual classic rock listener and cyclist who is currently recovering from Covid-19." />
+          <attvalue for="2" value="[&quot;casual&quot;, &quot;classic&quot;, &quot;listener&quot;, &quot;cyclist&quot;, &quot;currently&quot;, &quot;recovering&quot;, &quot;covid-19.&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a casual classic rock listener and cyclist who is currently recovering from Covid-19.&quot;, &quot;id&quot;: &quot;persona_67&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_68" label="persona_68">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A city council member responsible for overseeing the city's regulation of gambling establishments" />
+          <attvalue for="2" value="[&quot;council&quot;, &quot;member&quot;, &quot;responsible&quot;, &quot;overseeing&quot;, &quot;city's&quot;, &quot;regulation&quot;, &quot;gambling&quot;, &quot;establishments&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A city council member responsible for overseeing the city's regulation of gambling establishments&quot;, &quot;id&quot;: &quot;persona_68&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_69" label="persona_69">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="Proud mother of Elisabeth Baker, who is supportive and overly-excited." />
+          <attvalue for="2" value="[&quot;mother&quot;, &quot;elisabeth&quot;, &quot;baker,&quot;, &quot;supportive&quot;, &quot;overly-excited.&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;Proud mother of Elisabeth Baker, who is supportive and overly-excited.&quot;, &quot;id&quot;: &quot;persona_69&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_70" label="persona_70">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A music theory professor who emphasizes the importance of understanding the technical aspects of playing the piano" />
+          <attvalue for="2" value="[&quot;theory&quot;, &quot;professor&quot;, &quot;emphasizes&quot;, &quot;importance&quot;, &quot;understanding&quot;, &quot;technical&quot;, &quot;aspects&quot;, &quot;playing&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A music theory professor who emphasizes the importance of understanding the technical aspects of playing the piano&quot;, &quot;id&quot;: &quot;persona_70&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_71" label="persona_71">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A backup dancer and choreographer who shares the same passion for Nigerian music and dance" />
+          <attvalue for="2" value="[&quot;backup&quot;, &quot;dancer&quot;, &quot;choreographer&quot;, &quot;shares&quot;, &quot;passion&quot;, &quot;nigerian&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A backup dancer and choreographer who shares the same passion for Nigerian music and dance&quot;, &quot;id&quot;: &quot;persona_71&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_72" label="persona_72">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A stylish sales representative specializing in eco-friendly furniture lines" />
+          <attvalue for="2" value="[&quot;stylish&quot;, &quot;representative&quot;, &quot;specializing&quot;, &quot;eco-friendly&quot;, &quot;furniture&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A stylish sales representative specializing in eco-friendly furniture lines&quot;, &quot;id&quot;: &quot;persona_72&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_73" label="persona_73">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A nature photographer who wants to showcase their stunning photographs with sustainable and unique frames" />
+          <attvalue for="2" value="[&quot;nature&quot;, &quot;photographer&quot;, &quot;showcase&quot;, &quot;stunning&quot;, &quot;photographs&quot;, &quot;sustainable&quot;, &quot;unique&quot;, &quot;frames&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A nature photographer who wants to showcase their stunning photographs with sustainable and unique frames&quot;, &quot;id&quot;: &quot;persona_73&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_74" label="persona_74">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a professional cyclist who dislikes cobblestones" />
+          <attvalue for="2" value="[&quot;professional&quot;, &quot;cyclist&quot;, &quot;dislikes&quot;, &quot;cobblestones&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a professional cyclist who dislikes cobblestones&quot;, &quot;id&quot;: &quot;persona_74&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_75" label="persona_75">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A hardworking construction worker tirelessly petitioning for his sibling's immigration case" />
+          <attvalue for="2" value="[&quot;hardworking&quot;, &quot;construction&quot;, &quot;worker&quot;, &quot;tirelessly&quot;, &quot;petitioning&quot;, &quot;sibling's&quot;, &quot;immigration&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A hardworking construction worker tirelessly petitioning for his sibling's immigration case&quot;, &quot;id&quot;: &quot;persona_75&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_76" label="persona_76">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a devout Christian living in Isla Vista who has a deep conviction that everyone, regardless of their sexual orientation, should be treated with love and respect" />
+          <attvalue for="2" value="[&quot;devout&quot;, &quot;christian&quot;, &quot;living&quot;, &quot;conviction&quot;, &quot;everyone,&quot;, &quot;regardless&quot;, &quot;sexual&quot;, &quot;orientation,&quot;, &quot;should&quot;, &quot;treated&quot;, &quot;respect&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a devout Christian living in Isla Vista who has a deep conviction that everyone, regardless of their sexual orientation, should be treated with love and respect&quot;, &quot;id&quot;: &quot;persona_76&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_77" label="persona_77">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A forum moderator with vast knowledge in kernel architecture and Linux distributions" />
+          <attvalue for="2" value="[&quot;moderator&quot;, &quot;knowledge&quot;, &quot;kernel&quot;, &quot;architecture&quot;, &quot;distributions&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A forum moderator with vast knowledge in kernel architecture and Linux distributions&quot;, &quot;id&quot;: &quot;persona_77&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_78" label="persona_78">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A graduate student conducting research on emerging powers in international relations" />
+          <attvalue for="2" value="[&quot;graduate&quot;, &quot;student&quot;, &quot;conducting&quot;, &quot;research&quot;, &quot;emerging&quot;, &quot;powers&quot;, &quot;international&quot;, &quot;relations&quot;]" />
+          <attvalue for="3" value="science" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A graduate student conducting research on emerging powers in international relations&quot;, &quot;id&quot;: &quot;persona_78&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_79" label="persona_79">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A clinical psychologist collaborating with the music therapist to provide holistic patient care" />
+          <attvalue for="2" value="[&quot;clinical&quot;, &quot;psychologist&quot;, &quot;collaborating&quot;, &quot;therapist&quot;, &quot;provide&quot;, &quot;holistic&quot;, &quot;patient&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A clinical psychologist collaborating with the music therapist to provide holistic patient care&quot;, &quot;id&quot;: &quot;persona_79&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_80" label="persona_80">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A social scientist studying the impact of fake news on society and human behavior" />
+          <attvalue for="2" value="[&quot;social&quot;, &quot;scientist&quot;, &quot;studying&quot;, &quot;impact&quot;, &quot;society&quot;, &quot;behavior&quot;]" />
+          <attvalue for="3" value="science" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A social scientist studying the impact of fake news on society and human behavior&quot;, &quot;id&quot;: &quot;persona_80&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_81" label="persona_81">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A multi-generational farmer who can trace their family's roots in the area back several centuries" />
+          <attvalue for="2" value="[&quot;multi-generational&quot;, &quot;farmer&quot;, &quot;family's&quot;, &quot;several&quot;, &quot;centuries&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A multi-generational farmer who can trace their family's roots in the area back several centuries&quot;, &quot;id&quot;: &quot;persona_81&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_82" label="persona_82">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a concerned and engaged member of the Erewash community" />
+          <attvalue for="2" value="[&quot;concerned&quot;, &quot;engaged&quot;, &quot;member&quot;, &quot;erewash&quot;, &quot;community&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a concerned and engaged member of the Erewash community&quot;, &quot;id&quot;: &quot;persona_82&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_83" label="persona_83">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="an experienced software developer familiar with exception handling in WPF applications" />
+          <attvalue for="2" value="[&quot;experienced&quot;, &quot;software&quot;, &quot;developer&quot;, &quot;familiar&quot;, &quot;exception&quot;, &quot;handling&quot;, &quot;applications&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;an experienced software developer familiar with exception handling in WPF applications&quot;, &quot;id&quot;: &quot;persona_83&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_84" label="persona_84">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="a big fan of Tim Rice, with admiration and a bit jealousy." />
+          <attvalue for="2" value="[&quot;admiration&quot;, &quot;jealousy.&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;a big fan of Tim Rice, with admiration and a bit jealousy.&quot;, &quot;id&quot;: &quot;persona_84&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_85" label="persona_85">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A conspiracy theorist who believes the retired CIA agent is withholding classified information" />
+          <attvalue for="2" value="[&quot;conspiracy&quot;, &quot;theorist&quot;, &quot;believes&quot;, &quot;retired&quot;, &quot;withholding&quot;, &quot;classified&quot;, &quot;information&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A conspiracy theorist who believes the retired CIA agent is withholding classified information&quot;, &quot;id&quot;: &quot;persona_85&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_86" label="persona_86">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A social worker collaborating with the data analyst to identify trends and evaluate program effectiveness" />
+          <attvalue for="2" value="[&quot;social&quot;, &quot;worker&quot;, &quot;collaborating&quot;, &quot;analyst&quot;, &quot;identify&quot;, &quot;trends&quot;, &quot;evaluate&quot;, &quot;program&quot;, &quot;effectiveness&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A social worker collaborating with the data analyst to identify trends and evaluate program effectiveness&quot;, &quot;id&quot;: &quot;persona_86&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_87" label="persona_87">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A passionate railroad historian with a special interest in steam locomotives" />
+          <attvalue for="2" value="[&quot;passionate&quot;, &quot;railroad&quot;, &quot;historian&quot;, &quot;special&quot;, &quot;interest&quot;, &quot;locomotives&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A passionate railroad historian with a special interest in steam locomotives&quot;, &quot;id&quot;: &quot;persona_87&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_88" label="persona_88">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A mental health professional who helps the star maintain focus and handle the pressures of her career" />
+          <attvalue for="2" value="[&quot;mental&quot;, &quot;health&quot;, &quot;professional&quot;, &quot;maintain&quot;, &quot;handle&quot;, &quot;pressures&quot;, &quot;career&quot;]" />
+          <attvalue for="3" value="medicine" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A mental health professional who helps the star maintain focus and handle the pressures of her career&quot;, &quot;id&quot;: &quot;persona_88&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_89" label="persona_89">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A music teacher that influenced their love for the performing arts from a young age" />
+          <attvalue for="2" value="[&quot;teacher&quot;, &quot;influenced&quot;, &quot;performing&quot;]" />
+          <attvalue for="3" value="education" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A music teacher that influenced their love for the performing arts from a young age&quot;, &quot;id&quot;: &quot;persona_89&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_90" label="persona_90">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A developer from a different IDE community who engages in friendly debates and comparisons between IntelliJ IDEA and their preferred IDE" />
+          <attvalue for="2" value="[&quot;developer&quot;, &quot;different&quot;, &quot;community&quot;, &quot;engages&quot;, &quot;friendly&quot;, &quot;debates&quot;, &quot;comparisons&quot;, &quot;between&quot;, &quot;intellij&quot;, &quot;preferred&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A developer from a different IDE community who engages in friendly debates and comparisons between IntelliJ IDEA and their preferred IDE&quot;, &quot;id&quot;: &quot;persona_90&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_91" label="persona_91">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A logistics manager in a major retail company, handling complex supply chain operations" />
+          <attvalue for="2" value="[&quot;logistics&quot;, &quot;manager&quot;, &quot;retail&quot;, &quot;company,&quot;, &quot;handling&quot;, &quot;complex&quot;, &quot;supply&quot;, &quot;operations&quot;]" />
+          <attvalue for="3" value="business" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A logistics manager in a major retail company, handling complex supply chain operations&quot;, &quot;id&quot;: &quot;persona_91&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_92" label="persona_92">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A curious botanist who has just discovered &quot;Scleranthus diander&quot; for the first time." />
+          <attvalue for="2" value="[&quot;curious&quot;, &quot;botanist&quot;, &quot;discovered&quot;, &quot;\&quot;scleranthus&quot;, &quot;diander\&quot;&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A curious botanist who has just discovered \&quot;Scleranthus diander\&quot; for the first time.&quot;, &quot;id&quot;: &quot;persona_92&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_93" label="persona_93">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A family man who loves football and plans to attend the Pro Bowl event" />
+          <attvalue for="2" value="[&quot;family&quot;, &quot;football&quot;, &quot;attend&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A family man who loves football and plans to attend the Pro Bowl event&quot;, &quot;id&quot;: &quot;persona_93&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_94" label="persona_94">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A bumbling and forgetful coworker who unintentionally becomes the comedian's muse" />
+          <attvalue for="2" value="[&quot;bumbling&quot;, &quot;forgetful&quot;, &quot;coworker&quot;, &quot;unintentionally&quot;, &quot;becomes&quot;, &quot;comedian's&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A bumbling and forgetful coworker who unintentionally becomes the comedian's muse&quot;, &quot;id&quot;: &quot;persona_94&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_95" label="persona_95">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A veteran investment banker providing strategic advice on deal structuring and negotiations" />
+          <attvalue for="2" value="[&quot;veteran&quot;, &quot;investment&quot;, &quot;banker&quot;, &quot;providing&quot;, &quot;strategic&quot;, &quot;advice&quot;, &quot;structuring&quot;, &quot;negotiations&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A veteran investment banker providing strategic advice on deal structuring and negotiations&quot;, &quot;id&quot;: &quot;persona_95&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_96" label="persona_96">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A travel blogger who provides insider tips on the best destinations for testing wireless technologies in different countries" />
+          <attvalue for="2" value="[&quot;travel&quot;, &quot;blogger&quot;, &quot;provides&quot;, &quot;insider&quot;, &quot;destinations&quot;, &quot;testing&quot;, &quot;wireless&quot;, &quot;technologies&quot;, &quot;different&quot;, &quot;countries&quot;]" />
+          <attvalue for="3" value="technology" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A travel blogger who provides insider tips on the best destinations for testing wireless technologies in different countries&quot;, &quot;id&quot;: &quot;persona_96&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_97" label="persona_97">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A military history blogger who provides valuable insights and research on the historical accuracy of military model kits" />
+          <attvalue for="2" value="[&quot;military&quot;, &quot;history&quot;, &quot;blogger&quot;, &quot;provides&quot;, &quot;valuable&quot;, &quot;insights&quot;, &quot;research&quot;, &quot;historical&quot;, &quot;accuracy&quot;, &quot;military&quot;]" />
+          <attvalue for="3" value="science" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A military history blogger who provides valuable insights and research on the historical accuracy of military model kits&quot;, &quot;id&quot;: &quot;persona_97&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_98" label="persona_98">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A flamenco guitarist hailing from Spain, who is proud of his country's musical heritage" />
+          <attvalue for="2" value="[&quot;flamenco&quot;, &quot;guitarist&quot;, &quot;hailing&quot;, &quot;spain,&quot;, &quot;country's&quot;, &quot;musical&quot;, &quot;heritage&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A flamenco guitarist hailing from Spain, who is proud of his country's musical heritage&quot;, &quot;id&quot;: &quot;persona_98&quot;}" />
+        </attvalues>
+      </node>
+      <node id="persona_99" label="persona_99">
+        <attvalues>
+          <attvalue for="0" value="persona" />
+          <attvalue for="1" value="A young and ambitious midfielder seeking advice on improving defensive skills" />
+          <attvalue for="2" value="[&quot;ambitious&quot;, &quot;midfielder&quot;, &quot;seeking&quot;, &quot;advice&quot;, &quot;improving&quot;, &quot;defensive&quot;, &quot;skills&quot;]" />
+          <attvalue for="3" value="other" />
+          <attvalue for="4" value="{&quot;persona&quot;: &quot;A young and ambitious midfielder seeking advice on improving defensive skills&quot;, &quot;id&quot;: &quot;persona_99&quot;}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="persona_4" target="persona_70" id="0" weight="0.3176849816724251" type="similarity" />
+      <edge source="persona_15" target="persona_46" id="1" weight="0.49431541719433836" type="similarity" />
+      <edge source="persona_16" target="persona_17" id="2" weight="0.4027326928782305" type="similarity" />
+      <edge source="persona_16" target="persona_62" id="3" weight="0.31169551191229916" type="similarity" />
+      <edge source="persona_16" target="persona_63" id="4" weight="0.3532666629240934" type="similarity" />
+      <edge source="persona_24" target="persona_70" id="5" weight="0.4022816370226455" type="similarity" />
+      <edge source="persona_24" target="persona_88" id="6" weight="0.30078887295984286" type="similarity" />
+    </edges>
+  </graph>
+</gexf>
