@@ -18,6 +18,209 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Add CSS for better visualization and resizable containers
+st.markdown("""
+<style>
+/* Hide Streamlit footer */
+footer {visibility: hidden;}
+
+/* Make the sidebar narrower */
+[data-testid="stSidebar"] {
+    min-width: 250px !important;
+    max-width: 250px !important;
+}
+
+/* Reduce padding around elements to maximize space */
+.block-container {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+/* Create a resizable container for graphs */
+.resizable-container {
+    position: relative;
+    overflow: hidden;
+    resize: both;
+    min-height: 800px;
+    height: 90vh;
+    width: 100%;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* Add visual feedback when hovering over resizable area */
+.resizable-container:hover {
+    border-color: #2196F3;
+}
+
+/* Style for iframe inside resizable container */
+.resizable-container iframe {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+/* Add a resize handle indicator */
+.resizable-container::after {
+    content: "↘️";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    cursor: nwse-resize;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* Style for graph controls */
+.graph-controls {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.graph-control-button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+
+.graph-control-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+/* Style the configuration panel */
+.vis-configuration-wrapper {
+    display: block; /* Initially visible */
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    padding: 10px !important;
+    max-height: 80vh !important;
+    overflow-y: auto !important;
+    max-width: 400px !important;
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    z-index: 1000 !important;
+}
+
+.vis-configuration-wrapper .vis-config-item {
+    margin-bottom: 8px !important;
+}
+
+.vis-configuration-wrapper input, 
+.vis-configuration-wrapper select {
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    padding: 4px !important;
+}
+
+/* Hide the default config button */
+.vis-configuration-wrapper .vis-button {
+    display: none !important;
+}
+</style>
+
+<script>
+// Function to wrap iframes in resizable containers
+function wrapIframesInResizableContainers() {
+    // Find all iframes that aren't already in resizable containers
+    const iframes = Array.from(document.querySelectorAll('iframe')).filter(iframe => 
+        !iframe.parentElement.classList.contains('resizable-container') && 
+        iframe.getAttribute('height') >= 400
+    );
+    
+    iframes.forEach(function(iframe) {
+        // Only process iframes that are for our visualizations
+        const parent = iframe.parentElement;
+        
+        // Create resizable container
+        const container = document.createElement('div');
+        container.className = 'resizable-container';
+        
+        // Set initial size based on iframe height
+        const iframeHeight = parseInt(iframe.getAttribute('height'));
+        if (iframeHeight > 800) {
+            container.style.minHeight = iframeHeight + 'px';
+        }
+        
+        // Replace iframe with container
+        parent.insertBefore(container, iframe);
+        container.appendChild(iframe);
+        
+        // Add a tooltip to indicate resizable functionality
+        const tooltip = document.createElement('div');
+        tooltip.style.position = 'absolute';
+        tooltip.style.bottom = '20px';
+        tooltip.style.right = '25px';
+        tooltip.style.padding = '5px';
+        tooltip.style.backgroundColor = 'rgba(0,0,0,0.6)';
+        tooltip.style.color = 'white';
+        tooltip.style.borderRadius = '3px';
+        tooltip.style.fontSize = '12px';
+        tooltip.textContent = 'Drag to resize';
+        tooltip.style.opacity = '0';
+        tooltip.style.transition = 'opacity 0.3s';
+        
+        container.appendChild(tooltip);
+        
+        // Show tooltip on hover
+        container.addEventListener('mouseover', function() {
+            tooltip.style.opacity = '1';
+        });
+        
+        container.addEventListener('mouseout', function() {
+            tooltip.style.opacity = '0';
+        });
+    });
+}
+
+// Initial setup when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Initial wrapping of iframes
+    setTimeout(wrapIframesInResizableContainers, 1000);
+    
+    // Set up a MutationObserver to watch for new iframes being added to the DOM
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.addedNodes.length) {
+                // We found new nodes, check if any are iframes or contain iframes
+                setTimeout(wrapIframesInResizableContainers, 500);
+            }
+        });
+    });
+    
+    // Start observing the document body for DOM changes
+    observer.observe(document.body, { childList: true, subtree: true });
+});
+</script>
+""", unsafe_allow_html=True)
+
 def load_graph(graph_path):
     """Load a NetworkX graph from a GEXF file."""
     try:
@@ -124,61 +327,63 @@ def get_graph_stats(G):
         "Density": nx.density(G),
     }
 
-def visualize_graph_pyvis(G, height=1000):
+def visualize_graph_pyvis(G, height=1200):
     """Create an interactive visualization of the graph using pyvis."""
     if G is None or G.number_of_nodes() == 0:
         st.warning("No graph data to visualize.")
         return
     
-    # Create a pyvis network
-    net = Network(height=height, width="100%", notebook=True, directed=True)
+    # Create a pyvis network with larger dimensions
+    net = Network(height=f"{height}px", width="100%", notebook=True, directed=True, cdn_resources='in_line')
     
-    # Add nodes with properties
-    for node_id, node_data in G.nodes(data=True):
-        node_type = node_data.get('type', 'unknown')
-        
-        # Set node color based on type
-        if node_type == 'persona':
-            color = '#4285F4'  # Blue for personas
-        elif node_type == 'concept':
-            color = '#EA4335'  # Red for concepts
-        else:
-            color = '#FBBC05'  # Yellow for other types
-        
-        # Set node size based on degree
-        size = 20 + G.degree(node_id) * 3
-        
-        # Add node with properties
-        net.add_node(
-            node_id, 
-            label=node_data.get('label', str(node_id)),
-            title=f"Type: {node_type}<br>Degree: {G.degree(node_id)}",
-            color=color,
-            size=size
-        )
-    
-    # Add edges with properties
-    for source, target, edge_data in G.edges(data=True):
-        weight = edge_data.get('weight', 1.0)
-        relation = edge_data.get('relation', '')
-        
-        # Add edge with properties
-        net.add_edge(
-            source, 
-            target, 
-            title=relation,
-            width=1 + weight * 2,
-            arrowStrikethrough=True
-        )
-    
-    # Set physics options for better visualization
+    # Configure network options for better visualization
     net.set_options("""
     {
+      "configure": {
+        "enabled": true,
+        "filter": true,
+        "showButton": false
+      },
+      "nodes": {
+        "font": {
+          "size": 16,
+          "face": "Roboto, sans-serif"
+        },
+        "borderWidth": 2,
+        "borderWidthSelected": 3,
+        "shape": "dot",
+        "size": 25,
+        "shadow": {
+          "enabled": true,
+          "size": 5,
+          "x": 2,
+          "y": 2
+        }
+      },
+      "edges": {
+        "smooth": {
+          "type": "continuous",
+          "forceDirection": "none"
+        },
+        "arrows": {
+          "to": {
+            "enabled": true,
+            "scaleFactor": 0.5
+          }
+        },
+        "color": {
+          "inherit": false
+        },
+        "width": 2,
+        "shadow": {
+          "enabled": true
+        }
+      },
       "physics": {
         "forceAtlas2Based": {
           "gravitationalConstant": -50,
           "centralGravity": 0.01,
-          "springLength": 100,
+          "springLength": 150,
           "springConstant": 0.08
         },
         "maxVelocity": 50,
@@ -195,21 +400,47 @@ def visualize_graph_pyvis(G, height=1000):
         "hover": true,
         "multiselect": true,
         "tooltipDelay": 100
-      },
-      "edges": {
-        "smooth": {
-          "type": "continuous",
-          "forceDirection": "none"
-        },
-        "arrows": {
-          "to": {
-            "enabled": true,
-            "scaleFactor": 0.5
-          }
-        }
       }
     }
     """)
+    
+    # Add nodes with properties
+    for node_id, node_data in G.nodes(data=True):
+        node_type = node_data.get('type', 'unknown')
+        
+        # Set node color based on type
+        if node_type == 'persona':
+            color = '#4285F4'  # Blue for personas
+        elif node_type == 'concept':
+            color = '#EA4335'  # Red for concepts
+        else:
+            color = '#FBBC05'  # Yellow for other types
+        
+        # Set node size based on degree - make nodes larger and more visible
+        size = 25 + G.degree(node_id) * 4
+        
+        # Add node with properties
+        net.add_node(
+            node_id, 
+            label=node_data.get('label', str(node_id)),
+            title=f"Type: {node_type}<br>Degree: {G.degree(node_id)}",
+            color=color,
+            size=size
+        )
+    
+    # Add edges with properties
+    for source, target, edge_data in G.edges(data=True):
+        weight = edge_data.get('weight', 1.0)
+        relation = edge_data.get('relation', '')
+        
+        # Add edge with properties - make edges more visible
+        net.add_edge(
+            source, 
+            target, 
+            title=relation,
+            width=1.5 + weight * 2.5,
+            arrowStrikethrough=True
+        )
     
     # Save and display the graph
     with tempfile.NamedTemporaryFile(delete=False, suffix='.html') as tmp:
@@ -217,8 +448,217 @@ def visualize_graph_pyvis(G, height=1000):
         with open(tmp.name, 'r', encoding='utf-8') as f:
             html = f.read()
     
-    # Display the graph in an iframe with full width
-    st.components.v1.html(html, height=height, scrolling=True)
+    # Add CSS inside the HTML to make the graph take full width/height
+    html = html.replace('</head>', '''
+    <style>
+        body, html {
+            width: 100% !important;
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+        }
+        #mynetwork {
+            width: 100% !important;
+            height: 100% !important;
+            min-height: 1000px !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+        }
+        div.vis-network {
+            width: 100% !important;
+            height: 100% !important;
+            min-height: 1000px !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+        }
+        
+        /* Custom controls */
+        .graph-controls {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .graph-control-button {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+        
+        .graph-control-button:hover {
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+        }
+        
+        /* Style the configuration panel */
+        .vis-configuration-wrapper {
+            display: block; /* Initially visible */
+            background-color: rgba(255, 255, 255, 0.95) !important;
+            border-radius: 8px !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+            padding: 10px !important;
+            max-height: 80vh !important;
+            overflow-y: auto !important;
+            max-width: 400px !important;
+            position: absolute !important;
+            top: 10px !important;
+            right: 10px !important;
+            z-index: 1000 !important;
+        }
+        
+        .vis-configuration-wrapper .vis-config-item {
+            margin-bottom: 8px !important;
+        }
+        
+        .vis-configuration-wrapper input, 
+        .vis-configuration-wrapper select {
+            border: 1px solid #ddd !important;
+            border-radius: 4px !important;
+            padding: 4px !important;
+        }
+        
+        /* Hide the default config button */
+        .vis-configuration-wrapper .vis-button {
+            display: none !important;
+        }
+    </style>
+    <script>
+        // Ensure the network takes up the full space and initialize controls
+        document.addEventListener('DOMContentLoaded', function() {
+            const network = document.getElementById('mynetwork');
+            if (network) {
+                network.style.height = '100%';
+                network.style.minHeight = '1000px';
+                
+                // Force resize after a short delay
+                setTimeout(function() {
+                    window.dispatchEvent(new Event('resize'));
+                    
+                    // Add custom controls
+                    const controlsDiv = document.createElement('div');
+                    controlsDiv.className = 'graph-controls';
+                    
+                    // Toggle controls button (toggles both Streamlit sidebar and vis.js config panel)
+                    const toggleButton = document.createElement('button');
+                    toggleButton.className = 'graph-control-button';
+                    toggleButton.innerHTML = '⚙️ Toggle Controls';
+                    toggleButton.title = 'Toggle all control panels';
+                    
+                    toggleButton.onclick = function() {
+                        // Find the configuration panel
+                        const configPanel = document.querySelector('.vis-configuration-wrapper');
+                        if (configPanel) {
+                            // Toggle visibility
+                            if (configPanel.style.display === 'none') {
+                                configPanel.style.display = 'block';
+                            } else {
+                                configPanel.style.display = 'none';
+                            }
+                        }
+                        
+                        // Also toggle the Streamlit sidebar controls by clicking the Streamlit toggle button
+                        const streamlitToggleButton = document.querySelector('[data-testid="column"] button:first-of-type');
+                        if (streamlitToggleButton) {
+                            streamlitToggleButton.click();
+                        }
+                    };
+                    
+                    // Physics toggle button
+                    const physicsButton = document.createElement('button');
+                    physicsButton.className = 'graph-control-button';
+                    physicsButton.innerHTML = '⏸️ Pause Physics';
+                    physicsButton.title = 'Toggle physics simulation';
+                    
+                    let physicsEnabled = true;
+                    physicsButton.onclick = function() {
+                        // Get the network instance from the vis-network div
+                        const visNetwork = document.querySelector('.vis-network');
+                        if (visNetwork && visNetwork.network) {
+                            physicsEnabled = !physicsEnabled;
+                            visNetwork.network.setOptions({ physics: { enabled: physicsEnabled } });
+                            physicsButton.innerHTML = physicsEnabled ? '⏸️ Pause Physics' : '▶️ Resume Physics';
+                        }
+                    };
+                    
+                    // Stabilize button
+                    const stabilizeButton = document.createElement('button');
+                    stabilizeButton.className = 'graph-control-button';
+                    stabilizeButton.innerHTML = '🔄 Stabilize';
+                    stabilizeButton.title = 'Stabilize the network layout';
+                    
+                    stabilizeButton.onclick = function() {
+                        const visNetwork = document.querySelector('.vis-network');
+                        if (visNetwork && visNetwork.network) {
+                            visNetwork.network.stabilize();
+                        }
+                    };
+                    
+                    // Fit button
+                    const fitButton = document.createElement('button');
+                    fitButton.className = 'graph-control-button';
+                    fitButton.innerHTML = '🔍 Fit View';
+                    fitButton.title = 'Fit all nodes in view';
+                    
+                    fitButton.onclick = function() {
+                        const visNetwork = document.querySelector('.vis-network');
+                        if (visNetwork && visNetwork.network) {
+                            visNetwork.network.fit();
+                        }
+                    };
+                    
+                    controlsDiv.appendChild(toggleButton);
+                    controlsDiv.appendChild(physicsButton);
+                    controlsDiv.appendChild(stabilizeButton);
+                    controlsDiv.appendChild(fitButton);
+                    document.body.appendChild(controlsDiv);
+                    
+                    // Initialize network object for the buttons
+                    // This is needed because the network object might not be immediately available
+                    let attempts = 0;
+                    const maxAttempts = 10;
+                    const initInterval = setInterval(function() {
+                        const visNetwork = document.querySelector('.vis-network');
+                        if (visNetwork && visNetwork.network) {
+                            clearInterval(initInterval);
+                            console.log('Network object initialized successfully');
+                        } else if (attempts >= maxAttempts) {
+                            clearInterval(initInterval);
+                            console.log('Failed to initialize network object');
+                        }
+                        attempts++;
+                    }, 500);
+                }, 1000);
+            }
+        });
+    </script>
+    </head>
+    ''')
+    
+    # Display the graph in a resizable container
+    # We set a fixed height initially, but the resizable container allows the user to adjust it
+    st.components.v1.html(html, height=height, scrolling=False)
 
 def plot_metrics_over_time(metrics):
     """Plot graph metrics over iterations."""
@@ -380,6 +820,10 @@ def display_knowledge_unit(ku):
 def main():
     st.title("PersonaHub Graph Reasoning Pipeline Viewer")
     
+    # Initialize session state for controls visibility
+    if 'show_controls' not in st.session_state:
+        st.session_state['show_controls'] = True
+    
     # Sidebar for navigation
     st.sidebar.title("Navigation")
     page = st.sidebar.radio(
@@ -401,48 +845,99 @@ def main():
     if page == "Knowledge Graph":
         st.header("Knowledge Graph Visualization")
         
+        # Add a toggle for showing/hiding controls in the sidebar
+        show_controls = st.sidebar.checkbox("Show Graph Controls", value=st.session_state['show_controls'], 
+                                           help="Toggle to show or hide the graph parameter controls",
+                                           key="sidebar_show_controls")
+        
+        # Update session state based on checkbox
+        st.session_state['show_controls'] = show_controls
+        
         # Load the final knowledge graph
         graph_path = os.path.join(output_dir, "final_knowledge_graph.gexf")
         if os.path.exists(graph_path):
             G = load_graph(graph_path)
             
-            # Create columns for layout
-            col1, col2 = st.columns([1, 4])  # Increase the ratio to give more space to the graph
+            # Create columns for layout - adjust based on whether controls are shown
+            if show_controls:
+                col1, col2 = st.columns([1, 5])  # Show controls column
+            else:
+                col1, col2 = st.columns([0.01, 0.99])  # Hide controls column (using minimal width instead of zero)
             
-            with col1:
-                # Display graph statistics
-                st.subheader("Graph Statistics")
-                stats = get_graph_stats(G)
-                stats_df = pd.DataFrame(list(stats.items()), columns=["Metric", "Value"])
-                st.table(stats_df)
-                
-                # Add graph visualization controls
-                st.subheader("Visualization Controls")
-                graph_height = st.slider("Graph Height", min_value=800, max_value=1500, value=1000, step=100)
-                
-                # Node filtering options
-                st.subheader("Filter Nodes")
-                node_types = list(set(nx.get_node_attributes(G, 'type').values()))
-                selected_node_types = st.multiselect(
-                    "Show node types",
-                    options=node_types,
-                    default=node_types
-                )
-                
-                # Option to download the graph file
-                st.subheader("Export")
-                with open(graph_path, "rb") as file:
-                    btn = st.download_button(
-                        label="Download GEXF File",
-                        data=file,
-                        file_name="knowledge_graph.gexf",
-                        mime="application/octet-stream"
+            # Only show the controls if the toggle is on
+            if show_controls:
+                with col1:
+                    # Display graph statistics
+                    st.subheader("Graph Statistics")
+                    stats = get_graph_stats(G)
+                    stats_df = pd.DataFrame(list(stats.items()), columns=["Metric", "Value"])
+                    st.table(stats_df)
+                    
+                    # Add graph visualization controls
+                    st.subheader("Visualization Controls")
+                    st.info("📌 You can resize the graph by dragging the bottom-right corner of the visualization.")
+                    graph_height = st.slider("Initial Height", min_value=800, max_value=2000, value=1500, step=100)
+                    
+                    # Node filtering options
+                    st.subheader("Filter Nodes")
+                    node_types = list(set(nx.get_node_attributes(G, 'type').values()))
+                    selected_node_types = st.multiselect(
+                        "Show node types",
+                        options=node_types,
+                        default=node_types
                     )
-                st.info("You can open the GEXF file with tools like Gephi for advanced visualization and analysis.")
+                    
+                    # Option to download the graph file
+                    st.subheader("Export")
+                    with open(graph_path, "rb") as file:
+                        btn = st.download_button(
+                            label="Download GEXF File",
+                            data=file,
+                            file_name="knowledge_graph.gexf",
+                            mime="application/octet-stream"
+                        )
+                    st.info("You can open the GEXF file with tools like Gephi for advanced visualization and analysis.")
+            else:
+                # If controls are hidden, we still need these variables
+                graph_height = 1500
+                node_types = list(set(nx.get_node_attributes(G, 'type').values()))
+                selected_node_types = node_types
+                
+                # Add an empty container to the first column to ensure it takes minimal space
+                with col1:
+                    st.empty()
             
             with col2:
                 # Visualize the graph
-                st.subheader("Interactive Graph Visualization")
+                # Add a row with the title and a toggle button
+                toggle_col1, toggle_col2 = st.columns([3, 1])
+                with toggle_col1:
+                    st.subheader("Interactive Graph Visualization")
+                with toggle_col2:
+                    if st.button("🔄 Toggle All Controls", help="Toggle visibility of all control panels"):
+                        # This will trigger a rerun with the opposite value
+                        st.session_state['show_controls'] = not show_controls
+                        st.rerun()
+                
+                # Add CSS to make the graph take up more space when controls are hidden
+                if not show_controls:
+                    st.markdown("""
+                    <style>
+                    /* Make the first column nearly invisible when controls are hidden */
+                    .stApp [data-testid="column"]:first-child {
+                        flex: 0.01 !important;
+                        width: 0.01% !important;
+                        min-width: 0.01% !important;
+                    }
+                    
+                    /* Make the second column take up almost all space */
+                    .stApp [data-testid="column"]:nth-child(2) {
+                        flex: 0.99 !important;
+                        width: 99.99% !important;
+                        max-width: 99.99% !important;
+                    }
+                    </style>
+                    """, unsafe_allow_html=True)
                 
                 # Filter graph based on selected node types if needed
                 if len(selected_node_types) < len(node_types):
@@ -758,31 +1253,28 @@ def main():
                         st.subheader("Basic Metrics")
                         basic_df = pd.DataFrame(basic_metrics, columns=["Metric", "Value"])
                         basic_df['Display_Value'] = basic_df['Value'].apply(
-                            lambda x: f"{x:.4f}" if isinstance(x, float) else str(x)
-                        )
+                            lambda x: f"{x:.4f}" if isinstance(x, float) else str(x))
                         st.table(basic_df[["Metric", "Display_Value"]].rename(columns={"Display_Value": "Value"}))
                         
                         st.subheader("Community Metrics")
                         community_df = pd.DataFrame(community_metrics, columns=["Metric", "Value"])
                         community_df['Display_Value'] = community_df['Value'].apply(
-                            lambda x: f"{x:.4f}" if isinstance(x, float) else str(x)
-                        )
+                            lambda x: f"{x:.4f}" if isinstance(x, float) else str(x))
                         st.table(community_df[["Metric", "Display_Value"]].rename(columns={"Display_Value": "Value"}))
                     
                     with col2:
                         st.subheader("Centrality Metrics")
                         centrality_df = pd.DataFrame(centrality_metrics, columns=["Metric", "Value"])
                         centrality_df['Display_Value'] = centrality_df['Value'].apply(
-                            lambda x: f"{x:.4f}" if isinstance(x, float) else str(x)
-                        )
+                            lambda x: f"{x:.4f}" if isinstance(x, float) else str(x))
                         st.table(centrality_df[["Metric", "Display_Value"]].rename(columns={"Display_Value": "Value"}))
                         
+                        # Other metrics if available
                         if other_metrics:
                             st.subheader("Other Metrics")
                             other_df = pd.DataFrame(other_metrics, columns=["Metric", "Value"])
                             other_df['Display_Value'] = other_df['Value'].apply(
-                                lambda x: f"{x:.4f}" if isinstance(x, float) else str(x)
-                            )
+                                lambda x: f"{x:.4f}" if isinstance(x, float) else str(x))
                             st.table(other_df[["Metric", "Display_Value"]].rename(columns={"Display_Value": "Value"}))
                 else:
                     st.warning(f"No metrics found for iteration {selected_iteration}")
