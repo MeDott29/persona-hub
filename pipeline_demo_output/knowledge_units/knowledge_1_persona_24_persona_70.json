@@ -1,0 +1,85 @@
+[
+  {
+    "id": "df4e045f-3a30-41eb-b269-1453dc8f2ba1",
+    "type": "concept",
+    "content": "The act of bending or breaking established rules to innovate or create new solutions.",
+    "subject": "Rule-breaking",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "ab40f5cb-94a0-45a1-8d89-65b7afbc390e",
+    "type": "concept",
+    "content": "The essential knowledge and skills required to understand and innovate within a field.",
+    "subject": "Technical Foundation",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "d7959a0f-221f-4809-a61d-24fac0d9299a",
+    "type": "concept",
+    "content": "Events where students apply their knowledge of robotics to solve challenges within a set of rules.",
+    "subject": "Robotics Competitions",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "Robotics"
+  },
+  {
+    "id": "0187d24f-b0d0-41ca-a3c4-5d16815c6682",
+    "type": "concept",
+    "content": "The creative process of spontaneously creating music, often by breaking conventional rules.",
+    "subject": "Music Improvisation",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "19a9862d-b1a4-4fd1-8322-8da0cb585bc3",
+    "type": "concept",
+    "content": "The process of creating new methods, ideas, or products.",
+    "subject": "Innovation",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "010899c1-8972-41a4-ba59-40a8a5aee284",
+    "type": "relationship",
+    "content": "Breaking rules can lead to innovative solutions and creative breakthroughs.",
+    "subject": "Rule-breaking",
+    "predicate": "enabler",
+    "object": "Innovation",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "f3a3fc34-8cb7-4698-a2ed-57f259e57c54",
+    "type": "relationship",
+    "content": "A strong technical foundation is necessary to explore and innovate effectively.",
+    "subject": "Technical Foundation",
+    "predicate": "prerequisite",
+    "object": "Innovation",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "bf14b0ff-fd2e-442d-9caa-3942640a8260",
+    "type": "relationship",
+    "content": "Robotics competitions provide a context where students can creatively break rules within a framework.",
+    "subject": "Robotics Competitions",
+    "predicate": "context",
+    "object": "Rule-breaking",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1
+  }
+]

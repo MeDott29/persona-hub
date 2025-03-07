@@ -1,0 +1,428 @@
+[
+  {
+    "id": "cab2f105-e353-4953-bd76-36ec226ec946",
+    "type": "concept",
+    "content": "A technology that creates a simulated environment for users to interact with.",
+    "subject": "Virtual Reality (VR)",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_4_persona_70.json",
+    "iteration": 3,
+    "domain": "Technology"
+  },
+  {
+    "id": "67b05381-5779-4fcf-8a09-24e6965b4b2a",
+    "type": "concept",
+    "content": "A technology that simulates the sense of touch by applying forces, vibrations, or motions to the user.",
+    "subject": "Haptic Feedback",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_4_persona_70.json",
+    "iteration": 3,
+    "domain": "Technology"
+  },
+  {
+    "id": "bcfc65f1-bf17-4b8d-912d-427cb3ea7120",
+    "type": "concept",
+    "content": "The use of artificial intelligence to compose music or simulate playing with an orchestra.",
+    "subject": "AI in Music",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_4_persona_70.json",
+    "iteration": 3,
+    "domain": "Music"
+  },
+  {
+    "id": "ebca617c-4657-49de-bf69-3dfab59727b5",
+    "type": "concept",
+    "content": "The practice and methods used to improve basketball skills.",
+    "subject": "Basketball Training",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_4_persona_70.json",
+    "iteration": 3,
+    "domain": "Sports"
+  },
+  {
+    "id": "d72b682a-747d-4f46-9c56-1e48254005a0",
+    "type": "concept",
+    "content": "The study of the practices and possibilities of music.",
+    "subject": "Music Theory",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_4_persona_70.json",
+    "iteration": 3,
+    "domain": "Music"
+  },
+  {
+    "id": "cc501860-e690-4ece-b001-3d337a79c25e",
+    "type": "relationship",
+    "content": "VR can be used to simulate basketball training environments.",
+    "subject": "Virtual Reality (VR)",
+    "predicate": "application",
+    "object": "Basketball Training",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_4_persona_70.json",
+    "iteration": 3
+  },
+  {
+    "id": "65f33c53-cd27-4c92-b2d6-5a749d965404",
+    "type": "relationship",
+    "content": "Haptic feedback can enhance VR by simulating the physical feel of objects.",
+    "subject": "Haptic Feedback",
+    "predicate": "enhancement",
+    "object": "Virtual Reality (VR)",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_4_persona_70.json",
+    "iteration": 3
+  },
+  {
+    "id": "7c3acef4-54b4-4699-bf6c-bb514317c92d",
+    "type": "relationship",
+    "content": "AI is used in music to compose and practice with virtual orchestras.",
+    "subject": "AI in Music",
+    "predicate": "application",
+    "object": "Music Theory",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_4_persona_70.json",
+    "iteration": 3
+  },
+  {
+    "id": "6ad37319-c2c1-4620-9438-9b0897ff59c9",
+    "type": "concept",
+    "content": "The balance between adhering to rules and fostering creativity in both robotics and music.",
+    "subject": "Rules and Creativity",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_24_persona_70.json",
+    "iteration": 3,
+    "domain": "General"
+  },
+  {
+    "id": "329ca79c-bb1c-42e4-a393-28e0120012dd",
+    "type": "concept",
+    "content": "Events where students apply robotics principles within set regulations to innovate.",
+    "subject": "Robotics Competitions",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_24_persona_70.json",
+    "iteration": 3,
+    "domain": "Robotics"
+  },
+  {
+    "id": "5f88d8cf-73c3-49dc-abdb-31944270722b",
+    "type": "concept",
+    "content": "The study of the practices and possibilities of music, involving technical aspects and creativity.",
+    "subject": "Music Theory",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_24_persona_70.json",
+    "iteration": 3,
+    "domain": "Music"
+  },
+  {
+    "id": "5eced7e4-9b1e-4544-89a1-b9001b2f181d",
+    "type": "concept",
+    "content": "The mathematical structure and patterns involved in music theory.",
+    "subject": "Mathematics in Music",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_24_persona_70.json",
+    "iteration": 3,
+    "domain": "Music"
+  },
+  {
+    "id": "543ef326-016c-4f9c-afd4-51ab432eedec",
+    "type": "concept",
+    "content": "The analysis and manipulation of signals, such as sound waves, in robotics.",
+    "subject": "Signal Processing",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_24_persona_70.json",
+    "iteration": 3,
+    "domain": "Robotics"
+  },
+  {
+    "id": "9b9d076a-8d0f-45bf-9345-187ee8b3e3c5",
+    "type": "relationship",
+    "content": "Robotics competitions require balancing rules and creativity.",
+    "subject": "Rules and Creativity",
+    "predicate": "application",
+    "object": "Robotics Competitions",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_24_persona_70.json",
+    "iteration": 3
+  },
+  {
+    "id": "945242ab-7ed4-47f7-a704-13ac5f6ce636",
+    "type": "relationship",
+    "content": "Music theory involves understanding technical rules to enhance creativity.",
+    "subject": "Rules and Creativity",
+    "predicate": "application",
+    "object": "Music Theory",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_24_persona_70.json",
+    "iteration": 3
+  },
+  {
+    "id": "3089cd92-d487-404f-aaab-33a7796631a2",
+    "type": "relationship",
+    "content": "Mathematics is a fundamental component of music theory.",
+    "subject": "Mathematics in Music",
+    "predicate": "component",
+    "object": "Music Theory",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_24_persona_70.json",
+    "iteration": 3
+  },
+  {
+    "id": "d215eeaf-f6c9-48d0-9f46-14ab1113345d",
+    "type": "concept",
+    "content": "A political party in Germany focused on equitable society and challenging the status quo.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Politics"
+  },
+  {
+    "id": "53c2b613-5fb0-42d7-996c-e900509252de",
+    "type": "concept",
+    "content": "An Afrikaans band known for their raw and poetic music.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Music"
+  },
+  {
+    "id": "9a4587ae-5a4e-4af2-a6e7-8daf4768cb3b",
+    "type": "concept",
+    "content": "Efforts to communicate visions and connect with people's struggles.",
+    "subject": "Political Movements",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Politics"
+  },
+  {
+    "id": "4c0306af-e709-4343-9cc0-965da3f52d7c",
+    "type": "concept",
+    "content": "A form of art that conveys complex ideas and emotions.",
+    "subject": "Music",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Art"
+  },
+  {
+    "id": "68fa3282-821d-4284-9412-b990b0a29722",
+    "type": "concept",
+    "content": "Topics related to the human experience, such as love, loss, and identity.",
+    "subject": "Social Issues",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Society"
+  },
+  {
+    "id": "711dfc31-92fb-4d70-969b-d1aace3bd8d3",
+    "type": "relationship",
+    "content": "Die Linke is an example of a political movement aiming to connect with people's struggles.",
+    "subject": "Die Linke",
+    "predicate": "example_of",
+    "object": "Political Movements",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3
+  },
+  {
+    "id": "bc1e199b-6440-4e1a-9dd3-364405c4c645",
+    "type": "relationship",
+    "content": "Spoegwolf is an example of a music band that conveys complex ideas and emotions.",
+    "subject": "Spoegwolf",
+    "predicate": "example_of",
+    "object": "Music",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3
+  },
+  {
+    "id": "13f4932f-027f-4503-9f06-fc08a04aa949",
+    "type": "relationship",
+    "content": "Spoegwolf's music touches on social issues related to the human experience.",
+    "subject": "Spoegwolf",
+    "predicate": "addresses",
+    "object": "Social Issues",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3
+  },
+  {
+    "id": "a77a3780-cbf8-4642-b0db-2fe486c5c066",
+    "type": "concept",
+    "content": "The process of testing, debugging, and ensuring software runs smoothly before release.",
+    "subject": "Quality Assurance",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "ab2c2070-4383-40fc-9242-003b1e2a5119",
+    "type": "concept",
+    "content": "Systems used to manage, store, and track electronic documents.",
+    "subject": "Document Management Systems",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "0c9ca9e3-6943-40e6-b7c9-2cefbfb34d29",
+    "type": "concept",
+    "content": "Data related to genetic information, often used in scientific and medical research.",
+    "subject": "Genetic Data",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "Genetics"
+  },
+  {
+    "id": "1fc5a38a-9766-4aaf-9571-4654e8b8cc28",
+    "type": "concept",
+    "content": "A simulated experience that can be similar to or completely different from the real world.",
+    "subject": "Virtual Reality",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "Technology"
+  },
+  {
+    "id": "b918a762-4185-4fb5-b4de-480d52856346",
+    "type": "concept",
+    "content": "The process of finding solutions to difficult or complex issues.",
+    "subject": "Problem-Solving",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "General"
+  },
+  {
+    "id": "43f40367-97a5-4d55-93a4-a7c88ea7e992",
+    "type": "relationship",
+    "content": "Quality assurance processes are applied to software that interacts with genetic data.",
+    "subject": "Quality Assurance",
+    "predicate": "application",
+    "object": "Genetic Data",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3
+  },
+  {
+    "id": "2917dd16-2adf-49e1-988d-f8f8dd882277",
+    "type": "relationship",
+    "content": "Virtual reality is used to visualize genetic data, providing a new way to interact with complex information.",
+    "subject": "Virtual Reality",
+    "predicate": "integration",
+    "object": "Genetic Data",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3
+  },
+  {
+    "id": "5372e6dd-1316-4b0b-8199-43feff35cdeb",
+    "type": "relationship",
+    "content": "Virtual reality could be applied to document management systems to enhance user interaction.",
+    "subject": "Document Management Systems",
+    "predicate": "potential application",
+    "object": "Virtual Reality",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3
+  },
+  {
+    "id": "b4a19e5c-ac2b-4c8c-ae34-773cca79c7ba",
+    "type": "concept",
+    "content": "A women's football player known for her incredible energy and strategic play.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "Women's Football"
+  },
+  {
+    "id": "c5d3cd1d-16b4-46e1-85fd-cf7c85aa2581",
+    "type": "concept",
+    "content": "A South African band known for their soulful and poetic lyrics, mixing rock and folk.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "Afrikaans Music"
+  },
+  {
+    "id": "72b585ab-01c9-48f0-a54a-4829c73f37b0",
+    "type": "concept",
+    "content": "A sport that is gaining popularity and involves strategy and teamwork.",
+    "subject": "Women's Football",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "Sports"
+  },
+  {
+    "id": "313fd043-fc1d-45ae-ac33-8ee6c7815f05",
+    "type": "concept",
+    "content": "A genre of music from South Africa, known for its storytelling and emotional depth.",
+    "subject": "Afrikaans Music",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "Music"
+  },
+  {
+    "id": "1826f13c-f638-449c-bf2c-81aab69a4fac",
+    "type": "concept",
+    "content": "An element that makes both music and sports exciting, involving unexpected moments.",
+    "subject": "Unpredictability",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "General"
+  },
+  {
+    "id": "39d94ad6-ab9b-48a7-b405-ee251261adff",
+    "type": "relationship",
+    "content": "Grace Wisnewski is a notable player in women's football.",
+    "subject": "Grace Wisnewski",
+    "predicate": "association",
+    "object": "Women's Football",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3
+  },
+  {
+    "id": "5e9845d9-ae35-45f1-bce9-4a543d4f0df2",
+    "type": "relationship",
+    "content": "Spoegwolf is a band that represents Afrikaans music.",
+    "subject": "Spoegwolf",
+    "predicate": "association",
+    "object": "Afrikaans Music",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3
+  },
+  {
+    "id": "cbdfe07a-beca-4bf7-b8f2-149375b869aa",
+    "type": "relationship",
+    "content": "Unpredictability is a characteristic that makes women's football exciting.",
+    "subject": "Unpredictability",
+    "predicate": "characteristic",
+    "object": "Women's Football",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3
+  },
+  {
+    "id": "508e0784-625c-40df-b068-8f731c95a251",
+    "type": "relationship",
+    "content": "Unpredictability is a characteristic that makes Afrikaans music engaging.",
+    "subject": "Unpredictability",
+    "predicate": "characteristic",
+    "object": "Afrikaans Music",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3
+  }
+]

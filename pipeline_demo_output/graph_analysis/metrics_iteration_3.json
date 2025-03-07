@@ -1,0 +1,18 @@
+{
+  "iteration": 3,
+  "timestamp": "2025-03-07T00:17:06.790087",
+  "num_nodes": 193,
+  "num_edges": 69,
+  "density": 0.002131908462867012,
+  "avg_clustering": 0.005777987125137385,
+  "modularity": 0.3219639162521693,
+  "num_communities": 120,
+  "avg_degree_centrality": 0.004263816925734024,
+  "avg_betweenness_centrality": 5.227689914910163e-06,
+  "avg_closeness_centrality": 0.002392774899251583,
+  "persona_nodes": 96,
+  "concept_nodes": 97,
+  "avg_path_length": 3.5128376910679804,
+  "diameter": 7,
+  "reciprocity": 0.23078150425251337
+}

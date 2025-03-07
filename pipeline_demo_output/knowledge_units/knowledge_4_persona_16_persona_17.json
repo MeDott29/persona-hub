@@ -1,0 +1,85 @@
+[
+  {
+    "id": "b77cafba-e748-424a-a87d-9267e3484d4d",
+    "type": "concept",
+    "content": "An Afrikaans music band known for their raw and authentic music.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "366c4841-6ac9-4156-b992-5e71980b317b",
+    "type": "concept",
+    "content": "A political party with a focus on social justice and equality.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Politics"
+  },
+  {
+    "id": "4ea98231-aa2a-42a5-87f5-4c00f5fa68d2",
+    "type": "concept",
+    "content": "A sense of belonging and support among people.",
+    "subject": "Community",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Social"
+  },
+  {
+    "id": "677f6ba5-b525-4f78-9bb5-2e3fbe60b728",
+    "type": "concept",
+    "content": "A concept of mutual support and thriving together.",
+    "subject": "Social Solidarity",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Social"
+  },
+  {
+    "id": "463401a4-467b-438f-9231-83657e115fb7",
+    "type": "concept",
+    "content": "Movements that focus on local and community-based support and activism.",
+    "subject": "Grassroots Movements",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Politics"
+  },
+  {
+    "id": "b223adea-4be3-42c1-87af-a0ae23b58314",
+    "type": "relationship",
+    "content": "Spoegwolf's music evokes a sense of community and belonging.",
+    "subject": "Spoegwolf",
+    "predicate": "evocation",
+    "object": "Community",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4
+  },
+  {
+    "id": "d4c56baf-0b08-48bb-a89a-7e96f88eaa90",
+    "type": "relationship",
+    "content": "Die Linke advocates for social solidarity as a safety net.",
+    "subject": "Die Linke",
+    "predicate": "advocacy",
+    "object": "Social Solidarity",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4
+  },
+  {
+    "id": "dd458f0b-20bb-4bad-9ae9-f8d76e796de0",
+    "type": "relationship",
+    "content": "Spoegwolf's approach to performing in small towns is similar to grassroots political movements.",
+    "subject": "Spoegwolf",
+    "predicate": "comparison",
+    "object": "Grassroots Movements",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4
+  }
+]

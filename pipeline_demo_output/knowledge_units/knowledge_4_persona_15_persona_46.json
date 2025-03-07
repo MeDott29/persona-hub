@@ -1,0 +1,95 @@
+[
+  {
+    "id": "e963a719-a1d7-4910-a131-5dbfcc012f2b",
+    "type": "concept",
+    "content": "Systems used to track, manage, and store documents.",
+    "subject": "Document Management Systems",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "acdf073d-feeb-49da-bd95-35d1bd844db0",
+    "type": "concept",
+    "content": "The art and practice of planning and projecting ideas and experiences with visual and textual content.",
+    "subject": "Graphic Design",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Design"
+  },
+  {
+    "id": "2fa1a5c4-bd2a-41ce-b9ee-a4145dac217d",
+    "type": "concept",
+    "content": "A way of preventing mistakes and defects in manufactured products and avoiding problems when delivering solutions or services to customers.",
+    "subject": "Quality Assurance",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "21b45a46-1729-4131-8d1b-735147e50b90",
+    "type": "concept",
+    "content": "Scientists who study genes, genetic variation, and heredity in organisms.",
+    "subject": "Geneticists",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Biology"
+  },
+  {
+    "id": "9a2cc63d-e9a0-47a4-af81-6aa3e44ed199",
+    "type": "concept",
+    "content": "Computing systems inspired by the biological neural networks that constitute animal brains.",
+    "subject": "Neural Networks",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Artificial Intelligence"
+  },
+  {
+    "id": "3d7924e8-4d5e-4d30-b386-8124ea5be918",
+    "type": "concept",
+    "content": "Search heuristics that mimic the process of natural selection to generate useful solutions to optimization and search problems.",
+    "subject": "Genetic Algorithms",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Artificial Intelligence"
+  },
+  {
+    "id": "908fcd0f-5487-479e-aa70-9ac25c26060f",
+    "type": "relationship",
+    "content": "Software engineers working on document management systems collaborate with graphic designers.",
+    "subject": "Document Management Systems",
+    "predicate": "collaboration",
+    "object": "Graphic Design",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4
+  },
+  {
+    "id": "10821556-9d2d-4e9f-be44-e0cab410d69b",
+    "type": "relationship",
+    "content": "Software engineers in quality assurance collaborate with geneticists.",
+    "subject": "Quality Assurance",
+    "predicate": "collaboration",
+    "object": "Geneticists",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4
+  },
+  {
+    "id": "b48f2c24-bd6f-44ef-b930-695b5c20fcce",
+    "type": "relationship",
+    "content": "Both neural networks and genetic algorithms are inspired by biological processes.",
+    "subject": "Neural Networks",
+    "predicate": "inspiration",
+    "object": "Genetic Algorithms",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4
+  }
+]

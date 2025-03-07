@@ -1,0 +1,96 @@
+[
+  {
+    "id": "b4a19e5c-ac2b-4c8c-ae34-773cca79c7ba",
+    "type": "concept",
+    "content": "A women's football player known for her incredible energy and strategic play.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "Women's Football"
+  },
+  {
+    "id": "c5d3cd1d-16b4-46e1-85fd-cf7c85aa2581",
+    "type": "concept",
+    "content": "A South African band known for their soulful and poetic lyrics, mixing rock and folk.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "Afrikaans Music"
+  },
+  {
+    "id": "72b585ab-01c9-48f0-a54a-4829c73f37b0",
+    "type": "concept",
+    "content": "A sport that is gaining popularity and involves strategy and teamwork.",
+    "subject": "Women's Football",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "Sports"
+  },
+  {
+    "id": "313fd043-fc1d-45ae-ac33-8ee6c7815f05",
+    "type": "concept",
+    "content": "A genre of music from South Africa, known for its storytelling and emotional depth.",
+    "subject": "Afrikaans Music",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "Music"
+  },
+  {
+    "id": "1826f13c-f638-449c-bf2c-81aab69a4fac",
+    "type": "concept",
+    "content": "An element that makes both music and sports exciting, involving unexpected moments.",
+    "subject": "Unpredictability",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3,
+    "domain": "General"
+  },
+  {
+    "id": "39d94ad6-ab9b-48a7-b405-ee251261adff",
+    "type": "relationship",
+    "content": "Grace Wisnewski is a notable player in women's football.",
+    "subject": "Grace Wisnewski",
+    "predicate": "association",
+    "object": "Women's Football",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3
+  },
+  {
+    "id": "5e9845d9-ae35-45f1-bce9-4a543d4f0df2",
+    "type": "relationship",
+    "content": "Spoegwolf is a band that represents Afrikaans music.",
+    "subject": "Spoegwolf",
+    "predicate": "association",
+    "object": "Afrikaans Music",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3
+  },
+  {
+    "id": "cbdfe07a-beca-4bf7-b8f2-149375b869aa",
+    "type": "relationship",
+    "content": "Unpredictability is a characteristic that makes women's football exciting.",
+    "subject": "Unpredictability",
+    "predicate": "characteristic",
+    "object": "Women's Football",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3
+  },
+  {
+    "id": "508e0784-625c-40df-b068-8f731c95a251",
+    "type": "relationship",
+    "content": "Unpredictability is a characteristic that makes Afrikaans music engaging.",
+    "subject": "Unpredictability",
+    "predicate": "characteristic",
+    "object": "Afrikaans Music",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_63.json",
+    "iteration": 3
+  }
+]

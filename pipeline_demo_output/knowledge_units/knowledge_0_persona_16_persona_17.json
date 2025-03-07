@@ -1,0 +1,85 @@
+[
+  {
+    "id": "8dd1beb2-3521-44f7-a0df-e9bae1f7219d",
+    "type": "concept",
+    "content": "An Afrikaans band known for blending rock and poetry with emotional lyrics.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "f67da521-eef9-496f-b898-6a9115882d50",
+    "type": "concept",
+    "content": "A political party with a passionate base, focused on believing in something bigger.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Politics"
+  },
+  {
+    "id": "5494ac82-87db-4726-b7f9-99edb040d517",
+    "type": "concept",
+    "content": "The idea that music and politics can both generate strong community and passion.",
+    "subject": "Music and Politics",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Sociocultural"
+  },
+  {
+    "id": "ecd6986a-a8c9-4839-a4ae-88c353c9b8a5",
+    "type": "concept",
+    "content": "Events where Spoegwolf performs live, creating a powerful, communal experience.",
+    "subject": "Live Performances",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "5b2de22f-d2a9-4671-99bc-161fad5e45a1",
+    "type": "concept",
+    "content": "Spoegwolf's use of old Afrikaans folk tunes to keep cultural traditions alive.",
+    "subject": "Cultural Preservation",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Culture"
+  },
+  {
+    "id": "43486129-89ef-4929-b218-b65479feb113",
+    "type": "relationship",
+    "content": "Both have strong, dedicated communities and inspire passion.",
+    "subject": "Spoegwolf",
+    "predicate": "similarity",
+    "object": "Die Linke",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0
+  },
+  {
+    "id": "4d588f06-da06-4051-8611-e1ef1b138203",
+    "type": "relationship",
+    "content": "Live performances of Spoegwolf are compared to political rallies in terms of energy and community.",
+    "subject": "Music and Politics",
+    "predicate": "analogy",
+    "object": "Live Performances",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0
+  },
+  {
+    "id": "e481204b-33d3-476f-9657-4fa9d095ccf8",
+    "type": "relationship",
+    "content": "Spoegwolf incorporates old Afrikaans folk tunes in their music.",
+    "subject": "Spoegwolf",
+    "predicate": "practice",
+    "object": "Cultural Preservation",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0
+  }
+]

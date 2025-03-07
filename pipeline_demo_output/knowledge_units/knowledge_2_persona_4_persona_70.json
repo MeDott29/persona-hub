@@ -1,0 +1,85 @@
+[
+  {
+    "id": "405a07f7-44de-40ac-88b4-88e797569257",
+    "type": "concept",
+    "content": "The study of the practices and possibilities of music.",
+    "subject": "Music Theory",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "Music"
+  },
+  {
+    "id": "e7c9676c-04f7-4342-bdc7-01171a763df6",
+    "type": "concept",
+    "content": "A sport played by two teams of five players on a rectangular court.",
+    "subject": "Basketball",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "Sports"
+  },
+  {
+    "id": "70c1308e-26d1-4503-8978-f89ae4a0b437",
+    "type": "concept",
+    "content": "The use of technology to enhance learning and teaching.",
+    "subject": "Technology in Education",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "Education"
+  },
+  {
+    "id": "18bea3d7-b12e-4419-9e84-5c450191d620",
+    "type": "concept",
+    "content": "The use of artificial intelligence to create music compositions.",
+    "subject": "AI in Music Composition",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "Technology"
+  },
+  {
+    "id": "1ee65c82-f172-408a-ab15-1d85f74d55f8",
+    "type": "concept",
+    "content": "The act of presenting a form of entertainment or sport to an audience.",
+    "subject": "Performance",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "General"
+  },
+  {
+    "id": "5f07fa0a-930e-4de3-b194-ca635106c1aa",
+    "type": "relationship",
+    "content": "Both require technique, strategy, and practice.",
+    "subject": "Music Theory",
+    "predicate": "analogy",
+    "object": "Basketball",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2
+  },
+  {
+    "id": "b05f7512-e712-49ee-a26a-c525ed9cb0a5",
+    "type": "relationship",
+    "content": "Technology is used in both education and music composition.",
+    "subject": "Technology in Education",
+    "predicate": "integration",
+    "object": "AI in Music Composition",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2
+  },
+  {
+    "id": "6d30fbe4-e99a-4ebc-8952-15816a29bc83",
+    "type": "relationship",
+    "content": "AI lacks the human touch and spontaneity found in live performances.",
+    "subject": "Performance",
+    "predicate": "contrast",
+    "object": "AI in Music Composition",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2
+  }
+]

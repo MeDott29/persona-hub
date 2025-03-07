@@ -1,0 +1,417 @@
+[
+  {
+    "id": "405a07f7-44de-40ac-88b4-88e797569257",
+    "type": "concept",
+    "content": "The study of the practices and possibilities of music.",
+    "subject": "Music Theory",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "Music"
+  },
+  {
+    "id": "e7c9676c-04f7-4342-bdc7-01171a763df6",
+    "type": "concept",
+    "content": "A sport played by two teams of five players on a rectangular court.",
+    "subject": "Basketball",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "Sports"
+  },
+  {
+    "id": "70c1308e-26d1-4503-8978-f89ae4a0b437",
+    "type": "concept",
+    "content": "The use of technology to enhance learning and teaching.",
+    "subject": "Technology in Education",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "Education"
+  },
+  {
+    "id": "18bea3d7-b12e-4419-9e84-5c450191d620",
+    "type": "concept",
+    "content": "The use of artificial intelligence to create music compositions.",
+    "subject": "AI in Music Composition",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "Technology"
+  },
+  {
+    "id": "1ee65c82-f172-408a-ab15-1d85f74d55f8",
+    "type": "concept",
+    "content": "The act of presenting a form of entertainment or sport to an audience.",
+    "subject": "Performance",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2,
+    "domain": "General"
+  },
+  {
+    "id": "5f07fa0a-930e-4de3-b194-ca635106c1aa",
+    "type": "relationship",
+    "content": "Both require technique, strategy, and practice.",
+    "subject": "Music Theory",
+    "predicate": "analogy",
+    "object": "Basketball",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2
+  },
+  {
+    "id": "b05f7512-e712-49ee-a26a-c525ed9cb0a5",
+    "type": "relationship",
+    "content": "Technology is used in both education and music composition.",
+    "subject": "Technology in Education",
+    "predicate": "integration",
+    "object": "AI in Music Composition",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2
+  },
+  {
+    "id": "6d30fbe4-e99a-4ebc-8952-15816a29bc83",
+    "type": "relationship",
+    "content": "AI lacks the human touch and spontaneity found in live performances.",
+    "subject": "Performance",
+    "predicate": "contrast",
+    "object": "AI in Music Composition",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_4_persona_70.json",
+    "iteration": 2
+  },
+  {
+    "id": "ca39bf45-5787-42d5-90e6-8f64896b7f20",
+    "type": "concept",
+    "content": "An Afrikaans band known for powerful lyrics and melodies.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "Music"
+  },
+  {
+    "id": "6246f0a7-664d-41c8-be6f-fb6fcb9f7433",
+    "type": "concept",
+    "content": "A political party focused on social justice and equality.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "Politics"
+  },
+  {
+    "id": "1b537e9e-b0fd-47f9-9faf-6598995db6f8",
+    "type": "concept",
+    "content": "The importance of genuine connection with audiences or supporters.",
+    "subject": "Connection and Authenticity",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "General"
+  },
+  {
+    "id": "0938c65b-17e3-4666-b002-f33e2a0598a6",
+    "type": "concept",
+    "content": "The concept of feeling at home and belonging, both in music and politics.",
+    "subject": "Home and Belonging",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "General"
+  },
+  {
+    "id": "4304e75e-b07d-4350-aa49-5a7920822dee",
+    "type": "concept",
+    "content": "A commitment to addressing issues like wealth inequality and climate change.",
+    "subject": "Social Justice and Equality",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "Politics"
+  },
+  {
+    "id": "a9057a22-b1d5-4a46-9cb9-f775daf979c0",
+    "type": "relationship",
+    "content": "Spoegwolf's music embodies connection and authenticity through its raw emotion and themes.",
+    "subject": "Spoegwolf",
+    "predicate": "embodies",
+    "object": "Connection and Authenticity",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2
+  },
+  {
+    "id": "0d842cca-ee1d-4133-9d84-4ff11ac084ef",
+    "type": "relationship",
+    "content": "Die Linke advocates for social justice and equality, focusing on issues like wealth inequality and climate change.",
+    "subject": "Die Linke",
+    "predicate": "advocates",
+    "object": "Social Justice and Equality",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2
+  },
+  {
+    "id": "b381c7da-e98c-4535-b285-31f745e457b5",
+    "type": "relationship",
+    "content": "The concept of home and belonging is central to many political discussions.",
+    "subject": "Home and Belonging",
+    "predicate": "central_theme",
+    "object": "Politics",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2
+  },
+  {
+    "id": "f08ee8c9-0762-4072-8d2f-e822a19f6de9",
+    "type": "concept",
+    "content": "A live performance by the band Spoegwolf, known for their energetic connection with the audience.",
+    "subject": "Live Spoegwolf Show",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Music"
+  },
+  {
+    "id": "4c0a5efa-d3ac-4651-a0c6-d29c30200e6c",
+    "type": "concept",
+    "content": "A football player known for her electrifying presence on the field.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Sports"
+  },
+  {
+    "id": "b33dcf2d-f2af-4319-87be-8ccefb4afcbf",
+    "type": "concept",
+    "content": "The feeling of belonging and being part of a larger community when supporting a band or sports team.",
+    "subject": "Unity in Support",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Social"
+  },
+  {
+    "id": "6966e884-bd84-42f7-a5e0-11fed79ddf41",
+    "type": "concept",
+    "content": "The experience and adventure of traveling to see a favorite band or sports team.",
+    "subject": "Travel Experience",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Travel"
+  },
+  {
+    "id": "696a6478-97e1-4099-a643-afc92670514b",
+    "type": "concept",
+    "content": "Grace Wisnewski's hobby that helps her see the world differently and capture moments.",
+    "subject": "Photography",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Art"
+  },
+  {
+    "id": "dfa413a8-60eb-4ce5-935f-0e22aaecb171",
+    "type": "relationship",
+    "content": "Live shows create a sense of unity among fans.",
+    "subject": "Live Spoegwolf Show",
+    "predicate": "emotional connection",
+    "object": "Unity in Support",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2
+  },
+  {
+    "id": "fdde530e-e4d0-4c25-af0e-b539eef999f0",
+    "type": "relationship",
+    "content": "Her presence on the field creates a unified atmosphere among fans.",
+    "subject": "Grace Wisnewski",
+    "predicate": "emotional connection",
+    "object": "Unity in Support",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2
+  },
+  {
+    "id": "0bf8bcc7-58ab-4b80-9177-345045e52033",
+    "type": "relationship",
+    "content": "Traveling to see a band or team enhances the feeling of unity and adventure.",
+    "subject": "Travel Experience",
+    "predicate": "enhancement",
+    "object": "Unity in Support",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2
+  },
+  {
+    "id": "b9ecbd15-cc7e-4708-99ad-89b5331b3d59",
+    "type": "concept",
+    "content": "Small changes made to the user interface to improve user experience.",
+    "subject": "UI Tweaks",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_15_persona_46.json",
+    "iteration": 2,
+    "domain": "Document Management Systems"
+  },
+  {
+    "id": "5004951c-c55e-4ac6-a538-484b3400a6a6",
+    "type": "concept",
+    "content": "Improving the performance of software used in bioinformatics.",
+    "subject": "Bioinformatics Software Optimization",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_15_persona_46.json",
+    "iteration": 2,
+    "domain": "Quality Assurance"
+  },
+  {
+    "id": "5956a5a0-651b-4388-87c9-c25a0c6365fe",
+    "type": "concept",
+    "content": "The process of completely redesigning a system.",
+    "subject": "System Overhaul",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_15_persona_46.json",
+    "iteration": 2,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "092529a5-982c-4a32-a8eb-2dcd6c7de952",
+    "type": "concept",
+    "content": "Certain beetles have the ability to digest plastic, offering potential for waste management.",
+    "subject": "Beetles Digesting Plastic",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_15_persona_46.json",
+    "iteration": 2,
+    "domain": "Biology"
+  },
+  {
+    "id": "b7567586-b85a-48d6-bee4-eedcdf8635ab",
+    "type": "concept",
+    "content": "The ability of software to evolve with user needs.",
+    "subject": "Software Adaptability",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_15_persona_46.json",
+    "iteration": 2,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "51672b3b-4bad-4018-b50f-6a5a07b5fe90",
+    "type": "relationship",
+    "content": "Small UI changes can significantly impact user experience.",
+    "subject": "UI Tweaks",
+    "predicate": "impact",
+    "object": "User Experience",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_15_persona_46.json",
+    "iteration": 2
+  },
+  {
+    "id": "16d5c0b6-5fb6-490a-8177-b67d338b9425",
+    "type": "relationship",
+    "content": "Working with geneticists provides new perspectives on optimizing bioinformatics software.",
+    "subject": "Bioinformatics Software Optimization",
+    "predicate": "collaboration",
+    "object": "Geneticist Perspective",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_15_persona_46.json",
+    "iteration": 2
+  },
+  {
+    "id": "fbca2305-7420-4973-8138-f882e357c6af",
+    "type": "relationship",
+    "content": "Deciding between overhauling a system and maintaining stability is a common dilemma.",
+    "subject": "System Overhaul",
+    "predicate": "dilemma",
+    "object": "System Stability",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_15_persona_46.json",
+    "iteration": 2
+  },
+  {
+    "id": "9baa5c38-1a16-4777-b26e-0add9a9114d1",
+    "type": "concept",
+    "content": "The field focused on the design, construction, and operation of robots.",
+    "subject": "Robotics",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_24_persona_70.json",
+    "iteration": 2,
+    "domain": "Engineering"
+  },
+  {
+    "id": "1e8eb18e-e44c-42a1-bdc7-dad680284eaa",
+    "type": "concept",
+    "content": "The art of arranging sounds in time to produce a composition through the elements of melody, harmony, rhythm, and timbre.",
+    "subject": "Music",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_24_persona_70.json",
+    "iteration": 2,
+    "domain": "Arts"
+  },
+  {
+    "id": "17550d0e-373d-4a1a-9be5-885b62809f05",
+    "type": "concept",
+    "content": "The quality of being exact and accurate, crucial in both robotics and music.",
+    "subject": "Precision",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_24_persona_70.json",
+    "iteration": 2,
+    "domain": "General"
+  },
+  {
+    "id": "5d0f17f2-4404-4b31-8be7-07ae29a61395",
+    "type": "concept",
+    "content": "The infusion of feeling into a performance, enhancing its impact.",
+    "subject": "Emotion in Performance",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_24_persona_70.json",
+    "iteration": 2,
+    "domain": "Arts"
+  },
+  {
+    "id": "f59067d0-7bf5-47df-b2f1-1ed412f0e680",
+    "type": "concept",
+    "content": "The coordination of events to operate a system in unison.",
+    "subject": "Synchronization",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_24_persona_70.json",
+    "iteration": 2,
+    "domain": "General"
+  },
+  {
+    "id": "04c209fc-26dd-4846-963e-410765a342ac",
+    "type": "relationship",
+    "content": "Both fields require precision and synchronization to function effectively.",
+    "subject": "Robotics",
+    "predicate": "similarity",
+    "object": "Music",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_24_persona_70.json",
+    "iteration": 2
+  },
+  {
+    "id": "2d249a50-c842-4594-9e37-40215f7d6a6b",
+    "type": "relationship",
+    "content": "Exploring emotional expression in robotics could enhance human-robot interaction.",
+    "subject": "Emotion in Performance",
+    "predicate": "potential application",
+    "object": "Robotics",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_24_persona_70.json",
+    "iteration": 2
+  },
+  {
+    "id": "633ef655-4309-4597-8960-638cd86779f4",
+    "type": "relationship",
+    "content": "Synchronization in both robotics and music relies heavily on precision.",
+    "subject": "Synchronization",
+    "predicate": "dependency",
+    "object": "Precision",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_24_persona_70.json",
+    "iteration": 2
+  }
+]

@@ -1,0 +1,417 @@
+[
+  {
+    "id": "0a7e4726-015e-4176-abba-f78daf54764c",
+    "type": "concept",
+    "content": "Use of technology such as training videos, apps, and biofeedback tools to enhance basketball skills.",
+    "subject": "Technology in Basketball",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "Sports"
+  },
+  {
+    "id": "de90ac89-7085-49c2-98f3-f40be459ae02",
+    "type": "concept",
+    "content": "Use of technology to visualize music theory concepts and provide learning resources.",
+    "subject": "Technology in Music",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "9b92bd1b-7130-4b3a-9050-052db84a9902",
+    "type": "concept",
+    "content": "The physical act of engaging in an activity to improve skill.",
+    "subject": "Practice",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "02c189e3-4df7-4dc3-acbc-2ff099c626e0",
+    "type": "concept",
+    "content": "Devices that track physiological data and provide real-time feedback.",
+    "subject": "Biofeedback Tools",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "Technology"
+  },
+  {
+    "id": "6fbec2c2-e089-4faf-a27c-4a255abfcef1",
+    "type": "concept",
+    "content": "A fundamental element in both music and sports, related to timing and flow.",
+    "subject": "Rhythm",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "274bd84d-3df5-4243-b4e9-241c6b9e6db2",
+    "type": "relationship",
+    "content": "Technology supplements practice but cannot replace the physical experience.",
+    "subject": "Technology in Basketball",
+    "predicate": "supplement",
+    "object": "Practice",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "3e042323-d9d4-4854-a5c0-12b84f91e340",
+    "type": "relationship",
+    "content": "Biofeedback tools are used in basketball to track performance and provide feedback.",
+    "subject": "Biofeedback Tools",
+    "predicate": "application",
+    "object": "Technology in Basketball",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "495999bb-9832-4faf-859a-299c4f308577",
+    "type": "relationship",
+    "content": "Technology aids in learning music theory but cannot replace the tactile experience of playing an instrument.",
+    "subject": "Technology in Music",
+    "predicate": "supplement",
+    "object": "Practice",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "77bc0f48-e87d-4408-90e6-ff73bc452dfe",
+    "type": "concept",
+    "content": "Designing intuitive interfaces for end-users in document management.",
+    "subject": "User Interface Design",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "4c3669e7-36bd-4e28-b547-a4421bdcfd95",
+    "type": "concept",
+    "content": "Ensuring software runs smoothly and efficiently, often involving back-end processes.",
+    "subject": "Quality Assurance",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "8e368449-c924-4389-a41d-576d8fa74331",
+    "type": "concept",
+    "content": "Optimizing algorithms for performance in genetic simulations and data models.",
+    "subject": "Genetic Algorithms",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Genetics and Software Engineering"
+  },
+  {
+    "id": "7473c759-ed2a-4488-943b-88948d512234",
+    "type": "concept",
+    "content": "Dealing with older software systems and understanding past design decisions.",
+    "subject": "Legacy Systems",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "25486527-8754-4f65-bc88-55eeb653e7ac",
+    "type": "concept",
+    "content": "The impact of font choice on the perception and credibility of information.",
+    "subject": "Font Perception",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Design"
+  },
+  {
+    "id": "874d4576-78ee-460e-8273-003501a12a86",
+    "type": "relationship",
+    "content": "Font choice can affect user perception and the credibility of information in interface design.",
+    "subject": "User Interface Design",
+    "predicate": "influence",
+    "object": "Font Perception",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1
+  },
+  {
+    "id": "46364355-7098-4471-9f81-4077bd5a330f",
+    "type": "relationship",
+    "content": "Collaboration to optimize performance of genetic simulations and data models.",
+    "subject": "Quality Assurance",
+    "predicate": "collaboration",
+    "object": "Genetic Algorithms",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1
+  },
+  {
+    "id": "be3d5075-a8a3-4156-95f5-5ab7c5719cc9",
+    "type": "relationship",
+    "content": "Both involve understanding and improving existing systems, whether it's code or interfaces.",
+    "subject": "Legacy Systems",
+    "predicate": "similarity",
+    "object": "User Interface Design",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1
+  },
+  {
+    "id": "df4e045f-3a30-41eb-b269-1453dc8f2ba1",
+    "type": "concept",
+    "content": "The act of bending or breaking established rules to innovate or create new solutions.",
+    "subject": "Rule-breaking",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "ab40f5cb-94a0-45a1-8d89-65b7afbc390e",
+    "type": "concept",
+    "content": "The essential knowledge and skills required to understand and innovate within a field.",
+    "subject": "Technical Foundation",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "d7959a0f-221f-4809-a61d-24fac0d9299a",
+    "type": "concept",
+    "content": "Events where students apply their knowledge of robotics to solve challenges within a set of rules.",
+    "subject": "Robotics Competitions",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "Robotics"
+  },
+  {
+    "id": "0187d24f-b0d0-41ca-a3c4-5d16815c6682",
+    "type": "concept",
+    "content": "The creative process of spontaneously creating music, often by breaking conventional rules.",
+    "subject": "Music Improvisation",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "19a9862d-b1a4-4fd1-8322-8da0cb585bc3",
+    "type": "concept",
+    "content": "The process of creating new methods, ideas, or products.",
+    "subject": "Innovation",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "010899c1-8972-41a4-ba59-40a8a5aee284",
+    "type": "relationship",
+    "content": "Breaking rules can lead to innovative solutions and creative breakthroughs.",
+    "subject": "Rule-breaking",
+    "predicate": "enabler",
+    "object": "Innovation",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "f3a3fc34-8cb7-4698-a2ed-57f259e57c54",
+    "type": "relationship",
+    "content": "A strong technical foundation is necessary to explore and innovate effectively.",
+    "subject": "Technical Foundation",
+    "predicate": "prerequisite",
+    "object": "Innovation",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "bf14b0ff-fd2e-442d-9caa-3942640a8260",
+    "type": "relationship",
+    "content": "Robotics competitions provide a context where students can creatively break rules within a framework.",
+    "subject": "Robotics Competitions",
+    "predicate": "context",
+    "object": "Rule-breaking",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_24_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "2758cc70-50cb-4aa3-be0a-678b68c6573e",
+    "type": "concept",
+    "content": "Lyrics by the Afrikaans band Spoegwolf that resonate with listeners by capturing the essence of life.",
+    "subject": "Spoegwolf's Lyrics",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "a32276f0-22ca-4e2f-91cc-7a1ec43e41e9",
+    "type": "concept",
+    "content": "A football player known for her ability to read the game and create mesmerizing plays.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Sports"
+  },
+  {
+    "id": "8cd2a454-9594-4db4-ac13-39bd348a509f",
+    "type": "concept",
+    "content": "The experience of starting in one emotional place and ending in another through a song.",
+    "subject": "Emotional Journey in Music",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "a5176fc1-4e26-444d-9de6-adbf012efdad",
+    "type": "concept",
+    "content": "The experience of going through various emotions during a football match.",
+    "subject": "Emotional Journey in Football",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Sports"
+  },
+  {
+    "id": "982829d5-92a2-4b6c-af75-c71dcb4f80ba",
+    "type": "concept",
+    "content": "A technique in football where a player takes a penalty kick with a soft chip to fool the goalkeeper.",
+    "subject": "Panenka Penalty",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Sports"
+  },
+  {
+    "id": "a16ed4ec-855c-44f7-b851-5eb6c6f44219",
+    "type": "relationship",
+    "content": "Spoegwolf's lyrics take listeners on an emotional journey.",
+    "subject": "Spoegwolf's Lyrics",
+    "predicate": "influence",
+    "object": "Emotional Journey in Music",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1
+  },
+  {
+    "id": "30d6d8a6-c13e-45f8-88a4-616f802fdb59",
+    "type": "relationship",
+    "content": "Grace Wisnewski's play style contributes to the emotional journey experienced in football.",
+    "subject": "Grace Wisnewski",
+    "predicate": "exemplifies",
+    "object": "Emotional Journey in Football",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1
+  },
+  {
+    "id": "5b13e184-6de0-49d9-ae9f-a94ee3d02bb0",
+    "type": "relationship",
+    "content": "The unpredictability of a Panenka penalty adds to the emotional journey in football.",
+    "subject": "Panenka Penalty",
+    "predicate": "contributes_to",
+    "object": "Emotional Journey in Football",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1
+  },
+  {
+    "id": "4be932a8-3918-4d6e-bfbd-5fe5f63fdc88",
+    "type": "concept",
+    "content": "An Afrikaans band known for their poetic lyrics and exploration of themes like identity and belonging.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "380f20f5-2ae5-498f-aaf1-88534c6057f0",
+    "type": "concept",
+    "content": "A political movement in Germany focused on social justice and inclusion.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "Politics"
+  },
+  {
+    "id": "4033ee00-f781-4b3d-967f-1dfeb9d15936",
+    "type": "concept",
+    "content": "Themes explored in both Spoegwolf's music and Die Linke's political agenda.",
+    "subject": "Identity and Belonging",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "Social"
+  },
+  {
+    "id": "efa32f46-2148-496c-bb0a-65d55c2b6107",
+    "type": "concept",
+    "content": "The engagement and resonance people feel with music or political movements.",
+    "subject": "Emotional Connection",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "Psychology"
+  },
+  {
+    "id": "93785363-a18d-4829-bbd8-3aa9aeb17970",
+    "type": "concept",
+    "content": "Staying true to one's values and storytelling, leading to success.",
+    "subject": "Authenticity",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "9171560f-d188-4002-9199-c5d2540b390a",
+    "type": "relationship",
+    "content": "Spoegwolf's songs often tackle themes of identity and belonging.",
+    "subject": "Spoegwolf",
+    "predicate": "explores",
+    "object": "Identity and Belonging",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1
+  },
+  {
+    "id": "0d9cfbec-56b4-43bc-b41e-cc75fde40548",
+    "type": "relationship",
+    "content": "Die Linke emphasizes the need for inclusion and identity within society.",
+    "subject": "Die Linke",
+    "predicate": "focuses on",
+    "object": "Identity and Belonging",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1
+  },
+  {
+    "id": "9d103214-7ce6-42bb-b8d3-4a20a0221014",
+    "type": "relationship",
+    "content": "Spoegwolf is known for their authentic storytelling, contributing to their success.",
+    "subject": "Spoegwolf",
+    "predicate": "embodies",
+    "object": "Authenticity",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1
+  }
+]

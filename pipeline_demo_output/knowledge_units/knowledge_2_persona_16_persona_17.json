@@ -1,0 +1,85 @@
+[
+  {
+    "id": "ca39bf45-5787-42d5-90e6-8f64896b7f20",
+    "type": "concept",
+    "content": "An Afrikaans band known for powerful lyrics and melodies.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "Music"
+  },
+  {
+    "id": "6246f0a7-664d-41c8-be6f-fb6fcb9f7433",
+    "type": "concept",
+    "content": "A political party focused on social justice and equality.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "Politics"
+  },
+  {
+    "id": "1b537e9e-b0fd-47f9-9faf-6598995db6f8",
+    "type": "concept",
+    "content": "The importance of genuine connection with audiences or supporters.",
+    "subject": "Connection and Authenticity",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "General"
+  },
+  {
+    "id": "0938c65b-17e3-4666-b002-f33e2a0598a6",
+    "type": "concept",
+    "content": "The concept of feeling at home and belonging, both in music and politics.",
+    "subject": "Home and Belonging",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "General"
+  },
+  {
+    "id": "4304e75e-b07d-4350-aa49-5a7920822dee",
+    "type": "concept",
+    "content": "A commitment to addressing issues like wealth inequality and climate change.",
+    "subject": "Social Justice and Equality",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2,
+    "domain": "Politics"
+  },
+  {
+    "id": "a9057a22-b1d5-4a46-9cb9-f775daf979c0",
+    "type": "relationship",
+    "content": "Spoegwolf's music embodies connection and authenticity through its raw emotion and themes.",
+    "subject": "Spoegwolf",
+    "predicate": "embodies",
+    "object": "Connection and Authenticity",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2
+  },
+  {
+    "id": "0d842cca-ee1d-4133-9d84-4ff11ac084ef",
+    "type": "relationship",
+    "content": "Die Linke advocates for social justice and equality, focusing on issues like wealth inequality and climate change.",
+    "subject": "Die Linke",
+    "predicate": "advocates",
+    "object": "Social Justice and Equality",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2
+  },
+  {
+    "id": "b381c7da-e98c-4535-b285-31f745e457b5",
+    "type": "relationship",
+    "content": "The concept of home and belonging is central to many political discussions.",
+    "subject": "Home and Belonging",
+    "predicate": "central_theme",
+    "object": "Politics",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_17.json",
+    "iteration": 2
+  }
+]

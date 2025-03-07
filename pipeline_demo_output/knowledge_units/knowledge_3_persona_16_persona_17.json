@@ -1,0 +1,85 @@
+[
+  {
+    "id": "d215eeaf-f6c9-48d0-9f46-14ab1113345d",
+    "type": "concept",
+    "content": "A political party in Germany focused on equitable society and challenging the status quo.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Politics"
+  },
+  {
+    "id": "53c2b613-5fb0-42d7-996c-e900509252de",
+    "type": "concept",
+    "content": "An Afrikaans band known for their raw and poetic music.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Music"
+  },
+  {
+    "id": "9a4587ae-5a4e-4af2-a6e7-8daf4768cb3b",
+    "type": "concept",
+    "content": "Efforts to communicate visions and connect with people's struggles.",
+    "subject": "Political Movements",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Politics"
+  },
+  {
+    "id": "4c0306af-e709-4343-9cc0-965da3f52d7c",
+    "type": "concept",
+    "content": "A form of art that conveys complex ideas and emotions.",
+    "subject": "Music",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Art"
+  },
+  {
+    "id": "68fa3282-821d-4284-9412-b990b0a29722",
+    "type": "concept",
+    "content": "Topics related to the human experience, such as love, loss, and identity.",
+    "subject": "Social Issues",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3,
+    "domain": "Society"
+  },
+  {
+    "id": "711dfc31-92fb-4d70-969b-d1aace3bd8d3",
+    "type": "relationship",
+    "content": "Die Linke is an example of a political movement aiming to connect with people's struggles.",
+    "subject": "Die Linke",
+    "predicate": "example_of",
+    "object": "Political Movements",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3
+  },
+  {
+    "id": "bc1e199b-6440-4e1a-9dd3-364405c4c645",
+    "type": "relationship",
+    "content": "Spoegwolf is an example of a music band that conveys complex ideas and emotions.",
+    "subject": "Spoegwolf",
+    "predicate": "example_of",
+    "object": "Music",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3
+  },
+  {
+    "id": "13f4932f-027f-4503-9f06-fc08a04aa949",
+    "type": "relationship",
+    "content": "Spoegwolf's music touches on social issues related to the human experience.",
+    "subject": "Spoegwolf",
+    "predicate": "addresses",
+    "object": "Social Issues",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_16_persona_17.json",
+    "iteration": 3
+  }
+]

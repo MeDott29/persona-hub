@@ -1,0 +1,85 @@
+[
+  {
+    "id": "77bc0f48-e87d-4408-90e6-ff73bc452dfe",
+    "type": "concept",
+    "content": "Designing intuitive interfaces for end-users in document management.",
+    "subject": "User Interface Design",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "4c3669e7-36bd-4e28-b547-a4421bdcfd95",
+    "type": "concept",
+    "content": "Ensuring software runs smoothly and efficiently, often involving back-end processes.",
+    "subject": "Quality Assurance",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "8e368449-c924-4389-a41d-576d8fa74331",
+    "type": "concept",
+    "content": "Optimizing algorithms for performance in genetic simulations and data models.",
+    "subject": "Genetic Algorithms",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Genetics and Software Engineering"
+  },
+  {
+    "id": "7473c759-ed2a-4488-943b-88948d512234",
+    "type": "concept",
+    "content": "Dealing with older software systems and understanding past design decisions.",
+    "subject": "Legacy Systems",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "25486527-8754-4f65-bc88-55eeb653e7ac",
+    "type": "concept",
+    "content": "The impact of font choice on the perception and credibility of information.",
+    "subject": "Font Perception",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1,
+    "domain": "Design"
+  },
+  {
+    "id": "874d4576-78ee-460e-8273-003501a12a86",
+    "type": "relationship",
+    "content": "Font choice can affect user perception and the credibility of information in interface design.",
+    "subject": "User Interface Design",
+    "predicate": "influence",
+    "object": "Font Perception",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1
+  },
+  {
+    "id": "46364355-7098-4471-9f81-4077bd5a330f",
+    "type": "relationship",
+    "content": "Collaboration to optimize performance of genetic simulations and data models.",
+    "subject": "Quality Assurance",
+    "predicate": "collaboration",
+    "object": "Genetic Algorithms",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1
+  },
+  {
+    "id": "be3d5075-a8a3-4156-95f5-5ab7c5719cc9",
+    "type": "relationship",
+    "content": "Both involve understanding and improving existing systems, whether it's code or interfaces.",
+    "subject": "Legacy Systems",
+    "predicate": "similarity",
+    "object": "User Interface Design",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_15_persona_46.json",
+    "iteration": 1
+  }
+]

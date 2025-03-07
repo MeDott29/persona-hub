@@ -1,0 +1,85 @@
+[
+  {
+    "id": "2758cc70-50cb-4aa3-be0a-678b68c6573e",
+    "type": "concept",
+    "content": "Lyrics by the Afrikaans band Spoegwolf that resonate with listeners by capturing the essence of life.",
+    "subject": "Spoegwolf's Lyrics",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "a32276f0-22ca-4e2f-91cc-7a1ec43e41e9",
+    "type": "concept",
+    "content": "A football player known for her ability to read the game and create mesmerizing plays.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Sports"
+  },
+  {
+    "id": "8cd2a454-9594-4db4-ac13-39bd348a509f",
+    "type": "concept",
+    "content": "The experience of starting in one emotional place and ending in another through a song.",
+    "subject": "Emotional Journey in Music",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "a5176fc1-4e26-444d-9de6-adbf012efdad",
+    "type": "concept",
+    "content": "The experience of going through various emotions during a football match.",
+    "subject": "Emotional Journey in Football",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Sports"
+  },
+  {
+    "id": "982829d5-92a2-4b6c-af75-c71dcb4f80ba",
+    "type": "concept",
+    "content": "A technique in football where a player takes a penalty kick with a soft chip to fool the goalkeeper.",
+    "subject": "Panenka Penalty",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1,
+    "domain": "Sports"
+  },
+  {
+    "id": "a16ed4ec-855c-44f7-b851-5eb6c6f44219",
+    "type": "relationship",
+    "content": "Spoegwolf's lyrics take listeners on an emotional journey.",
+    "subject": "Spoegwolf's Lyrics",
+    "predicate": "influence",
+    "object": "Emotional Journey in Music",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1
+  },
+  {
+    "id": "30d6d8a6-c13e-45f8-88a4-616f802fdb59",
+    "type": "relationship",
+    "content": "Grace Wisnewski's play style contributes to the emotional journey experienced in football.",
+    "subject": "Grace Wisnewski",
+    "predicate": "exemplifies",
+    "object": "Emotional Journey in Football",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1
+  },
+  {
+    "id": "5b13e184-6de0-49d9-ae9f-a94ee3d02bb0",
+    "type": "relationship",
+    "content": "The unpredictability of a Panenka penalty adds to the emotional journey in football.",
+    "subject": "Panenka Penalty",
+    "predicate": "contributes_to",
+    "object": "Emotional Journey in Football",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_63.json",
+    "iteration": 1
+  }
+]

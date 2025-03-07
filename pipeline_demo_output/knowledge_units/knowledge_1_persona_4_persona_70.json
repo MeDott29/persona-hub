@@ -1,0 +1,85 @@
+[
+  {
+    "id": "0a7e4726-015e-4176-abba-f78daf54764c",
+    "type": "concept",
+    "content": "Use of technology such as training videos, apps, and biofeedback tools to enhance basketball skills.",
+    "subject": "Technology in Basketball",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "Sports"
+  },
+  {
+    "id": "de90ac89-7085-49c2-98f3-f40be459ae02",
+    "type": "concept",
+    "content": "Use of technology to visualize music theory concepts and provide learning resources.",
+    "subject": "Technology in Music",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "9b92bd1b-7130-4b3a-9050-052db84a9902",
+    "type": "concept",
+    "content": "The physical act of engaging in an activity to improve skill.",
+    "subject": "Practice",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "02c189e3-4df7-4dc3-acbc-2ff099c626e0",
+    "type": "concept",
+    "content": "Devices that track physiological data and provide real-time feedback.",
+    "subject": "Biofeedback Tools",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "Technology"
+  },
+  {
+    "id": "6fbec2c2-e089-4faf-a27c-4a255abfcef1",
+    "type": "concept",
+    "content": "A fundamental element in both music and sports, related to timing and flow.",
+    "subject": "Rhythm",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "274bd84d-3df5-4243-b4e9-241c6b9e6db2",
+    "type": "relationship",
+    "content": "Technology supplements practice but cannot replace the physical experience.",
+    "subject": "Technology in Basketball",
+    "predicate": "supplement",
+    "object": "Practice",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "3e042323-d9d4-4854-a5c0-12b84f91e340",
+    "type": "relationship",
+    "content": "Biofeedback tools are used in basketball to track performance and provide feedback.",
+    "subject": "Biofeedback Tools",
+    "predicate": "application",
+    "object": "Technology in Basketball",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1
+  },
+  {
+    "id": "495999bb-9832-4faf-859a-299c4f308577",
+    "type": "relationship",
+    "content": "Technology aids in learning music theory but cannot replace the tactile experience of playing an instrument.",
+    "subject": "Technology in Music",
+    "predicate": "supplement",
+    "object": "Practice",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_4_persona_70.json",
+    "iteration": 1
+  }
+]

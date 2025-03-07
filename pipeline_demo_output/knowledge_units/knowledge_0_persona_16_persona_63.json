@@ -1,0 +1,96 @@
+[
+  {
+    "id": "c831899f-581a-4b0d-ac6b-371ecadab3ca",
+    "type": "concept",
+    "content": "An Afrikaans band known for their powerful storytelling and emotional lyrics.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "721ca948-0a36-41bd-aed2-237471b77450",
+    "type": "concept",
+    "content": "A football player known for her energy and dedication on the field.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "Sports"
+  },
+  {
+    "id": "7e067448-1ae6-49b7-8fdb-234f34002b00",
+    "type": "concept",
+    "content": "A genre of music that includes bands like Spoegwolf, known for its emotional depth and storytelling.",
+    "subject": "Afrikaans Music",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "4f20290a-ec88-4b86-b2f2-65cbf32d1933",
+    "type": "concept",
+    "content": "A sport gaining recognition globally, with narratives of underdog victories and perseverance.",
+    "subject": "Women's Football",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "Sports"
+  },
+  {
+    "id": "8eab60c5-9a67-4f34-aa48-e69b0d66ac4a",
+    "type": "concept",
+    "content": "A shared theme in both music and sports, driving individuals to achieve greatness.",
+    "subject": "Passion and Perseverance",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "General"
+  },
+  {
+    "id": "3869fcb7-9f72-43d6-85a3-195912de64b1",
+    "type": "relationship",
+    "content": "Spoegwolf is a band that is part of the Afrikaans music genre.",
+    "subject": "Spoegwolf",
+    "predicate": "category",
+    "object": "Afrikaans Music",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0
+  },
+  {
+    "id": "2f03cb91-56ee-4f40-97d7-356e3ba98808",
+    "type": "relationship",
+    "content": "Grace Wisnewski is a player in the women's football domain.",
+    "subject": "Grace Wisnewski",
+    "predicate": "membership",
+    "object": "Women's Football",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0
+  },
+  {
+    "id": "b89ce263-1605-43a6-acd9-c5d955286efa",
+    "type": "relationship",
+    "content": "Spoegwolf's music embodies themes of passion and perseverance.",
+    "subject": "Passion and Perseverance",
+    "predicate": "theme",
+    "object": "Spoegwolf",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0
+  },
+  {
+    "id": "8e0767dc-83fd-491d-8dbb-727b4711dd9c",
+    "type": "relationship",
+    "content": "Women's football narratives often involve themes of passion and perseverance.",
+    "subject": "Passion and Perseverance",
+    "predicate": "theme",
+    "object": "Women's Football",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0
+  }
+]

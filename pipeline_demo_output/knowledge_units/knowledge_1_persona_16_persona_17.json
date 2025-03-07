@@ -1,0 +1,85 @@
+[
+  {
+    "id": "4be932a8-3918-4d6e-bfbd-5fe5f63fdc88",
+    "type": "concept",
+    "content": "An Afrikaans band known for their poetic lyrics and exploration of themes like identity and belonging.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "Music"
+  },
+  {
+    "id": "380f20f5-2ae5-498f-aaf1-88534c6057f0",
+    "type": "concept",
+    "content": "A political movement in Germany focused on social justice and inclusion.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "Politics"
+  },
+  {
+    "id": "4033ee00-f781-4b3d-967f-1dfeb9d15936",
+    "type": "concept",
+    "content": "Themes explored in both Spoegwolf's music and Die Linke's political agenda.",
+    "subject": "Identity and Belonging",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "Social"
+  },
+  {
+    "id": "efa32f46-2148-496c-bb0a-65d55c2b6107",
+    "type": "concept",
+    "content": "The engagement and resonance people feel with music or political movements.",
+    "subject": "Emotional Connection",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "Psychology"
+  },
+  {
+    "id": "93785363-a18d-4829-bbd8-3aa9aeb17970",
+    "type": "concept",
+    "content": "Staying true to one's values and storytelling, leading to success.",
+    "subject": "Authenticity",
+    "confidence": 0.85,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1,
+    "domain": "General"
+  },
+  {
+    "id": "9171560f-d188-4002-9199-c5d2540b390a",
+    "type": "relationship",
+    "content": "Spoegwolf's songs often tackle themes of identity and belonging.",
+    "subject": "Spoegwolf",
+    "predicate": "explores",
+    "object": "Identity and Belonging",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1
+  },
+  {
+    "id": "0d9cfbec-56b4-43bc-b41e-cc75fde40548",
+    "type": "relationship",
+    "content": "Die Linke emphasizes the need for inclusion and identity within society.",
+    "subject": "Die Linke",
+    "predicate": "focuses on",
+    "object": "Identity and Belonging",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1
+  },
+  {
+    "id": "9d103214-7ce6-42bb-b8d3-4a20a0221014",
+    "type": "relationship",
+    "content": "Spoegwolf is known for their authentic storytelling, contributing to their success.",
+    "subject": "Spoegwolf",
+    "predicate": "embodies",
+    "object": "Authenticity",
+    "confidence": 0.75,
+    "source": "knowledge_1_persona_16_persona_17.json",
+    "iteration": 1
+  }
+]

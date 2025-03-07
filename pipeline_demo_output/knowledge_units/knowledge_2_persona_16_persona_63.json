@@ -1,0 +1,85 @@
+[
+  {
+    "id": "f08ee8c9-0762-4072-8d2f-e822a19f6de9",
+    "type": "concept",
+    "content": "A live performance by the band Spoegwolf, known for their energetic connection with the audience.",
+    "subject": "Live Spoegwolf Show",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Music"
+  },
+  {
+    "id": "4c0a5efa-d3ac-4651-a0c6-d29c30200e6c",
+    "type": "concept",
+    "content": "A football player known for her electrifying presence on the field.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Sports"
+  },
+  {
+    "id": "b33dcf2d-f2af-4319-87be-8ccefb4afcbf",
+    "type": "concept",
+    "content": "The feeling of belonging and being part of a larger community when supporting a band or sports team.",
+    "subject": "Unity in Support",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Social"
+  },
+  {
+    "id": "6966e884-bd84-42f7-a5e0-11fed79ddf41",
+    "type": "concept",
+    "content": "The experience and adventure of traveling to see a favorite band or sports team.",
+    "subject": "Travel Experience",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Travel"
+  },
+  {
+    "id": "696a6478-97e1-4099-a643-afc92670514b",
+    "type": "concept",
+    "content": "Grace Wisnewski's hobby that helps her see the world differently and capture moments.",
+    "subject": "Photography",
+    "confidence": 0.85,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2,
+    "domain": "Art"
+  },
+  {
+    "id": "dfa413a8-60eb-4ce5-935f-0e22aaecb171",
+    "type": "relationship",
+    "content": "Live shows create a sense of unity among fans.",
+    "subject": "Live Spoegwolf Show",
+    "predicate": "emotional connection",
+    "object": "Unity in Support",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2
+  },
+  {
+    "id": "fdde530e-e4d0-4c25-af0e-b539eef999f0",
+    "type": "relationship",
+    "content": "Her presence on the field creates a unified atmosphere among fans.",
+    "subject": "Grace Wisnewski",
+    "predicate": "emotional connection",
+    "object": "Unity in Support",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2
+  },
+  {
+    "id": "0bf8bcc7-58ab-4b80-9177-345045e52033",
+    "type": "relationship",
+    "content": "Traveling to see a band or team enhances the feeling of unity and adventure.",
+    "subject": "Travel Experience",
+    "predicate": "enhancement",
+    "object": "Unity in Support",
+    "confidence": 0.75,
+    "source": "knowledge_2_persona_16_persona_63.json",
+    "iteration": 2
+  }
+]

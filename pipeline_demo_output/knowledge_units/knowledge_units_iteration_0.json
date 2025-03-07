@@ -1,0 +1,428 @@
+[
+  {
+    "id": "c831899f-581a-4b0d-ac6b-371ecadab3ca",
+    "type": "concept",
+    "content": "An Afrikaans band known for their powerful storytelling and emotional lyrics.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "721ca948-0a36-41bd-aed2-237471b77450",
+    "type": "concept",
+    "content": "A football player known for her energy and dedication on the field.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "Sports"
+  },
+  {
+    "id": "7e067448-1ae6-49b7-8fdb-234f34002b00",
+    "type": "concept",
+    "content": "A genre of music that includes bands like Spoegwolf, known for its emotional depth and storytelling.",
+    "subject": "Afrikaans Music",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "4f20290a-ec88-4b86-b2f2-65cbf32d1933",
+    "type": "concept",
+    "content": "A sport gaining recognition globally, with narratives of underdog victories and perseverance.",
+    "subject": "Women's Football",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "Sports"
+  },
+  {
+    "id": "8eab60c5-9a67-4f34-aa48-e69b0d66ac4a",
+    "type": "concept",
+    "content": "A shared theme in both music and sports, driving individuals to achieve greatness.",
+    "subject": "Passion and Perseverance",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0,
+    "domain": "General"
+  },
+  {
+    "id": "3869fcb7-9f72-43d6-85a3-195912de64b1",
+    "type": "relationship",
+    "content": "Spoegwolf is a band that is part of the Afrikaans music genre.",
+    "subject": "Spoegwolf",
+    "predicate": "category",
+    "object": "Afrikaans Music",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0
+  },
+  {
+    "id": "2f03cb91-56ee-4f40-97d7-356e3ba98808",
+    "type": "relationship",
+    "content": "Grace Wisnewski is a player in the women's football domain.",
+    "subject": "Grace Wisnewski",
+    "predicate": "membership",
+    "object": "Women's Football",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0
+  },
+  {
+    "id": "b89ce263-1605-43a6-acd9-c5d955286efa",
+    "type": "relationship",
+    "content": "Spoegwolf's music embodies themes of passion and perseverance.",
+    "subject": "Passion and Perseverance",
+    "predicate": "theme",
+    "object": "Spoegwolf",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0
+  },
+  {
+    "id": "8e0767dc-83fd-491d-8dbb-727b4711dd9c",
+    "type": "relationship",
+    "content": "Women's football narratives often involve themes of passion and perseverance.",
+    "subject": "Passion and Perseverance",
+    "predicate": "theme",
+    "object": "Women's Football",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_63.json",
+    "iteration": 0
+  },
+  {
+    "id": "8dd1beb2-3521-44f7-a0df-e9bae1f7219d",
+    "type": "concept",
+    "content": "An Afrikaans band known for blending rock and poetry with emotional lyrics.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "f67da521-eef9-496f-b898-6a9115882d50",
+    "type": "concept",
+    "content": "A political party with a passionate base, focused on believing in something bigger.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Politics"
+  },
+  {
+    "id": "5494ac82-87db-4726-b7f9-99edb040d517",
+    "type": "concept",
+    "content": "The idea that music and politics can both generate strong community and passion.",
+    "subject": "Music and Politics",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Sociocultural"
+  },
+  {
+    "id": "ecd6986a-a8c9-4839-a4ae-88c353c9b8a5",
+    "type": "concept",
+    "content": "Events where Spoegwolf performs live, creating a powerful, communal experience.",
+    "subject": "Live Performances",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "5b2de22f-d2a9-4671-99bc-161fad5e45a1",
+    "type": "concept",
+    "content": "Spoegwolf's use of old Afrikaans folk tunes to keep cultural traditions alive.",
+    "subject": "Cultural Preservation",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0,
+    "domain": "Culture"
+  },
+  {
+    "id": "43486129-89ef-4929-b218-b65479feb113",
+    "type": "relationship",
+    "content": "Both have strong, dedicated communities and inspire passion.",
+    "subject": "Spoegwolf",
+    "predicate": "similarity",
+    "object": "Die Linke",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0
+  },
+  {
+    "id": "4d588f06-da06-4051-8611-e1ef1b138203",
+    "type": "relationship",
+    "content": "Live performances of Spoegwolf are compared to political rallies in terms of energy and community.",
+    "subject": "Music and Politics",
+    "predicate": "analogy",
+    "object": "Live Performances",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0
+  },
+  {
+    "id": "e481204b-33d3-476f-9657-4fa9d095ccf8",
+    "type": "relationship",
+    "content": "Spoegwolf incorporates old Afrikaans folk tunes in their music.",
+    "subject": "Spoegwolf",
+    "predicate": "practice",
+    "object": "Cultural Preservation",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_16_persona_17.json",
+    "iteration": 0
+  },
+  {
+    "id": "bdcc999d-12da-4e72-9c4b-c0e0d6378009",
+    "type": "concept",
+    "content": "The field involving the design, construction, operation, and use of robots.",
+    "subject": "Robotics",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_24_persona_70.json",
+    "iteration": 0,
+    "domain": "Engineering"
+  },
+  {
+    "id": "4a9985f6-d45e-4413-84be-6062c875f516",
+    "type": "concept",
+    "content": "The study of the practices and possibilities of music.",
+    "subject": "Music Theory",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_24_persona_70.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "7b4f573d-809b-41b3-8771-edf93d78a294",
+    "type": "concept",
+    "content": "The use of technological tools and methods in the creation and performance of music.",
+    "subject": "Technology in Music",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_24_persona_70.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "202b785c-2674-40c8-ab92-aa995186caf9",
+    "type": "concept",
+    "content": "A tuning system based on pure intervals derived from the harmonic series.",
+    "subject": "Just Intonation",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_24_persona_70.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "f534f1cf-35f5-4198-b033-77b26312bb6d",
+    "type": "concept",
+    "content": "The process of finding creative solutions within established rules or guidelines.",
+    "subject": "Innovation within Constraints",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_24_persona_70.json",
+    "iteration": 0,
+    "domain": "General"
+  },
+  {
+    "id": "98f2f971-05d1-42ae-bbcf-e21d26a4537d",
+    "type": "relationship",
+    "content": "Both fields involve rules and structures, with room for creativity.",
+    "subject": "Robotics",
+    "predicate": "similarity",
+    "object": "Music Theory",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_24_persona_70.json",
+    "iteration": 0
+  },
+  {
+    "id": "47a4506a-dcb0-4f04-ac42-3fb0876bad16",
+    "type": "relationship",
+    "content": "Music theory concepts like just intonation influence technological advances in sound systems.",
+    "subject": "Technology in Music",
+    "predicate": "influence",
+    "object": "Just Intonation",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_24_persona_70.json",
+    "iteration": 0
+  },
+  {
+    "id": "67971393-e3f1-4a1c-98b6-6853db5e846f",
+    "type": "relationship",
+    "content": "Robotics competitions require innovation within strict guidelines.",
+    "subject": "Innovation within Constraints",
+    "predicate": "application",
+    "object": "Robotics",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_24_persona_70.json",
+    "iteration": 0
+  },
+  {
+    "id": "3e655cc7-803d-4f6a-9434-f853e5df882d",
+    "type": "concept",
+    "content": "The study of the practices and possibilities of music.",
+    "subject": "Music Theory",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_4_persona_70.json",
+    "iteration": 0,
+    "domain": "Music"
+  },
+  {
+    "id": "8f750ccc-a3cf-4fdf-89a9-c706411ffbaa",
+    "type": "concept",
+    "content": "A sport played by two teams of five players on a rectangular court.",
+    "subject": "Basketball",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_4_persona_70.json",
+    "iteration": 0,
+    "domain": "Sports"
+  },
+  {
+    "id": "ccf584dd-361c-46ef-8d5a-58d315cf2b6b",
+    "type": "concept",
+    "content": "The use of digital tools and resources to enhance learning and teaching.",
+    "subject": "Technology in Education",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_4_persona_70.json",
+    "iteration": 0,
+    "domain": "Education"
+  },
+  {
+    "id": "d34fd33a-987e-4bcf-b8e0-4eb1ddf75f0e",
+    "type": "concept",
+    "content": "The consistent effort and commitment required to master a skill.",
+    "subject": "Practice and Dedication",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_4_persona_70.json",
+    "iteration": 0,
+    "domain": "General"
+  },
+  {
+    "id": "142cc363-0dd5-401c-8069-0728d9b8b8b3",
+    "type": "concept",
+    "content": "The ability to maintain a consistent tempo and coordinate actions effectively.",
+    "subject": "Rhythm and Timing",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_4_persona_70.json",
+    "iteration": 0,
+    "domain": "General"
+  },
+  {
+    "id": "052301b5-3f22-4175-935a-08ec08761d15",
+    "type": "relationship",
+    "content": "Both require practice, dedication, and understanding of fundamentals.",
+    "subject": "Music Theory",
+    "predicate": "similarity",
+    "object": "Basketball",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_4_persona_70.json",
+    "iteration": 0
+  },
+  {
+    "id": "9d1089be-f192-4272-8c37-2353d4879874",
+    "type": "relationship",
+    "content": "Technology provides tools that enhance the teaching and learning of music.",
+    "subject": "Technology in Education",
+    "predicate": "enhancement",
+    "object": "Music Theory",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_4_persona_70.json",
+    "iteration": 0
+  },
+  {
+    "id": "7b8b3413-bdea-47de-8fd9-232c4238a849",
+    "type": "relationship",
+    "content": "Rhythm and timing are essential for effective gameplay in basketball.",
+    "subject": "Rhythm and Timing",
+    "predicate": "application",
+    "object": "Basketball",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_4_persona_70.json",
+    "iteration": 0
+  },
+  {
+    "id": "58594d72-71c7-4cba-9eb2-f2e5a28332a7",
+    "type": "concept",
+    "content": "The design of user interfaces for software, focusing on improving user interaction.",
+    "subject": "Interface Design",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_15_persona_46.json",
+    "iteration": 0,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "ea9e5560-23e1-442e-85b2-682382bd7a64",
+    "type": "concept",
+    "content": "The efficiency and speed of the server-side operations of a software application.",
+    "subject": "Backend Performance",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_15_persona_46.json",
+    "iteration": 0,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "26aa2e83-7d00-4735-a301-4f1c348b4867",
+    "type": "concept",
+    "content": "The overall experience of a person using a product, especially in terms of how easy or pleasing it is to use.",
+    "subject": "User Experience",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_15_persona_46.json",
+    "iteration": 0,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "07813edb-0859-4891-b831-2b8f0f7078c8",
+    "type": "concept",
+    "content": "The study of DNA sequences to identify patterns and mutations.",
+    "subject": "Genetic Analysis",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_15_persona_46.json",
+    "iteration": 0,
+    "domain": "Genetics"
+  },
+  {
+    "id": "e14c1666-b732-4add-adb6-a62f5bf9e382",
+    "type": "concept",
+    "content": "The process of evaluating a software application to ensure it meets the required standards and functions correctly.",
+    "subject": "Software Testing",
+    "confidence": 0.85,
+    "source": "knowledge_0_persona_15_persona_46.json",
+    "iteration": 0,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "ba3c4c2b-04f3-4c45-98c0-5c89b171235a",
+    "type": "relationship",
+    "content": "Changes in interface design can significantly impact user experience.",
+    "subject": "Interface Design",
+    "predicate": "influence",
+    "object": "User Experience",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_15_persona_46.json",
+    "iteration": 0
+  },
+  {
+    "id": "d82d3f49-95d6-4037-b817-35946b7681dc",
+    "type": "relationship",
+    "content": "The methodical approach in genetic analysis is similar to identifying software bugs.",
+    "subject": "Genetic Analysis",
+    "predicate": "analogy",
+    "object": "Software Testing",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_15_persona_46.json",
+    "iteration": 0
+  },
+  {
+    "id": "1d2da5d4-d40b-4320-a3fc-b1fbae431399",
+    "type": "relationship",
+    "content": "Backend performance can affect user experience, such as load times.",
+    "subject": "Backend Performance",
+    "predicate": "impact",
+    "object": "User Experience",
+    "confidence": 0.75,
+    "source": "knowledge_0_persona_15_persona_46.json",
+    "iteration": 0
+  }
+]

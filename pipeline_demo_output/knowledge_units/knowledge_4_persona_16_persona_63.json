@@ -1,0 +1,85 @@
+[
+  {
+    "id": "594bce4e-509a-45e6-9744-268b76fa2a65",
+    "type": "concept",
+    "content": "A rapidly growing sport with increasing popularity.",
+    "subject": "Women's Football",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "Sports"
+  },
+  {
+    "id": "b745b04a-f46f-4665-91fd-88840cdd97b6",
+    "type": "concept",
+    "content": "An incredible player in women's football.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "Sports"
+  },
+  {
+    "id": "04f79670-5425-4bce-b6b6-1645d52751d6",
+    "type": "concept",
+    "content": "An Afrikaans band known for their raw, poetic energy.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "ce66fea1-db6d-4348-b449-bf310eaab888",
+    "type": "concept",
+    "content": "Events where artists or athletes perform in front of an audience.",
+    "subject": "Live Performances",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "c392a15d-45bc-490a-92a2-1da02cb09f98",
+    "type": "concept",
+    "content": "The sense of being part of a group with shared interests.",
+    "subject": "Community and Belonging",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "Sociology"
+  },
+  {
+    "id": "6aabb4e6-90ea-4b35-a062-93d3c6317311",
+    "type": "relationship",
+    "content": "Grace Wisnewski is a notable player in women's football.",
+    "subject": "Women's Football",
+    "predicate": "association",
+    "object": "Grace Wisnewski",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4
+  },
+  {
+    "id": "bd501251-25a1-4881-ba70-e965293c7cad",
+    "type": "relationship",
+    "content": "Spoegwolf's live shows are described as an experience that creates a unique atmosphere.",
+    "subject": "Spoegwolf",
+    "predicate": "experience",
+    "object": "Live Performances",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4
+  },
+  {
+    "id": "1932d36a-b6cf-470c-a1a4-0b7e3f8226f6",
+    "type": "relationship",
+    "content": "Live performances enhance the sense of community and belonging among fans.",
+    "subject": "Community and Belonging",
+    "predicate": "enhancement",
+    "object": "Live Performances",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4
+  }
+]

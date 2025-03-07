@@ -1,0 +1,85 @@
+[
+  {
+    "id": "a77a3780-cbf8-4642-b0db-2fe486c5c066",
+    "type": "concept",
+    "content": "The process of testing, debugging, and ensuring software runs smoothly before release.",
+    "subject": "Quality Assurance",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "ab2c2070-4383-40fc-9242-003b1e2a5119",
+    "type": "concept",
+    "content": "Systems used to manage, store, and track electronic documents.",
+    "subject": "Document Management Systems",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "0c9ca9e3-6943-40e6-b7c9-2cefbfb34d29",
+    "type": "concept",
+    "content": "Data related to genetic information, often used in scientific and medical research.",
+    "subject": "Genetic Data",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "Genetics"
+  },
+  {
+    "id": "1fc5a38a-9766-4aaf-9571-4654e8b8cc28",
+    "type": "concept",
+    "content": "A simulated experience that can be similar to or completely different from the real world.",
+    "subject": "Virtual Reality",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "Technology"
+  },
+  {
+    "id": "b918a762-4185-4fb5-b4de-480d52856346",
+    "type": "concept",
+    "content": "The process of finding solutions to difficult or complex issues.",
+    "subject": "Problem-Solving",
+    "confidence": 0.85,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3,
+    "domain": "General"
+  },
+  {
+    "id": "43f40367-97a5-4d55-93a4-a7c88ea7e992",
+    "type": "relationship",
+    "content": "Quality assurance processes are applied to software that interacts with genetic data.",
+    "subject": "Quality Assurance",
+    "predicate": "application",
+    "object": "Genetic Data",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3
+  },
+  {
+    "id": "2917dd16-2adf-49e1-988d-f8f8dd882277",
+    "type": "relationship",
+    "content": "Virtual reality is used to visualize genetic data, providing a new way to interact with complex information.",
+    "subject": "Virtual Reality",
+    "predicate": "integration",
+    "object": "Genetic Data",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3
+  },
+  {
+    "id": "5372e6dd-1316-4b0b-8199-43feff35cdeb",
+    "type": "relationship",
+    "content": "Virtual reality could be applied to document management systems to enhance user interaction.",
+    "subject": "Document Management Systems",
+    "predicate": "potential application",
+    "object": "Virtual Reality",
+    "confidence": 0.75,
+    "source": "knowledge_3_persona_15_persona_46.json",
+    "iteration": 3
+  }
+]

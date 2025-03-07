@@ -1,0 +1,437 @@
+[
+  {
+    "id": "97071b2c-bff0-4645-9ccc-76ad188701e5",
+    "type": "concept",
+    "content": "The quality of being exact and accurate, important in both music and basketball.",
+    "subject": "Precision",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "1f0379c0-1314-4f44-bfc8-9a1cc90353d1",
+    "type": "concept",
+    "content": "Basic skills or principles that are essential for proficiency in a field.",
+    "subject": "Fundamentals",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "035550a3-59aa-42d5-aa98-aff020ee85de",
+    "type": "concept",
+    "content": "A strong, regular, repeated pattern of movement or sound.",
+    "subject": "Rhythm",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "4c408d9e-acd5-42c1-8712-5b80b54da06a",
+    "type": "concept",
+    "content": "Use of technological tools and applications to enhance training and performance.",
+    "subject": "Technology in Training",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "14b25990-14a6-49a2-a2ff-4cbcf33ad07a",
+    "type": "concept",
+    "content": "A visual representation of music showing every note and its duration.",
+    "subject": "Digital Piano-Roll",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "3b649f8e-651d-489b-8694-35dcd0542dbf",
+    "type": "concept",
+    "content": "Visual tools that map out every shot in a basketball game, showing location and success rate.",
+    "subject": "Shot Charts",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "Basketball"
+  },
+  {
+    "id": "20bc1108-683a-40f7-96e9-3777e5f12ddd",
+    "type": "relationship",
+    "content": "Precision in performance is built upon a deep understanding of the fundamentals.",
+    "subject": "Precision",
+    "predicate": "dependency",
+    "object": "Fundamentals",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4
+  },
+  {
+    "id": "30071f93-e39e-45e6-b5db-1cde94a7c56c",
+    "type": "relationship",
+    "content": "Basketball skills such as dribbling or shooting have a rhythm similar to music.",
+    "subject": "Rhythm",
+    "predicate": "analogy",
+    "object": "Basketball",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4
+  },
+  {
+    "id": "3dcff46c-b480-49b7-bdf8-737ffdcf7b98",
+    "type": "relationship",
+    "content": "Technology aids training but does not replace the need for mastering fundamentals.",
+    "subject": "Technology in Training",
+    "predicate": "complementary",
+    "object": "Fundamentals",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4
+  },
+  {
+    "id": "a1c53e92-1240-4167-b6f1-ef67c83af753",
+    "type": "concept",
+    "content": "The field involving the design, construction, and operation of robots.",
+    "subject": "Robotics",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_24_persona_70.json",
+    "iteration": 4,
+    "domain": "Engineering"
+  },
+  {
+    "id": "8be26df8-43c8-4582-b55a-c3731eec30d0",
+    "type": "concept",
+    "content": "The study of the practices and possibilities of music.",
+    "subject": "Music Theory",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_24_persona_70.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "e01700f5-5449-449e-ac2c-e865cad13702",
+    "type": "concept",
+    "content": "The requirement for accuracy and exactness in both robotics and music.",
+    "subject": "Technical Precision",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_24_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "1bcb65de-e442-4255-888d-777f40f4713c",
+    "type": "concept",
+    "content": "The guidelines and frameworks necessary for both robotics competitions and music composition.",
+    "subject": "Rules and Structure",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_24_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "702d8f6c-8741-4c5c-aa4e-0fb51a468c0f",
+    "type": "concept",
+    "content": "The importance of understanding fundamental concepts before advancing in a field.",
+    "subject": "Foundation in Basics",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_24_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "eb6b7ad7-3a34-4b60-bb27-0d0515084f68",
+    "type": "relationship",
+    "content": "Both fields require a strong technical understanding and precision.",
+    "subject": "Robotics",
+    "predicate": "similarity",
+    "object": "Music Theory",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_24_persona_70.json",
+    "iteration": 4
+  },
+  {
+    "id": "640432ea-3938-43ed-bff6-cd276617e8bf",
+    "type": "relationship",
+    "content": "Understanding rules and structure is dependent on having a strong foundation in basics.",
+    "subject": "Rules and Structure",
+    "predicate": "dependency",
+    "object": "Foundation in Basics",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_24_persona_70.json",
+    "iteration": 4
+  },
+  {
+    "id": "a09716d8-50da-4383-a26f-430a52ca92d1",
+    "type": "relationship",
+    "content": "Technical precision is crucial for the successful operation of robots.",
+    "subject": "Technical Precision",
+    "predicate": "requirement",
+    "object": "Robotics",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_24_persona_70.json",
+    "iteration": 4
+  },
+  {
+    "id": "b77cafba-e748-424a-a87d-9267e3484d4d",
+    "type": "concept",
+    "content": "An Afrikaans music band known for their raw and authentic music.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "366c4841-6ac9-4156-b992-5e71980b317b",
+    "type": "concept",
+    "content": "A political party with a focus on social justice and equality.",
+    "subject": "Die Linke",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Politics"
+  },
+  {
+    "id": "4ea98231-aa2a-42a5-87f5-4c00f5fa68d2",
+    "type": "concept",
+    "content": "A sense of belonging and support among people.",
+    "subject": "Community",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Social"
+  },
+  {
+    "id": "677f6ba5-b525-4f78-9bb5-2e3fbe60b728",
+    "type": "concept",
+    "content": "A concept of mutual support and thriving together.",
+    "subject": "Social Solidarity",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Social"
+  },
+  {
+    "id": "463401a4-467b-438f-9231-83657e115fb7",
+    "type": "concept",
+    "content": "Movements that focus on local and community-based support and activism.",
+    "subject": "Grassroots Movements",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4,
+    "domain": "Politics"
+  },
+  {
+    "id": "b223adea-4be3-42c1-87af-a0ae23b58314",
+    "type": "relationship",
+    "content": "Spoegwolf's music evokes a sense of community and belonging.",
+    "subject": "Spoegwolf",
+    "predicate": "evocation",
+    "object": "Community",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4
+  },
+  {
+    "id": "d4c56baf-0b08-48bb-a89a-7e96f88eaa90",
+    "type": "relationship",
+    "content": "Die Linke advocates for social solidarity as a safety net.",
+    "subject": "Die Linke",
+    "predicate": "advocacy",
+    "object": "Social Solidarity",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4
+  },
+  {
+    "id": "dd458f0b-20bb-4bad-9ae9-f8d76e796de0",
+    "type": "relationship",
+    "content": "Spoegwolf's approach to performing in small towns is similar to grassroots political movements.",
+    "subject": "Spoegwolf",
+    "predicate": "comparison",
+    "object": "Grassroots Movements",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_17.json",
+    "iteration": 4
+  },
+  {
+    "id": "594bce4e-509a-45e6-9744-268b76fa2a65",
+    "type": "concept",
+    "content": "A rapidly growing sport with increasing popularity.",
+    "subject": "Women's Football",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "Sports"
+  },
+  {
+    "id": "b745b04a-f46f-4665-91fd-88840cdd97b6",
+    "type": "concept",
+    "content": "An incredible player in women's football.",
+    "subject": "Grace Wisnewski",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "Sports"
+  },
+  {
+    "id": "04f79670-5425-4bce-b6b6-1645d52751d6",
+    "type": "concept",
+    "content": "An Afrikaans band known for their raw, poetic energy.",
+    "subject": "Spoegwolf",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "ce66fea1-db6d-4348-b449-bf310eaab888",
+    "type": "concept",
+    "content": "Events where artists or athletes perform in front of an audience.",
+    "subject": "Live Performances",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "c392a15d-45bc-490a-92a2-1da02cb09f98",
+    "type": "concept",
+    "content": "The sense of being part of a group with shared interests.",
+    "subject": "Community and Belonging",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4,
+    "domain": "Sociology"
+  },
+  {
+    "id": "6aabb4e6-90ea-4b35-a062-93d3c6317311",
+    "type": "relationship",
+    "content": "Grace Wisnewski is a notable player in women's football.",
+    "subject": "Women's Football",
+    "predicate": "association",
+    "object": "Grace Wisnewski",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4
+  },
+  {
+    "id": "bd501251-25a1-4881-ba70-e965293c7cad",
+    "type": "relationship",
+    "content": "Spoegwolf's live shows are described as an experience that creates a unique atmosphere.",
+    "subject": "Spoegwolf",
+    "predicate": "experience",
+    "object": "Live Performances",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4
+  },
+  {
+    "id": "1932d36a-b6cf-470c-a1a4-0b7e3f8226f6",
+    "type": "relationship",
+    "content": "Live performances enhance the sense of community and belonging among fans.",
+    "subject": "Community and Belonging",
+    "predicate": "enhancement",
+    "object": "Live Performances",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_16_persona_63.json",
+    "iteration": 4
+  },
+  {
+    "id": "e963a719-a1d7-4910-a131-5dbfcc012f2b",
+    "type": "concept",
+    "content": "Systems used to track, manage, and store documents.",
+    "subject": "Document Management Systems",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "acdf073d-feeb-49da-bd95-35d1bd844db0",
+    "type": "concept",
+    "content": "The art and practice of planning and projecting ideas and experiences with visual and textual content.",
+    "subject": "Graphic Design",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Design"
+  },
+  {
+    "id": "2fa1a5c4-bd2a-41ce-b9ee-a4145dac217d",
+    "type": "concept",
+    "content": "A way of preventing mistakes and defects in manufactured products and avoiding problems when delivering solutions or services to customers.",
+    "subject": "Quality Assurance",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Software Engineering"
+  },
+  {
+    "id": "21b45a46-1729-4131-8d1b-735147e50b90",
+    "type": "concept",
+    "content": "Scientists who study genes, genetic variation, and heredity in organisms.",
+    "subject": "Geneticists",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Biology"
+  },
+  {
+    "id": "9a2cc63d-e9a0-47a4-af81-6aa3e44ed199",
+    "type": "concept",
+    "content": "Computing systems inspired by the biological neural networks that constitute animal brains.",
+    "subject": "Neural Networks",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Artificial Intelligence"
+  },
+  {
+    "id": "3d7924e8-4d5e-4d30-b386-8124ea5be918",
+    "type": "concept",
+    "content": "Search heuristics that mimic the process of natural selection to generate useful solutions to optimization and search problems.",
+    "subject": "Genetic Algorithms",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4,
+    "domain": "Artificial Intelligence"
+  },
+  {
+    "id": "908fcd0f-5487-479e-aa70-9ac25c26060f",
+    "type": "relationship",
+    "content": "Software engineers working on document management systems collaborate with graphic designers.",
+    "subject": "Document Management Systems",
+    "predicate": "collaboration",
+    "object": "Graphic Design",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4
+  },
+  {
+    "id": "10821556-9d2d-4e9f-be44-e0cab410d69b",
+    "type": "relationship",
+    "content": "Software engineers in quality assurance collaborate with geneticists.",
+    "subject": "Quality Assurance",
+    "predicate": "collaboration",
+    "object": "Geneticists",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4
+  },
+  {
+    "id": "b48f2c24-bd6f-44ef-b930-695b5c20fcce",
+    "type": "relationship",
+    "content": "Both neural networks and genetic algorithms are inspired by biological processes.",
+    "subject": "Neural Networks",
+    "predicate": "inspiration",
+    "object": "Genetic Algorithms",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_15_persona_46.json",
+    "iteration": 4
+  }
+]

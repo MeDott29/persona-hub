@@ -1,0 +1,95 @@
+[
+  {
+    "id": "97071b2c-bff0-4645-9ccc-76ad188701e5",
+    "type": "concept",
+    "content": "The quality of being exact and accurate, important in both music and basketball.",
+    "subject": "Precision",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "1f0379c0-1314-4f44-bfc8-9a1cc90353d1",
+    "type": "concept",
+    "content": "Basic skills or principles that are essential for proficiency in a field.",
+    "subject": "Fundamentals",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "035550a3-59aa-42d5-aa98-aff020ee85de",
+    "type": "concept",
+    "content": "A strong, regular, repeated pattern of movement or sound.",
+    "subject": "Rhythm",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "4c408d9e-acd5-42c1-8712-5b80b54da06a",
+    "type": "concept",
+    "content": "Use of technological tools and applications to enhance training and performance.",
+    "subject": "Technology in Training",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "General"
+  },
+  {
+    "id": "14b25990-14a6-49a2-a2ff-4cbcf33ad07a",
+    "type": "concept",
+    "content": "A visual representation of music showing every note and its duration.",
+    "subject": "Digital Piano-Roll",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "Music"
+  },
+  {
+    "id": "3b649f8e-651d-489b-8694-35dcd0542dbf",
+    "type": "concept",
+    "content": "Visual tools that map out every shot in a basketball game, showing location and success rate.",
+    "subject": "Shot Charts",
+    "confidence": 0.85,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4,
+    "domain": "Basketball"
+  },
+  {
+    "id": "20bc1108-683a-40f7-96e9-3777e5f12ddd",
+    "type": "relationship",
+    "content": "Precision in performance is built upon a deep understanding of the fundamentals.",
+    "subject": "Precision",
+    "predicate": "dependency",
+    "object": "Fundamentals",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4
+  },
+  {
+    "id": "30071f93-e39e-45e6-b5db-1cde94a7c56c",
+    "type": "relationship",
+    "content": "Basketball skills such as dribbling or shooting have a rhythm similar to music.",
+    "subject": "Rhythm",
+    "predicate": "analogy",
+    "object": "Basketball",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4
+  },
+  {
+    "id": "3dcff46c-b480-49b7-bdf8-737ffdcf7b98",
+    "type": "relationship",
+    "content": "Technology aids training but does not replace the need for mastering fundamentals.",
+    "subject": "Technology in Training",
+    "predicate": "complementary",
+    "object": "Fundamentals",
+    "confidence": 0.75,
+    "source": "knowledge_4_persona_4_persona_70.json",
+    "iteration": 4
+  }
+]
